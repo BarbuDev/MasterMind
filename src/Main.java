@@ -1,6 +1,9 @@
+import fr.logicrooms.recherche.test;
+
 public class Main {
 
     public static void main(String[] args) {
-        Accueil accueil = new Accueil();
+        // Accueil accueil = new Accueil();
+        test test = new test();
     }
 }
