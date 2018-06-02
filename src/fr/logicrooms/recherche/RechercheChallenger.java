@@ -17,6 +17,8 @@ public class RechercheChallenger {
 
         // Déclaration initialmisation des variables propres au jeu
         int choix;
+        boolean rejouer = false;
+        boolean quiter = false;
         Scanner sc = new Scanner(System.in);
 
         // Génération du nombre aléatoire
@@ -76,5 +78,26 @@ public class RechercheChallenger {
         }else{
             System.out.println("Domage tu as perdu la solution était : " + solution);
         }
+
+
+
+
+
+
+
+
+
+        // Quiter rejouer ou retour à l'accueil
+        if(rejouer){
+
+        }else
+        if (quiter){
+            System.exit(0);
+        }else {
+            fenetre.setVisible(false);
+        }
+
+
+
     }
 }
