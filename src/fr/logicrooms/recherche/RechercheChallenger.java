@@ -1,5 +1,7 @@
 package fr.logicrooms.recherche;
 
+import fr.ligicrooms.main.Fenetre;
+
 import javax.swing.*;
 import java.util.Scanner;
 
@@ -11,6 +13,7 @@ public class RechercheChallenger {
         int min =0;
         int max=99;
         int vie = 10;
+        boolean modeDev = true;
 
         // Déclaration initialmisation des variables propres au jeu
         int choix;
@@ -19,27 +22,21 @@ public class RechercheChallenger {
         // Génération du nombre aléatoire
         int solution = (int) (Math.random() * ( min - max ))*-1;
 
+        // création de la fenetre
+        Fenetre fenetre = new Fenetre();
+        fenetre.setSize(300,300);
+        fenetre.setVisible(true);
 
+        // Création des JPenel
+        JPanel panProposition = new JPanel();
+        JPanel panResolution = new JPanel();
 
+        // Création des Labels
+        JLabel labProposition = new JLabel("Faites une proposition il vous reste " + vie + " chances : ");
+        JLabel labResolution = new JLabel("Nombre entre " + min + " et " + max);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // ajout du bouton pour valider la proposition
+        JButton valider = new JButton("Valider");
 
 
 
@@ -52,7 +49,12 @@ public class RechercheChallenger {
 
 
         // lancement du jeu
-        System.out.println(solution);
+        // activation du mode développeur
+        if (modeDev) {
+            System.out.println(solution);
+        }
+
+        // première tentative
         System.out.println("Donnez un nombre entre " + min + " et " + max + " :");
         choix = sc.nextInt();
 
