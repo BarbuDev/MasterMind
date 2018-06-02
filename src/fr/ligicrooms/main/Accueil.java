@@ -1,10 +1,17 @@
 package fr.ligicrooms.main;
 
+import fr.logicrooms.recherche.Recherche;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Accueil extends JFrame {
+
     // Création de la première page du jeu
+    JFrame fenetre = new JFrame();
+
     // Création des conteneurs
     JPanel panPrincipal = new JPanel();
     JPanel panRecherche = new JPanel();
@@ -29,12 +36,12 @@ public class Accueil extends JFrame {
 
     // Constructeur par défaut
     public Accueil(){
-        this.setTitle("LogicRooms");
-        this.setSize(480,300);
-        this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setVisible(true);
-        this.setResizable(false);
+        fenetre.setTitle("LogicRooms");
+        fenetre.setSize(480,300);
+        fenetre.setLocationRelativeTo(null);
+        fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        fenetre.setVisible(true);
+        fenetre.setResizable(false);
 
         // changement police des Labels
 
@@ -66,13 +73,28 @@ public class Accueil extends JFrame {
         panPrincipal.add(panMastermind);
 
         // Déclaration du contentPanel
-        this.setContentPane(panPrincipal);
+        fenetre.setContentPane(panPrincipal);
 
         Font font = new Font("Georgia",Font.CENTER_BASELINE,40);
         labMastermind.setFont(font);
         labRecherche.setFont(font);
-    }
+        labRecherche.setForeground(Color.red);
+        labMastermind.setForeground(Color.blue);
 
+        // déclaration des écoutes de boutons
+        boutonRechercheChallenger.addActionListener(new boutonRechercheChallengerListener());
+
+        // Classe d'écoute Recherche mode Challenger
+
+    }
+    class boutonRechercheChallengerListener implements ActionListener{
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            Recherche recherche = new Recherche(boutonRechercheChallenger.getText());
+            fenetre.setVisible(true);
+        }
+    }
 
 
 
