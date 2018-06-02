@@ -1,5 +1,6 @@
 package fr.logicrooms.recherche;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class RechercheChallenger {
@@ -17,6 +18,38 @@ public class RechercheChallenger {
 
         // Génération du nombre aléatoire
         int solution = (int) (Math.random() * ( min - max ))*-1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // lancement du jeu
         System.out.println(solution);

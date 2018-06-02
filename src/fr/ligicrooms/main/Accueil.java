@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 public class Accueil extends JFrame {
 
     // Création de la première page du jeu
-    JFrame fenetre = new JFrame();
+    Fenetre fenetre = new Fenetre();
 
     // Création des conteneurs
     JPanel panPrincipal = new JPanel();
@@ -36,13 +36,10 @@ public class Accueil extends JFrame {
 
     // Constructeur par défaut
     public Accueil(){
-        fenetre.setTitle("LogicRooms");
-        fenetre.setSize(480,300);
-        fenetre.setLocationRelativeTo(null);
-        fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        fenetre.setVisible(true);
-        fenetre.setResizable(false);
 
+        // configuration de la fenetre
+        fenetre.setSize(480,300);
+        fenetre.setVisible(true);
         // changement police des Labels
 
 
