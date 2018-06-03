@@ -10,11 +10,11 @@ public class Recherche {
 
             // condition de lancement du mode de jeu
             case "Mode Challenger":
-                System.out.println("Mode Challenger activé");
                 RechercheChallenger challenger = new RechercheChallenger();
                 break;
             case "Mode défenseur":
                 System.out.println("Mode deffenseur activé");
+                RechercheDeffenseur deffenseur = new RechercheDeffenseur();
                 break;
             case "Mode Duel":
                 System.out.println("Mode Duel");

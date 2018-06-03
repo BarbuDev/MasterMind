@@ -81,15 +81,16 @@ public class Accueil extends JFrame {
         // déclaration des écoutes de boutons
         boutonRechercheChallenger.addActionListener(new boutonRechercheChallengerListener());
 
-        // Classe d'écoute Recherche mode Challenger
+
 
     }
+
+    // Classe d'écoute Recherche mode Challenger
     class boutonRechercheChallengerListener implements ActionListener{
-        @Override
+
         public void actionPerformed(ActionEvent e) {
             fenetre.setVisible(false);
             Recherche recherche = new Recherche(boutonRechercheChallenger.getText());
-            fenetre.setVisible(true);
         }
     }
 
