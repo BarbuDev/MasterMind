@@ -21,6 +21,7 @@ public class RechercheDuel {
 
 
 
+
             System.out.println("Choisir votre solution pour l'ordinateur entre " + intervalMin + " et " + intervalMax + " :");
             solutionOrdi = sc.nextInt();
             choixOrdi = (intervalMax - intervalMin) / 2 + intervalMin;
@@ -55,6 +56,7 @@ public class RechercheDuel {
                         }
 
                         System.out.println("L'ordinateur propose " + choixOrdi + " comme solution.");
+                        System.out.println("Vous avez choisi au dépat : " + solutionOrdi);
                         indice = sc.nextLine();
                         indice = sc.nextLine();
 
