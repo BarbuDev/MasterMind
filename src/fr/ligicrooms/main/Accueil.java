@@ -80,7 +80,8 @@ public class Accueil extends JFrame {
 
         // déclaration des écoutes de boutons
         boutonRechercheChallenger.addActionListener(new boutonRechercheChallengerListener());
-
+        boutonRechercheDefender.addActionListener(new boutonRechercheDeffenseurListener());
+        boutonRechercheDuel.addActionListener(new boutonRechercheDuelListener());
 
 
     }
@@ -91,6 +92,20 @@ public class Accueil extends JFrame {
         public void actionPerformed(ActionEvent e) {
             fenetre.setVisible(false);
             Recherche recherche = new Recherche(boutonRechercheChallenger.getText());
+        }
+    }
+    class boutonRechercheDeffenseurListener implements ActionListener{
+
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            Recherche recherche = new Recherche(boutonRechercheDefender.getText());
+        }
+    }
+    class boutonRechercheDuelListener implements ActionListener{
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            //fenetre.setVisible(false);
+            Recherche recherche = new Recherche(boutonRechercheDuel.getText());
         }
     }
 

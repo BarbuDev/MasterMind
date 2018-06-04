@@ -18,6 +18,7 @@ public class Recherche {
                 break;
             case "Mode Duel":
                 System.out.println("Mode Duel");
+                RechercheDuel duel = new RechercheDuel();
                 break;
             default:
                 break;
