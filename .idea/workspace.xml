@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9172ca82-1024-41d6-8665-a96ee533b390" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/ligicrooms/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/ligicrooms/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/ligicrooms/main/Accueil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/ligicrooms/main/Accueil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RechercheChallenger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RechercheChallenger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="133" column="36" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5880#5881#0" expanded="true" />
@@ -69,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RechercheDeffenseur.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RechercheDeffenseur.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="431">
+              <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" />
         <option value="$PROJECT_DIR$/src/fr/ligicrooms/main/Accueil.java" />
-        <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" />
+        <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" />
       </list>
     </option>
   </component>
@@ -264,12 +257,12 @@
       <workItem from="1528107982431" duration="13366000" />
       <workItem from="1528189176898" duration="556000" />
       <workItem from="1528189861803" duration="2331000" />
-      <workItem from="1528269367350" duration="4561000" />
+      <workItem from="1528269367350" duration="7585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57160000" />
+    <option name="totallyTimeSpent" value="60184000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,7 +287,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28215224" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28215224" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -688,24 +681,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+        <state relative-caret-position="272">
+          <caret line="133" column="36" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5880#5881#0" expanded="true" />
             <element signature="e#5918#5919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
