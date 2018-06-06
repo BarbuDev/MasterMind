@@ -1,4 +1,5 @@
 package fr.logicrooms.recherche;
+import fr.ligicrooms.main.Accueil;
 import fr.ligicrooms.main.Fenetre;
 
 import javax.swing.*;
@@ -13,6 +14,7 @@ public class RechercheDeffenseur {
     // récupération des variables dans config.properties
     int intervalMin = 0;
     int intervalMax = 99;
+    boolean modeDev = true;
 
     // déclaration autre variables
     String indice="";
@@ -28,13 +30,21 @@ public class RechercheDeffenseur {
     JPanel panchoixOrdi = new JPanel();
     JPanel panIndice = new JPanel();
 
+    JPanel panFinJeu = new JPanel();
+    JPanel panBoutonFinJeu = new JPanel();
+
     JButton boutonValiderNombre = new JButton("Valider");
     JButton boutonIndiceMoins = new JButton("-");
     JButton boutonIndicePlus = new JButton("+");
     JButton boutonIndiceEgal = new JButton("=");
 
+    JButton boutonRejouer = new JButton("Rejouer");
+    JButton boutonChanger = new JButton("Changer de jeu");
+    JButton boutonQuiter = new JButton("Quiter");
+
     JLabel labPrincipal = new JLabel("Choisissez un nombre entre "+intervalMin+" et "+intervalMax +" :");
     JLabel labChoixOrdi = new JLabel();
+    JLabel labFinJeu = new JLabel("Fin de jeu");
 
     // ajout champs text formaté Int
     JFormattedTextField champText = new JFormattedTextField(NumberFormat.getIntegerInstance());
@@ -50,6 +60,7 @@ public class RechercheDeffenseur {
 
         panPrincipal.setLayout(new BorderLayout());
         panJeu.setLayout(new BorderLayout());
+        panFinJeu.setLayout(new BorderLayout());
 
         panPrincipal.add(panChoixNombreHaut, BorderLayout.CENTER);
         panChoixNombreHaut.add(labPrincipal);
@@ -61,11 +72,23 @@ public class RechercheDeffenseur {
         panIndice.add(boutonIndicePlus);
         panIndice.add(boutonIndiceMoins);
         panIndice.add(boutonIndiceEgal);
+        panFinJeu.add(labFinJeu, BorderLayout.CENTER);
+        panFinJeu.add(panBoutonFinJeu, BorderLayout.SOUTH);
+        panBoutonFinJeu.add(boutonRejouer);
+        panBoutonFinJeu.add(boutonChanger);
+        panBoutonFinJeu.add(boutonQuiter);
 
         boutonValiderNombre.addActionListener(new ValiderNombre());
         boutonIndicePlus.addActionListener(new IndicePlus());
         boutonIndiceMoins.addActionListener(new IndiceMoins());
         boutonIndiceEgal.addActionListener(new IndiceEgal());
+        boutonRejouer.addActionListener(new Rejouer());
+        boutonChanger.addActionListener(new Changer());
+        boutonQuiter.addActionListener(new Quiter());
+
+        Font font = new Font("Georgia",Font.CENTER_BASELINE,15);
+        labFinJeu.setFont(font);
+
 
 
         fenetre.setVisible(true);
@@ -117,6 +140,9 @@ public class RechercheDeffenseur {
         @Override
         public void actionPerformed(ActionEvent e) {
             choix = Integer.parseInt(champText.getText());
+            if(modeDev){
+                System.out.println(choix);
+            }
             fenetre.setContentPane(panJeu);
             fenetre.setVisible(true);
 
@@ -144,7 +170,32 @@ public class RechercheDeffenseur {
     class IndiceEgal implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
+            fenetre.setContentPane(panFinJeu);
+            labFinJeu.setText("J'ai trouvé tu as plus difficile ?!");
+            fenetre.setVisible(true);
+        }
+    }
+    class Rejouer implements ActionListener{
 
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            RechercheDeffenseur recherche = new RechercheDeffenseur();
+        }
+    }
+    class Changer implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            Accueil accueil = new Accueil();
+        }
+    }
+    class Quiter implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            System.exit(0);
         }
     }
 
