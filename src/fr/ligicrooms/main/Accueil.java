@@ -87,7 +87,6 @@ public class Accueil extends JFrame {
         boutonMastermindChallenger.setEnabled(false);
         boutonMastermindDefender.setEnabled(false);
         boutonMastermindDuel.setEnabled(false);
-        boutonRechercheDuel.setEnabled(false);
 
 
     }
@@ -110,7 +109,7 @@ public class Accueil extends JFrame {
     class boutonRechercheDuelListener implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
-            //fenetre.setVisible(false);
+            fenetre.setVisible(false);
             Recherche recherche = new Recherche(boutonRechercheDuel.getText());
         }
     }
