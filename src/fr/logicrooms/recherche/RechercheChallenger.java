@@ -1,4 +1,5 @@
 package fr.logicrooms.recherche;
+import fr.ligicrooms.main.Accueil;
 import fr.ligicrooms.main.Fenetre;
 
 import javax.swing.*;
@@ -31,13 +32,20 @@ public class RechercheChallenger {
     JPanel panPrincipal = new JPanel();
     JPanel panProposition = new JPanel();
     JPanel panResolution = new JPanel();
+    JPanel panFinJeu = new JPanel();
+    JPanel panBoutonFinJeu = new JPanel();
 
     // Création des Labels
     JLabel labProposition = new JLabel();
     JLabel labResolution = new JLabel();
+    JLabel labFinJeu = new JLabel("Fin de jeu");
+
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
+    JButton boutonRejouer = new JButton("Rejouer");
+    JButton boutonChanger = new JButton("Changer de jeu");
+    JButton boutonQuiter = new JButton("Quiter");
 
     // ajhout champ de text
     JFormattedTextField champText = new JFormattedTextField(NumberFormat.getIntegerInstance());
@@ -59,6 +67,7 @@ public class RechercheChallenger {
         panProposition.setLayout(new BorderLayout());
         panResolution.setLayout(new BorderLayout());
         panPrincipal.setLayout(new GridLayout(2,1));
+        panFinJeu.setLayout(new BorderLayout());
 
         // adds des panels
         panPrincipal.add(panProposition, BorderLayout.NORTH);
@@ -67,6 +76,11 @@ public class RechercheChallenger {
         panProposition.add(champText, BorderLayout.EAST);
         panResolution.add(labResolution, BorderLayout.CENTER);
         panResolution.add(boutonValider, BorderLayout.NORTH);
+        panFinJeu.add(labFinJeu, BorderLayout.CENTER);
+        panFinJeu.add(panBoutonFinJeu, BorderLayout.SOUTH);
+        panBoutonFinJeu.add(boutonRejouer);
+        panBoutonFinJeu.add(boutonChanger);
+        panBoutonFinJeu.add(boutonQuiter);
 
         // configuration des police d'écriture
         Font font = new Font("Georgia",Font.CENTER_BASELINE,25);
@@ -77,8 +91,13 @@ public class RechercheChallenger {
         labResolution.setFont(font);
         labProposition.setFont(font2);
         fenetre.setContentPane(panPrincipal);
+        labFinJeu.setFont(font);
 
+        // Ajout des listeners
         boutonValider.addActionListener(new Verification());
+        boutonRejouer.addActionListener(new Rejouer());
+        boutonChanger.addActionListener(new Changer());
+        boutonQuiter.addActionListener(new Quiter());
 
 
         fenetre.setVisible(true);
@@ -92,34 +111,9 @@ public class RechercheChallenger {
             System.out.println(solution);
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         // Quiter rejouer ou retour à l'accueil
         if(rejouer){
+
 
         }else
         if (quiter){
@@ -153,38 +147,70 @@ public class RechercheChallenger {
                     labResolution.setText("Le nombre est plus grand");
                 }
             }else if (vie > 1) {
-                labResolution.setForeground(Color.green);
-                labResolution.setText("Bravo la solution était "+solution);
+                labFinJeu.setForeground(Color.green);
+                labFinJeu.setText("Bravo la solution était : " + solution);
+                fenetre.setContentPane(panFinJeu);
+                fenetre.setVisible(true);
             }else{
-                vie--;
-                labProposition.setText("Raté ouvelle proposition il vous reste " + vie + " vie(s)");
-                labResolution.setForeground(Color.red);
-                labResolution.setText("Perdu la solution était "+solution);
+                labFinJeu.setForeground(Color.red);
+                labFinJeu.setText("Perdu la solution était "+solution);
+                fenetre.setContentPane(panFinJeu);
+                fenetre.setVisible(true);
             }
 
         }
 
 
     }
+    class Rejouer implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            RechercheChallenger recherche = new RechercheChallenger();
+        }
+    }
+    class Changer implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            Accueil accueil = new Accueil();
+        }
+    }
+    class Quiter implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            System.exit(0);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     class FinDeJeu{
         public void FinDeJeu() {
-
-            Fenetre fenetre2 = new Fenetre();
-            JPanel penelFinJeu = new JPanel();
-            JButton rejouerJeu = new JButton("Rejouer");
-            JButton changerJeu = new JButton("Changer de jeu");
-            JButton quiterJeu = new JButton("Quiter");
-
-
 
             // Quiter rejouer ou retour à l'accueil
             if (rejouer) {
 
             } else if (quiter) {
-                System.exit(0);
+
             } else if (changer){
                 fenetre.setVisible(false);
             }
         }
     }
+
 }

@@ -8,7 +8,7 @@ public class RechercheDuel {
 
         int intervalMin = 0;
         int intervalMax = 99;
-        boolean modeDev = false;
+        boolean modeDev = true;
 
         String indice = "";
         int solutionOrdi = 0;
@@ -35,7 +35,7 @@ public class RechercheDuel {
                         choixJoueur = sc.nextInt();
                         if (solutionJoueur != choixJoueur && solutionJoueur < choixJoueur) {
                             System.out.println("Raté le chiffre est plus petit !");
-                        } else {
+                        } else if(solutionJoueur != choixJoueur && solutionJoueur > choixJoueur){
                             System.out.println("Raté le chiffre est plus grand !");
                         }
                     }

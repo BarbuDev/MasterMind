@@ -1,14 +1,24 @@
 package fr.logicrooms.recherche;
+import fr.ligicrooms.main.Fenetre;
+
 import java.util.Scanner;
 
 public class RechercheDeffenseur {
+    int intervalMin = 0;
+    int intervalMax = 99;
+
+    Fenetre fenetre = new Fenetre();
+
 
     public RechercheDeffenseur() {
+
+        // récup^ération des variables dans config.properties
+
+
         String indice = "";
         int choix = 0;
         String solution = "";
-        int intervalMin = 0;
-        int intervalMax = 99;
+
 
         choix = (intervalMax - intervalMin) / 2 + intervalMin;
 

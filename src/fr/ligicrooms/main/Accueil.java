@@ -83,6 +83,11 @@ public class Accueil extends JFrame {
         boutonRechercheDefender.addActionListener(new boutonRechercheDeffenseurListener());
         boutonRechercheDuel.addActionListener(new boutonRechercheDuelListener());
 
+        // Désactivation des boutons non programmés
+        boutonMastermindChallenger.setEnabled(false);
+        boutonMastermindDefender.setEnabled(false);
+        boutonMastermindDuel.setEnabled(false);
+
 
     }
 
