@@ -87,6 +87,7 @@ public class Accueil extends JFrame {
         boutonMastermindChallenger.setEnabled(false);
         boutonMastermindDefender.setEnabled(false);
         boutonMastermindDuel.setEnabled(false);
+        boutonRechercheDuel.setEnabled(false);
 
 
     }

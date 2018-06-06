@@ -92,49 +92,8 @@ public class RechercheDeffenseur {
 
         fenetre.setVisible(true);
 
-
-
-
-
-
-
-
-
-
-
-
-        /*String indice = "";
-        int choix = 0;
-        String solution = "";
-
-
-        choix = (intervalMax - intervalMin) / 2 + intervalMin;
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Choisissez un nombre entre " + intervalMin + " et " + intervalMax + " :");
-        solution = sc.nextLine();
-
-        if (!indice.equals("=")) {
-
-                if (indice.equals("+")) {
-                    intervalMin = choix;
-                    choix = (intervalMax - intervalMin) / 2 + intervalMin;
-                } else if (indice.equals("-")) {
-                    intervalMax = choix;
-                    choix = (intervalMax - intervalMin) / 2 + intervalMin;
-                }
-
-                labChoixOrdi.setText("L'ordinateur propose " + choix + " comme solution.");
-                indice = "+";
-
-            }
-
-
-        System.out.println("Je suis un ordinateur fou et je résous toutes les solutions que je veux hahahaaaa!");*/
-
-
     }
+
     class ValiderNombre implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -154,7 +113,7 @@ public class RechercheDeffenseur {
         @Override
         public void actionPerformed(ActionEvent e) {
             intervalMin = choix;
-            choix = (intervalMax - intervalMin) / 2 + intervalMin;
+            choix = (intervalMax + 1 - intervalMin) / 2 + intervalMin ;
             labChoixOrdi.setText("L'ordinateur propose " + choix + " comme solution.");
         }
     }
