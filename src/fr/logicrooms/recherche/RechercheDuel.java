@@ -1,4 +1,5 @@
 package fr.logicrooms.recherche;
+import fr.ligicrooms.main.Accueil;
 import fr.ligicrooms.main.Fenetre;
 
 import javax.swing.*;
@@ -35,6 +36,8 @@ public class RechercheDuel {
     JPanel panJoueurHaut = new JPanel();
     JPanel panOrdi = new JPanel();
     JPanel panOrdiBas = new JPanel();
+    JPanel panFinJeu = new JPanel();
+    JPanel panBoutonFin = new JPanel();
 
 
     JButton boutonValiderNombre = new JButton("Valider");
@@ -65,6 +68,7 @@ public class RechercheDuel {
         panInitial.setLayout(new BorderLayout());
         panJoueur.setLayout(new BorderLayout());
         panOrdi.setLayout(new BorderLayout());
+        panFinJeu.setLayout(new BorderLayout());
 
         panInitial.add(panInitialHaut, BorderLayout.NORTH);
 
@@ -99,6 +103,9 @@ public class RechercheDuel {
         boutonIndicePlus.addActionListener(new IndicePlus());
         boutonIndiceMoins.addActionListener(new IndiceMoins());
         boutonIndiceEgal.addActionListener(new IndiceEgal());
+        boutonRejouer.addActionListener(new Rejouer());
+        boutonChanger.addActionListener(new Changer());
+        boutonQuiter.addActionListener(new Quiter());
 
 
         choixOrdi = (intervalMax - intervalMin) / 2 + intervalMin;
@@ -212,7 +219,7 @@ public class RechercheDuel {
                     intervalMaxJoueur = choixJoueur;
                 }
             }else{
-                System.out.println("le joueur gagne");
+                FinDeJeu fin = new FinDeJeu("Vous avez gagné");
             }
             labJoueur.setText("Votre solution est entre " + intervalMinJoueur + " et " + intervalMaxJoueur);
 
@@ -241,7 +248,49 @@ public class RechercheDuel {
     class IndiceEgal implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
-            System.out.println("L'ordi gagne");
+            FinDeJeu fin = new FinDeJeu("L'ordinateur gagne !");
+        }
+    }
+    class FinDeJeu{
+        private String vainceur;
+
+        public FinDeJeu(String vainceur){
+            this.vainceur = vainceur;
+            fenetre.setContentPane(panFinJeu);
+            panFinJeu.add(labFinJeu, BorderLayout.CENTER);
+            panFinJeu.add(panBoutonFin, BorderLayout.SOUTH);
+            panBoutonFin.add(boutonRejouer);
+            panBoutonFin.add(boutonChanger);
+            panBoutonFin.add(boutonQuiter);
+            Font font = new Font("Georgia", Font.CENTER_BASELINE, 25);
+            labFinJeu.setFont(font);
+            labFinJeu.setText(vainceur);
+
+            fenetre.setVisible(true);
+
+        }
+    }
+    class Rejouer implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            RechercheDuel recherche = new RechercheDuel();
+        }
+    }
+    class Changer implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            Accueil accueil = new Accueil();
+        }
+    }
+    class Quiter implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            System.exit(0);
         }
     }
 

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9172ca82-1024-41d6-8665-a96ee533b390" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$IndiceEgal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$IndiceEgal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$IndiceMoins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$IndiceMoins.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$IndicePlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$IndicePlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$ValidationNombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$ValidationNombre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Verifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Verifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,8 +70,8 @@
       <file leaf-file-name="RechercheDeffenseur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="731">
+              <caret line="117" column="9" lean-forward="true" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +82,11 @@
       <file leaf-file-name="RechercheDuel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="242" column="44" selection-start-line="242" selection-start-column="44" selection-end-line="242" selection-end-column="44" />
+            <state relative-caret-position="272">
+              <caret line="264" column="70" selection-start-line="264" selection-start-column="70" selection-end-line="264" selection-end-column="70" />
               <folding>
-                <element signature="e#8712#8713#0" expanded="true" />
-                <element signature="e#8741#8742#0" expanded="true" />
+                <element signature="e#8851#8852#0" expanded="true" />
+                <element signature="e#8909#8910#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -266,12 +268,12 @@
       <workItem from="1528189861803" duration="2331000" />
       <workItem from="1528269367350" duration="9068000" />
       <workItem from="1528281602988" duration="8687000" />
-      <workItem from="1528363868868" duration="2001000" />
+      <workItem from="1528363868868" duration="3400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72355000" />
+    <option name="totallyTimeSpent" value="73754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="731">
+          <caret line="117" column="9" lean-forward="true" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -695,11 +697,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="242" column="44" selection-start-line="242" selection-start-column="44" selection-end-line="242" selection-end-column="44" />
+        <state relative-caret-position="272">
+          <caret line="264" column="70" selection-start-line="264" selection-start-column="70" selection-end-line="264" selection-end-column="70" />
           <folding>
-            <element signature="e#8712#8713#0" expanded="true" />
-            <element signature="e#8741#8742#0" expanded="true" />
+            <element signature="e#8851#8852#0" expanded="true" />
+            <element signature="e#8909#8910#0" expanded="true" />
           </folding>
         </state>
       </provider>
