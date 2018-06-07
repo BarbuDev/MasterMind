@@ -99,7 +99,7 @@ public class RechercheDeffenseur {
         public void actionPerformed(ActionEvent e) {
             choix = Integer.parseInt(champText.getText());
             if(modeDev){
-                System.out.println(choix);
+                System.out.println("Solution : " + choix);
             }
             fenetre.setContentPane(panJeu);
             fenetre.setVisible(true);

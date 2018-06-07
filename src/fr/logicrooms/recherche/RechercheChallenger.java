@@ -108,7 +108,7 @@ public class RechercheChallenger {
 
         // activation du mode développeur
         if (modeDev) {
-            System.out.println(solution);
+            System.out.println("Solution  : " +solution);
         }
 
         // Quiter rejouer ou retour à l'accueil
