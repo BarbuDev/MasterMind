@@ -196,6 +196,7 @@ public class RechercheDuel {
             panBoutonFin.add(boutonRejouer);
             panBoutonFin.add(boutonChanger);
             panBoutonFin.add(boutonQuiter);
+
             Font font = new Font("Georgia", Font.CENTER_BASELINE, 25);
             labFinJeu.setFont(font);
             labFinJeu.setText(vainceur);

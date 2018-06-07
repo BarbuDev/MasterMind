@@ -186,19 +186,6 @@ public class RechercheChallenger {
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     class FinDeJeu{
         public void FinDeJeu() {
 

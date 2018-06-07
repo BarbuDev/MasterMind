@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9172ca82-1024-41d6-8665-a96ee533b390" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/Recherche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/Recherche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/ligicrooms/main/Fenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/ligicrooms/main/Fenetre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" afterDir="false" />
@@ -19,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
@@ -47,7 +46,7 @@
       <file leaf-file-name="Recherche.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/Recherche.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="173">
               <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
             </state>
           </provider>
@@ -56,8 +55,8 @@
       <file leaf-file-name="RechercheChallenger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+            <state relative-caret-position="173">
+              <caret line="188" selection-start-line="188" selection-end-line="188" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,8 +67,8 @@
       <file leaf-file-name="RechercheDeffenseur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+            <state relative-caret-position="204">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RechercheDuel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RechercheDuel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="133" column="70" selection-start-line="133" selection-start-column="70" selection-end-line="133" selection-end-column="70" />
+            <state relative-caret-position="326">
+              <caret line="231" column="1" lean-forward="true" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#9110#9111#0" expanded="true" />
@@ -96,8 +95,8 @@
       <file leaf-file-name="Fenetre.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/ligicrooms/main/Fenetre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -126,13 +125,13 @@
         <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/finDeJeu.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/FinDeJeu.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/test2.java" />
-        <option value="$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/ligicrooms/main/Accueil.java" />
-        <option value="$PROJECT_DIR$/src/fr/ligicrooms/main/Fenetre.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/Recherche.java" />
-        <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" />
-        <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" />
+        <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" />
+        <option value="$PROJECT_DIR$/src/fr/ligicrooms/main/Fenetre.java" />
+        <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" />
+        <option value="$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java" />
       </list>
     </option>
   </component>
@@ -145,11 +144,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2309" />
+    <option name="y" value="69" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -270,12 +269,12 @@
       <workItem from="1528269367350" duration="9068000" />
       <workItem from="1528281602988" duration="8687000" />
       <workItem from="1528363868868" duration="3400000" />
-      <workItem from="1528383900509" duration="2250000" />
+      <workItem from="1528383900509" duration="5442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76011000" />
+    <option name="totallyTimeSpent" value="79203000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,7 +286,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="2309" y="69" width="1456" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -299,12 +298,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26703912" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33426574" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19627507" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -635,21 +634,58 @@
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/Relance.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/FinDeJeu.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/test2.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/ligicrooms/main/Fenetre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="231" column="1" lean-forward="true" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9110#9111#0" expanded="true" />
+            <element signature="e#9185#9186#0" expanded="true" />
+            <element signature="e#10395#10396#0" expanded="true" />
+            <element signature="e#10433#10434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/Recherche.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -663,50 +699,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/ligicrooms/main/Fenetre.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/Recherche.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="133" column="70" selection-start-line="133" selection-start-column="70" selection-end-line="133" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9110#9111#0" expanded="true" />
-            <element signature="e#9185#9186#0" expanded="true" />
-            <element signature="e#10395#10396#0" expanded="true" />
-            <element signature="e#10433#10434#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
           </folding>
         </state>
       </provider>

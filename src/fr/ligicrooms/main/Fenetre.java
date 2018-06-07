@@ -10,11 +10,4 @@ public class Fenetre extends JFrame {
             this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             this.setResizable(false);
         }
-
-
-
-
-
-
-
 }
