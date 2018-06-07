@@ -98,6 +98,7 @@ public class RechercheDuel {
         boutonVerifier.addActionListener(new Verifier());
         boutonIndicePlus.addActionListener(new IndicePlus());
         boutonIndiceMoins.addActionListener(new IndiceMoins());
+        boutonIndiceEgal.addActionListener(new IndiceEgal());
 
 
         choixOrdi = (intervalMax - intervalMin) / 2 + intervalMin;
@@ -181,11 +182,11 @@ public class RechercheDuel {
                 choixJoueur = Integer.parseInt(champTextJoueur.getText());
 
                 if (choixJoueur < solutionJoueur){
-                    labJoueur.setText("La solution est entre " + intervalMinJoueur + " et " + intervalMaxJoueur);
+                    labJoueur.setText("Votre solution est entre " + intervalMinJoueur + " et " + intervalMaxJoueur);
                     intervalMinJoueur = choixJoueur;
                 }
                 else{
-                    labJoueur.setText("La solution est entre " + intervalMinJoueur + " et " + intervalMaxJoueur);
+                    labJoueur.setText("Votre solution est entre " + intervalMinJoueur + " et " + intervalMaxJoueur);
                     intervalMaxJoueur = choixJoueur;
                 }
 
@@ -200,20 +201,20 @@ public class RechercheDuel {
 
             fenetre.setContentPane(panOrdi);
             fenetre.setVisible(true);
+            choixJoueur = Integer.parseInt(champTextJoueur.getText());
 
             labChoixOrdi.setText("L'ordinateur porpose la solution suivante : " + choixOrdi);
 
-            if(solutionJoueur != choixJoueur && solutionOrdi != choixOrdi) {
-                if (indice.equals("+")) {
-                    intervalMin = choixOrdi;
-                    choixOrdi = (intervalMax - intervalMin) / 2 + intervalMin;
-                } else if (indice.equals("-")) {
-                    intervalMax = choixOrdi;
-                    choixOrdi = (intervalMax - intervalMin) / 2 + intervalMin;
+            if(solutionJoueur != choixJoueur) {
+                if (choixJoueur<solutionJoueur) {
+                    intervalMinJoueur = choixJoueur;
+                } else if (choixJoueur > solutionJoueur) {
+                    intervalMaxJoueur = choixJoueur;
                 }
             }else{
-                // ajout d'une class interne traitement fin de jeu
+                System.out.println("le joueur gagne");
             }
+            labJoueur.setText("Votre solution est entre " + intervalMinJoueur + " et " + intervalMaxJoueur);
 
         }
     }
@@ -233,12 +234,14 @@ public class RechercheDuel {
             intervalMax = choixOrdi;
             choixOrdi = (intervalMax - intervalMin) / 2 + intervalMin;
             labChoixOrdi.setText("L'ordinateur propose " + choixOrdi + " comme solution.");
+
+            fenetre.setContentPane(panJoueur);
         }
     }
     class IndiceEgal implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
-
+            System.out.println("L'ordi gagne");
         }
     }
 
