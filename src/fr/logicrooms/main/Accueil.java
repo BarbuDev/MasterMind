@@ -7,7 +7,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import org.apache.log4j.Logger;
+
 public class Accueil extends JFrame {
+    public static final Logger logger = Logger.getLogger(Accueil.class);
 
     // Création de la première page du jeu
     Fenetre fenetre = new Fenetre();
@@ -96,6 +99,7 @@ public class Accueil extends JFrame {
 
         public void actionPerformed(ActionEvent e) {
             fenetre.setVisible(false);
+            logger.trace("Lancement du jeu recherche");
             Recherche recherche = new Recherche(boutonRechercheChallenger.getText());
         }
     }
@@ -103,6 +107,7 @@ public class Accueil extends JFrame {
 
         public void actionPerformed(ActionEvent e) {
             fenetre.setVisible(false);
+            logger.trace("Lancement du jeu recherche");
             Recherche recherche = new Recherche(boutonRechercheDefender.getText());
         }
     }
@@ -110,6 +115,7 @@ public class Accueil extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             fenetre.setVisible(false);
+            logger.trace("Lancement du jeu recherche");
             Recherche recherche = new Recherche(boutonRechercheDuel.getText());
         }
     }

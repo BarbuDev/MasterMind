@@ -1,5 +1,7 @@
 package fr.logicrooms.recherche;
+
 import fr.ligicrooms.main.Accueil;
+import fr.ligicrooms.main.CallConfig;
 import fr.ligicrooms.main.Fenetre;
 
 import javax.swing.*;
@@ -8,153 +10,244 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.NumberFormat;
 
+import org.apache.log4j.Logger;
+
 public class RechercheDeffenseur {
 
-    // récupération des variables dans config.properties
-    int intervalMin = 0;
-    int intervalMax = 99;
-    boolean modeDev = true;
+    public static final Logger logger = Logger.getLogger(RechercheDeffenseur.class);
+    // variable à récupérer dans config.properties
+    CallConfig config = new CallConfig();
+    int nombreDeChiffre = config.CallConfig("nombreChiffreCombinaison");
+    boolean modeDev = config.CallConfigBoolean("modDev");
 
-    // déclaration autre variables
-    String indice="";
-    int choix=0;
+    // autre variables
+    int solution[] = new int[nombreDeChiffre];
+    int proposition[] = new int[nombreDeChiffre];
+    int intervalMin[] = new int[nombreDeChiffre];
+    int intervalMax[] = new int[nombreDeChiffre];
+    char indice[] = new char[nombreDeChiffre];
+    boolean win = false;
+    int boucle = 0;
+    String strHistorique = "";
+    String solutionStr = "";
 
-    // Ajout JFrame, JPanel, JButton et JLabel
+    // boite message d'erreur
+    JOptionPane jOP = new JOptionPane();
+
+    // création de la fenetre
     Fenetre fenetre = new Fenetre();
 
+    // Création des JPenel
+    // panel général
     JPanel panPrincipal = new JPanel();
-    JPanel panChoixNombreHaut = new JPanel();
 
-    JPanel panJeu = new JPanel();
-    JPanel panchoixOrdi = new JPanel();
-    JPanel panIndice = new JPanel();
+    //panel composant le corp du jeu
+    JPanel panCorpJeu = new JPanel();
 
+    // panel de fin de jeu
     JPanel panFinJeu = new JPanel();
     JPanel panBoutonFinJeu = new JPanel();
 
-    JButton boutonValiderNombre = new JButton("Valider");
-    JButton boutonIndiceMoins = new JButton("-");
-    JButton boutonIndicePlus = new JButton("+");
-    JButton boutonIndiceEgal = new JButton("=");
+    // Création des Labels
+    JLabel labCorpJeu = new JLabel();
+    JLabel labCorpTitre = new JLabel("Touver la combinaison à " + nombreDeChiffre + " chiffres !");
+    JLabel labFinJeu = new JLabel("Fin de jeu");
 
+    // ajout du bouton pour valider la proposition
+    JButton boutonValider = new JButton("Valider");
     JButton boutonRejouer = new JButton("Rejouer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
-    JLabel labPrincipal = new JLabel("Choisissez un nombre entre "+intervalMin+" et "+intervalMax +" :");
-    JLabel labChoixOrdi = new JLabel();
-    JLabel labFinJeu = new JLabel("Fin de jeu");
-
-    // ajout champs text formaté Int
+    // ajout champ de text
     JFormattedTextField champText = new JFormattedTextField(NumberFormat.getIntegerInstance());
 
+    // objet listener
+    Jouer jouer = new Jouer();
+    Commencer commencer = new Commencer();
 
     public RechercheDeffenseur() {
 
-        // Initialisation de la fenêtre
-        fenetre.setSize(480,120);
-        fenetre.setContentPane(panPrincipal);
 
-        champText.setPreferredSize(new Dimension(40,40));
+        // création de al fenetre
+        fenetre.setSize(480, 200);
 
-        panPrincipal.setLayout(new BorderLayout());
-        panJeu.setLayout(new BorderLayout());
+        // parametrage du champ text
+        champText.setPreferredSize(new Dimension(100, 50));
+
+        // mise en place des Layout
+        panCorpJeu.setLayout(new BorderLayout());
+        panPrincipal.setLayout(new GridLayout(2, 1));
         panFinJeu.setLayout(new BorderLayout());
 
-        panPrincipal.add(panChoixNombreHaut, BorderLayout.CENTER);
-        panChoixNombreHaut.add(labPrincipal);
-        panChoixNombreHaut.add(champText);
-        panPrincipal.add(boutonValiderNombre, BorderLayout.SOUTH);
-        panJeu.add(panchoixOrdi,BorderLayout.CENTER);
-        panJeu.add(panIndice, BorderLayout.SOUTH);
-        panchoixOrdi.add(labChoixOrdi);
-        panIndice.add(boutonIndicePlus);
-        panIndice.add(boutonIndiceMoins);
-        panIndice.add(boutonIndiceEgal);
+        // adds des panels et éléments
+        panPrincipal.add(panCorpJeu, BorderLayout.NORTH);
+        panCorpJeu.add(labCorpJeu, BorderLayout.WEST);
+        panCorpJeu.add(boutonValider, BorderLayout.SOUTH);
+        panCorpJeu.add(labCorpTitre, BorderLayout.NORTH);
+        panFinJeu.add(labCorpJeu, BorderLayout.NORTH);
         panFinJeu.add(labFinJeu, BorderLayout.CENTER);
         panFinJeu.add(panBoutonFinJeu, BorderLayout.SOUTH);
         panBoutonFinJeu.add(boutonRejouer);
         panBoutonFinJeu.add(boutonChanger);
         panBoutonFinJeu.add(boutonQuiter);
 
-        boutonValiderNombre.addActionListener(new ValiderNombre());
-        boutonIndicePlus.addActionListener(new IndicePlus());
-        boutonIndiceMoins.addActionListener(new IndiceMoins());
-        boutonIndiceEgal.addActionListener(new IndiceEgal());
+        // configuration des police d'écriture
+        Font font = new Font("Georgia", Font.CENTER_BASELINE, 15);
+        Font fontChampText = new Font("Georgia", Font.CENTER_BASELINE, 35);
+        champText.setForeground(Color.blue);
+        champText.setFont(fontChampText);
+        labCorpJeu.setFont(font);
+        fenetre.setContentPane(panPrincipal);
+        labFinJeu.setFont(font);
+
+        // Ajout des listeners
+        boutonValider.addActionListener(commencer);
+
         boutonRejouer.addActionListener(new Rejouer());
         boutonChanger.addActionListener(new Changer());
         boutonQuiter.addActionListener(new Quiter());
 
-        Font font = new Font("Georgia",Font.CENTER_BASELINE,15);
-        labFinJeu.setFont(font);
-
-
 
         fenetre.setVisible(true);
 
+        // valeur par défaut du champ text
+        champText.setText("0");
+
     }
 
-    class ValiderNombre implements ActionListener {
+    class Commencer implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            choix = Integer.parseInt(champText.getText());
-            if(modeDev){
-                System.out.println("Solution : " + choix);
+
+            panCorpJeu.add(champText, BorderLayout.EAST);
+
+            boutonValider.removeActionListener(commencer);
+            boutonValider.addActionListener(jouer);
+            boutonValider.setText("Valider");
+
+            labCorpJeu.setText("Donner votre chiffre N° " + (boucle + 1) + " :");
+
+            fenetre.setVisible(true);
+
+
+        }
+
+
+    }
+
+
+    class Jouer implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            try {
+                solution[boucle] = Integer.parseInt(champText.getText());
+
+                solutionStr += solution[boucle];
+                System.out.print(solution[boucle]);
+                champText.setText("");
+                boucle++;
+                int nombreEssai = 0;
+                if (boucle < (nombreDeChiffre)) {
+                    labCorpJeu.setText("Donner votre chiffre N° " + (boucle + 1) + " :");
+
+                } else {
+                    for (int i = 0; i < nombreDeChiffre; i++) {
+                        intervalMin[i] = 0;
+                        intervalMax[i] = 10;
+                    }
+
+
+                    logger.debug("Le joueur choisi la combinaison :" + solutionStr);
+
+                    while (!win) {
+
+                        nombreEssai++;
+                        for (int i = 0; i < nombreDeChiffre; i++) {
+                            proposition[i] = (intervalMax[i] - intervalMin[i]) / 2 + intervalMin[i];
+                        }
+
+                        for (int i = 0; i < nombreDeChiffre; i++) {
+                            strHistorique = strHistorique + proposition[i];
+                        }
+
+                        strHistorique = strHistorique + " - ";
+
+                        for (int i = 0; i < nombreDeChiffre; i++) {
+                            if (solution[i] < proposition[i]) {
+                                intervalMax[i] = proposition[i];
+                            } else if (solution[i] > proposition[i]) {
+                                intervalMin[i] = proposition[i];
+                            } else {
+                                indice[i] = '=';
+                            }
+                        }
+                        for (int i = 0; i < nombreDeChiffre; i++) {
+                            if (indice[i] != '=') {
+                                win = false;
+                                break;
+                            } else {
+                                win = true;
+                            }
+                        }
+
+
+                        String strProposition = "";
+
+
+                        for (int i = 0; i < nombreDeChiffre; i++) {
+                            strProposition = strProposition + proposition[i];
+
+                        }
+                        labCorpJeu.setText("Mes propositions : " + strHistorique);
+                        labFinJeu.setText("Je sais j'ai trouvé en " + nombreEssai + " essais, la solution est :  " + strProposition);
+
+                        fenetre.setContentPane(panFinJeu);
+                        fenetre.setVisible(true);
+
+                    }
+                    logger.debug("Résolution par l'ordinateur : " + strHistorique + " en " + nombreEssai + " boucle(s)");
+                }
+
+                fenetre.setVisible(true);
+            }catch (Exception z){
+                logger.warn("Mauvaise saisie du joueur");
+                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
             }
-            fenetre.setContentPane(panJeu);
-            fenetre.setVisible(true);
-
-            choix = (intervalMax - intervalMin) / 2 + intervalMin;
-            labChoixOrdi.setText("L'ordinateur propose " + choix + " comme solution.");
 
         }
     }
-    class IndicePlus implements ActionListener{
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            intervalMin = choix;
-            choix = (intervalMax + 1 - intervalMin) / 2 + intervalMin ;
-            labChoixOrdi.setText("L'ordinateur propose " + choix + " comme solution.");
-        }
-    }
-    class IndiceMoins implements ActionListener{
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            intervalMax = choix;
-            choix = (intervalMax - intervalMin) / 2 + intervalMin;
-            labChoixOrdi.setText("L'ordinateur propose " + choix + " comme solution.");
-        }
-    }
-    class IndiceEgal implements ActionListener{
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setContentPane(panFinJeu);
-            labFinJeu.setText("J'ai trouvé tu as plus difficile ?!");
-            fenetre.setVisible(true);
-        }
-    }
-    class Rejouer implements ActionListener{
+
+
+
+
+
+    class Rejouer implements ActionListener {
 
         @Override
         public void actionPerformed(ActionEvent e) {
             fenetre.setVisible(false);
+            logger.trace("Le joueur choisi de rejouer");
             RechercheDeffenseur recherche = new RechercheDeffenseur();
         }
     }
-    class Changer implements ActionListener{
+
+    class Changer implements ActionListener {
 
         @Override
         public void actionPerformed(ActionEvent e) {
             fenetre.setVisible(false);
+            logger.trace("Le joueur choisi de changer de jeu");
             Accueil accueil = new Accueil();
         }
     }
-    class Quiter implements ActionListener{
+
+    class Quiter implements ActionListener {
 
         @Override
         public void actionPerformed(ActionEvent e) {
+            logger.trace("Le joueur choisi de quitter le jeu");
             System.exit(0);
         }
     }
-
 }

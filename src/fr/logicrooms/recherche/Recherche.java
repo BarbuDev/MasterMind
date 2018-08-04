@@ -1,29 +1,29 @@
 package fr.logicrooms.recherche;
+import org.apache.log4j.Logger;
 
 public class Recherche {
 
     private String modeDeJeu = "";
-
+    public static final Logger logger = Logger.getLogger(Recherche.class);
     public Recherche(String mode) {
         this.modeDeJeu = mode;
         switch (modeDeJeu) {
 
             // condition de lancement du mode de jeu
             case "Mode Challenger":
-                System.out.println("Mode Challenger activé");
+                logger.trace("Lancement du mode challenger");
                 RechercheChallenger challenger = new RechercheChallenger();
                 break;
             case "Mode défenseur":
-                System.out.println("Mode deffenseur activé");
+                logger.trace("Lancement du mode deffenseur");
                 RechercheDeffenseur deffenseur = new RechercheDeffenseur();
                 break;
             case "Mode Duel":
-                System.out.println("Mode Duel activé");
+                logger.trace("Lancement du mode duel");
                 RechercheDuel duel = new RechercheDuel();
                 break;
             default:
                 break;
         }
     }
-
 }
