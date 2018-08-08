@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9172ca82-1024-41d6-8665-a96ee533b390" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9172ca82-1024-41d6-8665-a96ee533b390" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -126,6 +124,11 @@
             <path>
               <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
               <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="autre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,6 +189,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projetOCS\MasterMind\autre" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="fr.logicrooms.recherche" />
     </key>
@@ -283,12 +289,12 @@
       <workItem from="1533544746690" duration="4643000" />
       <workItem from="1533555339831" duration="1517000" />
       <workItem from="1533623052089" duration="2829000" />
-      <workItem from="1533714451954" duration="74000" />
+      <workItem from="1533714451954" duration="422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173657000" />
+    <option name="totallyTimeSpent" value="174005000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,7 +306,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -345,7 +351,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/test.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -511,10 +516,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/autre/UseCaseDiagram.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
