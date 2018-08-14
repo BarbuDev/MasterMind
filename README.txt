@@ -32,9 +32,9 @@ Et le second recrée un mastermind.
 /////////////////////////////////
 
     - Télécharger et installer le JDK (développeur) ou JRE (utilisateur) à l'adrese suivante : www.oracle.com/technetwork/java/javase/downloads/index.html
-    - Compiller le fichier Main.java avant de le lancer l'application.
+    - Compiller le fichier Main.java (javac Main.class) avant de le lancer l'application (java Main).
 
-NB : pour plus d'information sur la compilation et le lancement d'une application référez vous à la documentation officielle du JDK (ou JRE) choisie.
+NOTA : pour plus d'information sur la compilation et le lancement d'une application référez vous à la documentation officielle du JDK (ou JRE) choisie.
 
 //////////////////////
 // 3. Développement //

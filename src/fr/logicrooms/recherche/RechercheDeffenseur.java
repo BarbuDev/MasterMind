@@ -28,6 +28,7 @@ public class RechercheDeffenseur {
     char indice[] = new char[nombreDeChiffre];
     boolean win = false;
     int boucle = 0;
+    int choix = 0;
     String strHistorique = "";
     String solutionStr = "";
 
@@ -111,8 +112,7 @@ public class RechercheDeffenseur {
 
         fenetre.setVisible(true);
 
-        // valeur par défaut du champ text
-        champText.setText("0");
+
 
     }
 
@@ -126,7 +126,7 @@ public class RechercheDeffenseur {
             boutonValider.addActionListener(jouer);
             boutonValider.setText("Valider");
 
-            labCorpJeu.setText("Donner votre chiffre N° " + (boucle + 1) + " :");
+            labCorpJeu.setText("Donner votre chiffre : ");
 
             fenetre.setVisible(true);
 
@@ -141,24 +141,25 @@ public class RechercheDeffenseur {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
-                solution[boucle] = Integer.parseInt(champText.getText());
+                choix = Integer.parseInt(champText.getText());
 
-                solutionStr += solution[boucle];
-                System.out.print(solution[boucle]);
-                champText.setText("");
-                boucle++;
+                for(int i = nombreDeChiffre-1;i >= 0;i--){
+                    solution[i] = choix % 10;
+                    choix/=10;
+                }
+
+                //solutionStr += solution[boucle];
+                //System.out.print(solution[boucle]);
+                //champText.setText("");
                 int nombreEssai = 0;
-                if (boucle < (nombreDeChiffre)) {
-                    labCorpJeu.setText("Donner votre chiffre N° " + (boucle + 1) + " :");
 
-                } else {
                     for (int i = 0; i < nombreDeChiffre; i++) {
                         intervalMin[i] = 0;
                         intervalMax[i] = 10;
                     }
 
 
-                    logger.debug("Le joueur choisi la combinaison :" + solutionStr);
+                    logger.debug("Le joueur choisi la combinaison :" + choix);
 
                     while (!win) {
 
@@ -207,7 +208,7 @@ public class RechercheDeffenseur {
 
                     }
                     logger.debug("Résolution par l'ordinateur : " + strHistorique + " en " + nombreEssai + " boucle(s)");
-                }
+
 
                 fenetre.setVisible(true);
             }catch (Exception z){

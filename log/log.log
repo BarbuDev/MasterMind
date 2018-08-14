@@ -1,0 +1,141 @@
+2018-08-14 13:59:32 TRACE Main:9 - Entré dans le programme
+2018-08-14 13:59:35 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 13:59:35 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 13:59:35 DEBUG RechercheChallenger:91 - La solution aléatoire est : 61
+2018-08-14 14:01:12 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:01:14 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:01:14 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:01:14 DEBUG RechercheChallenger:91 - La solution aléatoire est : 50
+2018-08-14 14:01:21 DEBUG RechercheChallenger:175 - Saisie du joueur : 55
+2018-08-14 14:01:41 DEBUG RechercheChallenger:175 - Saisie du joueur : 50
+2018-08-14 14:01:52 DEBUG RechercheChallenger:175 - Saisie du joueur : 99
+2018-08-14 14:03:09 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:03:11 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:03:11 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:03:11 DEBUG RechercheChallenger:91 - La solution aléatoire est : 11
+2018-08-14 14:03:20 DEBUG RechercheChallenger:175 - Saisie du joueur : 55
+2018-08-14 14:03:30 DEBUG RechercheChallenger:175 - Saisie du joueur : 11
+2018-08-14 14:06:03 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:06:05 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:06:05 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:06:05 DEBUG RechercheChallenger:91 - La solution aléatoire est : 53
+2018-08-14 14:06:12 DEBUG RechercheChallenger:175 - Saisie du joueur : 55
+2018-08-14 14:06:18 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-14 14:06:24 DEBUG RechercheChallenger:175 - Saisie du joueur : 1
+2018-08-14 14:06:42 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:06:45 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:06:45 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:06:45 DEBUG RechercheChallenger:91 - La solution aléatoire est : 10
+2018-08-14 14:06:54 DEBUG RechercheChallenger:175 - Saisie du joueur : 9
+2018-08-14 14:07:12 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-14 14:07:17 DEBUG RechercheChallenger:175 - Saisie du joueur : 99
+2018-08-14 14:08:06 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:08:09 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:08:09 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:08:09 DEBUG RechercheChallenger:91 - La solution aléatoire est : 73
+2018-08-14 14:08:15 DEBUG RechercheChallenger:176 - Saisie du joueur : 55
+2018-08-14 14:08:37 DEBUG RechercheChallenger:176 - Saisie du joueur : 55
+2018-08-14 14:09:19 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:09:22 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:09:22 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:09:22 DEBUG RechercheChallenger:91 - La solution aléatoire est : 92
+2018-08-14 14:09:27 DEBUG RechercheChallenger:176 - Saisie du joueur : 55
+2018-08-14 14:09:36 DEBUG RechercheChallenger:176 - Saisie du joueur : 55
+2018-08-14 14:10:04 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:10:09 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:10:09 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:10:09 DEBUG RechercheChallenger:91 - La solution aléatoire est : 49
+2018-08-14 14:10:16 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:10:26 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:10:32 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:10:49 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:12:39 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:12:41 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:12:41 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:12:41 DEBUG RechercheChallenger:91 - La solution aléatoire est : 30
+2018-08-14 14:12:50 WARN  RechercheChallenger:247 - Mauvaise saisie du joueur
+2018-08-14 14:13:46 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:13:48 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:13:48 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:13:48 DEBUG RechercheChallenger:91 - La solution aléatoire est : 09
+2018-08-14 14:13:50 WARN  RechercheChallenger:247 - Mauvaise saisie du joueur
+2018-08-14 14:13:50 WARN  RechercheChallenger:248 - java.lang.ArrayIndexOutOfBoundsException: 2
+2018-08-14 14:15:23 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:15:29 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:15:29 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:15:29 DEBUG RechercheChallenger:91 - La solution aléatoire est : 85
+2018-08-14 14:15:37 DEBUG RechercheChallenger:176 - Saisie du joueur : 5
+2018-08-14 14:16:00 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:16:04 WARN  RechercheChallenger:247 - Mauvaise saisie du joueur
+2018-08-14 14:16:04 WARN  RechercheChallenger:248 - java.lang.NumberFormatException: For input string: ""
+2018-08-14 14:16:10 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:16:17 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:16:24 DEBUG RechercheChallenger:176 - Saisie du joueur : 8
+2018-08-14 14:16:24 INFO  RechercheChallenger:235 - Le joueur à perdu
+2018-08-14 14:16:28 TRACE RechercheChallenger:266 - Le joueur rejour au même jeu
+2018-08-14 14:16:28 DEBUG RechercheChallenger:91 - La solution aléatoire est : 78
+2018-08-14 14:16:34 DEBUG RechercheChallenger:176 - Saisie du joueur : 7
+2018-08-14 14:16:41 DEBUG RechercheChallenger:176 - Saisie du joueur : 7
+2018-08-14 14:16:44 DEBUG RechercheChallenger:176 - Saisie du joueur : 8
+2018-08-14 14:17:13 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:17:16 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:17:16 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:17:16 DEBUG RechercheChallenger:91 - La solution aléatoire est : 56
+2018-08-14 14:17:22 DEBUG RechercheChallenger:176 - Saisie du joueur : 6
+2018-08-14 14:17:31 DEBUG RechercheChallenger:176 - Saisie du joueur : 6
+2018-08-14 14:18:13 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:18:16 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:18:16 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:18:16 DEBUG RechercheChallenger:91 - La solution aléatoire est : 11
+2018-08-14 14:18:21 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:18:31 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:20:39 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:20:41 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:20:41 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:20:41 DEBUG RechercheChallenger:91 - La solution aléatoire est : 89
+2018-08-14 14:20:47 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:21:15 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:21:18 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:21:18 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:21:18 DEBUG RechercheChallenger:91 - La solution aléatoire est : 47
+2018-08-14 14:21:23 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:21:36 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:21:39 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:21:46 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:21:48 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 14:21:48 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 14:21:48 DEBUG RechercheChallenger:91 - La solution aléatoire est : 63
+2018-08-14 14:21:53 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:21:58 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:22:05 DEBUG RechercheChallenger:176 - Saisie du joueur : 0
+2018-08-14 14:22:05 INFO  RechercheChallenger:230 - Le joueur gagne il lui reste 2 vie(s)
+2018-08-14 14:22:10 TRACE RechercheChallenger:289 - Le joueur quitte le jeu
+2018-08-14 14:44:01 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:44:03 TRACE Accueil:110 - Lancement du jeu recherche
+2018-08-14 14:44:03 TRACE Recherche:18 - Lancement du mode deffenseur
+2018-08-14 14:44:12 DEBUG RechercheDeffenseur:163 - Le joueur choisi la combinaison :0
+2018-08-14 14:44:12 DEBUG RechercheDeffenseur:211 - Résolution par l'ordinateur :  - 5 - 5 - 5 - 7 - 5 - 6 en 3 boucle(s)
+2018-08-14 14:44:45 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:44:47 TRACE Accueil:110 - Lancement du jeu recherche
+2018-08-14 14:44:47 TRACE Recherche:18 - Lancement du mode deffenseur
+2018-08-14 14:44:57 DEBUG RechercheDeffenseur:163 - Le joueur choisi la combinaison :0
+2018-08-14 14:44:57 DEBUG RechercheDeffenseur:211 - Résolution par l'ordinateur : 55 - 72 - 81 - 90 -  en 4 boucle(s)
+2018-08-14 14:45:04 TRACE RechercheDeffenseur:232 - Le joueur choisi de rejouer
+2018-08-14 14:45:11 DEBUG RechercheDeffenseur:163 - Le joueur choisi la combinaison :0
+2018-08-14 14:45:11 DEBUG RechercheDeffenseur:211 - Résolution par l'ordinateur : 55 - 25 - 35 - 45 -  en 4 boucle(s)
+2018-08-14 14:45:19 TRACE RechercheDeffenseur:232 - Le joueur choisi de rejouer
+2018-08-14 14:45:25 DEBUG RechercheDeffenseur:163 - Le joueur choisi la combinaison :0
+2018-08-14 14:45:25 DEBUG RechercheDeffenseur:211 - Résolution par l'ordinateur : 55 - 25 -  en 2 boucle(s)
+2018-08-14 14:45:32 TRACE RechercheDeffenseur:232 - Le joueur choisi de rejouer
+2018-08-14 14:45:37 DEBUG RechercheDeffenseur:163 - Le joueur choisi la combinaison :0
+2018-08-14 14:45:37 DEBUG RechercheDeffenseur:211 - Résolution par l'ordinateur : 55 -  en 1 boucle(s)
+2018-08-14 14:45:39 TRACE RechercheDeffenseur:251 - Le joueur choisi de quitter le jeu
+2018-08-14 14:45:56 TRACE Main:9 - Entré dans le programme
+2018-08-14 14:45:58 TRACE Accueil:110 - Lancement du jeu recherche
+2018-08-14 14:45:58 TRACE Recherche:18 - Lancement du mode deffenseur
+2018-08-14 14:46:06 DEBUG RechercheDeffenseur:162 - Le joueur choisi la combinaison :0
+2018-08-14 14:46:06 DEBUG RechercheDeffenseur:210 - Résolution par l'ordinateur : 55 - 57 - 56 -  en 3 boucle(s)
+2018-08-14 14:46:08 TRACE RechercheDeffenseur:231 - Le joueur choisi de rejouer
+2018-08-14 14:46:15 DEBUG RechercheDeffenseur:162 - Le joueur choisi la combinaison :0
+2018-08-14 14:46:15 DEBUG RechercheDeffenseur:210 - Résolution par l'ordinateur : 55 - 77 - 87 -  en 3 boucle(s)
+2018-08-14 14:46:28 TRACE RechercheDeffenseur:250 - Le joueur choisi de quitter le jeu

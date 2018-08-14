@@ -70,8 +70,8 @@ public class RechercheChallenger {
     JOptionPane jOP = new JOptionPane();
 
     // objet listener
-    Commencer commencer = new Commencer();
     Jouer jouer = new Jouer();
+    Commencer commencer = new Commencer();
 
 
 
@@ -148,41 +148,34 @@ public class RechercheChallenger {
 
     }
 
-    // listener
     class Commencer implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-
             panCorpJeu.add(champText, BorderLayout.EAST);
-
+            boutonValider.setText("Valider");
             boutonValider.removeActionListener(commencer);
             boutonValider.addActionListener(jouer);
-            boutonValider.setText("Valider");
-
-            labCorpJeu.setText("Donner votre chiffre N° " + (boucle + 1) + " :");
-            fenetre.setVisible(true);
-
-
         }
-
-
     }
 
     class Jouer implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
 
+
             try{
-                proposition[boucle] = Integer.parseInt(champText.getText());
-                logger.debug("Saisie du joueur : " + proposition[boucle]);
+
+                choix = Integer.parseInt(champText.getText());
+
+                for(int i = nombreDeChiffre-1; i >= 0; i--){
+                    proposition[i] = choix % 10;
+                    choix/=10;
+                }
+
+                logger.debug("Saisie du joueur : " + choix);
 
 
-                boucle++;
-                if (boucle < (nombreDeChiffre)) {
-                    labCorpJeu.setText("Donner votre chiffre N° " + (boucle + 1) + " :");
 
-                }else{
-                    boucle = 0;
 
 
 
@@ -207,20 +200,16 @@ public class RechercheChallenger {
                             }
                         }
 
-
                         String str = "";
                         String str2 = "";
-
-                        for (int i = 0; i < nombreDeChiffre; i++) {
+                        for (int i = 0; i<nombreDeChiffre;i++){
                             str = str + proposition[i];
                         }
-
                         for (int i = 0; i < nombreDeChiffre; i++) {
                             str2 = str2 + indice[i];
                         }
                         vie--;
-                        labCorpTitre.setText("Vous proposez : " + str + " ==> Voici vos indices : " + str2 + " Il vous rete " + vie + "chance(s).");
-                        labCorpJeu.setText("Donner votre chiffre N° " + (boucle + 1) + " :");
+                        labCorpTitre.setText("Vous proposez : " + str + " ==> Voici vos indices : " + str2 + " Il vous rete " + vie + " chance(s).");
 
                         for (int i = 0; i < nombreDeChiffre; i++) {
                             if (indice[i] != '='){
@@ -252,12 +241,13 @@ public class RechercheChallenger {
                     }
 
 
-                }
+
                 champText.setValue(null);
                 fenetre.setVisible(true);
             }
             catch (Exception z){
                 logger.warn("Mauvaise saisie du joueur");
+                logger.warn(z);
                 jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
             }
 
