@@ -64,7 +64,7 @@ public class RechercheChallenger {
     JButton boutonQuiter = new JButton("Quiter");
 
     // ajout champ de text
-    JFormattedTextField champText = new JFormattedTextField(NumberFormat.getIntegerInstance());
+    JTextField champText = new JTextField();
 
     // Boite pour message d'erreur
     JOptionPane jOP = new JOptionPane();
@@ -242,7 +242,7 @@ public class RechercheChallenger {
 
 
 
-                champText.setValue(null);
+                champText.setText(null);
                 fenetre.setVisible(true);
             }
             catch (Exception z){

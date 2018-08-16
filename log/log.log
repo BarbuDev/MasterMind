@@ -139,3 +139,85 @@
 2018-08-14 14:46:15 DEBUG RechercheDeffenseur:162 - Le joueur choisi la combinaison :0
 2018-08-14 14:46:15 DEBUG RechercheDeffenseur:210 - Résolution par l'ordinateur : 55 - 77 - 87 -  en 3 boucle(s)
 2018-08-14 14:46:28 TRACE RechercheDeffenseur:250 - Le joueur choisi de quitter le jeu
+2018-08-14 17:43:36 TRACE Main:9 - Entré dans le programme
+2018-08-14 17:43:40 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 17:43:40 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 17:43:40 DEBUG RechercheChallenger:91 - La solution aléatoire est : 13
+2018-08-14 17:43:50 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-14 17:43:55 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-14 17:44:01 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-14 17:44:01 INFO  RechercheChallenger:229 - Le joueur gagne il lui reste 2 vie(s)
+2018-08-14 17:44:07 TRACE RechercheChallenger:288 - Le joueur quitte le jeu
+2018-08-14 17:44:21 TRACE Main:9 - Entré dans le programme
+2018-08-14 17:44:24 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-14 17:44:24 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-14 17:44:24 DEBUG RechercheChallenger:91 - La solution aléatoire est : 7771
+2018-08-14 17:44:32 WARN  RechercheChallenger:249 - Mauvaise saisie du joueur
+2018-08-14 17:44:32 WARN  RechercheChallenger:250 - java.lang.NumberFormatException: For input string: "5 555"
+2018-08-14 17:44:44 WARN  RechercheChallenger:249 - Mauvaise saisie du joueur
+2018-08-14 17:44:44 WARN  RechercheChallenger:250 - java.lang.NumberFormatException: For input string: "5 555"
+2018-08-14 17:45:02 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-14 17:45:11 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-14 17:45:20 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-14 17:45:31 WARN  RechercheChallenger:249 - Mauvaise saisie du joueur
+2018-08-14 17:45:31 WARN  RechercheChallenger:250 - java.lang.NumberFormatException: For input string: "7 771"
+2018-08-15 17:53:11 TRACE Main:9 - Entré dans le programme
+2018-08-15 17:53:13 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-15 17:53:13 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-15 17:53:13 DEBUG RechercheChallenger:91 - La solution aléatoire est : 67
+2018-08-15 17:53:17 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-15 17:53:21 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-15 17:53:21 INFO  RechercheChallenger:229 - Le joueur gagne il lui reste 3 vie(s)
+2018-08-15 17:53:23 TRACE RechercheChallenger:288 - Le joueur quitte le jeu
+2018-08-15 17:53:27 TRACE Main:9 - Entré dans le programme
+2018-08-15 17:53:29 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-15 17:53:29 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-15 17:53:29 DEBUG RechercheChallenger:91 - La solution aléatoire est : 1419
+2018-08-15 17:53:35 WARN  RechercheChallenger:249 - Mauvaise saisie du joueur
+2018-08-15 17:53:35 WARN  RechercheChallenger:250 - java.lang.NumberFormatException: For input string: "5 555"
+2018-08-15 17:54:42 WARN  RechercheChallenger:249 - Mauvaise saisie du joueur
+2018-08-15 17:54:42 WARN  RechercheChallenger:250 - java.lang.NumberFormatException: For input string: "5 555"
+2018-08-15 18:32:11 TRACE Main:9 - Entré dans le programme
+2018-08-15 18:32:13 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-15 18:32:13 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-15 18:32:13 DEBUG RechercheChallenger:91 - La solution aléatoire est : 66
+2018-08-15 18:32:20 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-15 18:32:24 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-15 18:32:28 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-15 18:32:28 INFO  RechercheChallenger:229 - Le joueur gagne il lui reste 2 vie(s)
+2018-08-15 18:32:29 TRACE RechercheChallenger:288 - Le joueur quitte le jeu
+2018-08-15 18:32:35 TRACE Main:9 - Entré dans le programme
+2018-08-15 18:32:37 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-15 18:32:37 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-15 18:32:37 DEBUG RechercheChallenger:91 - La solution aléatoire est : 8634
+2018-08-15 18:32:41 WARN  RechercheChallenger:249 - Mauvaise saisie du joueur
+2018-08-15 18:32:41 WARN  RechercheChallenger:250 - java.lang.NumberFormatException: For input string: "5 555"
+2018-08-16 08:26:59 TRACE Main:9 - Entré dans le programme
+2018-08-16 08:27:13 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-16 08:27:13 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-16 08:27:13 DEBUG RechercheChallenger:91 - La solution aléatoire est : 238
+2018-08-16 08:27:19 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:27:24 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:27:32 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:27:32 INFO  RechercheChallenger:229 - Le joueur gagne il lui reste 2 vie(s)
+2018-08-16 08:27:34 TRACE RechercheChallenger:268 - Le joueur rejour au même jeu
+2018-08-16 08:27:34 DEBUG RechercheChallenger:91 - La solution aléatoire est : 719
+2018-08-16 08:27:41 WARN  RechercheChallenger:249 - Mauvaise saisie du joueur
+2018-08-16 08:27:41 WARN  RechercheChallenger:250 - java.lang.NumberFormatException: For input string: "5 555"
+2018-08-16 08:32:08 TRACE Main:9 - Entré dans le programme
+2018-08-16 08:32:11 TRACE Accueil:102 - Lancement du jeu recherche
+2018-08-16 08:32:11 TRACE Recherche:14 - Lancement du mode challenger
+2018-08-16 08:32:11 DEBUG RechercheChallenger:91 - La solution aléatoire est : 769
+2018-08-16 08:32:17 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:32:23 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:32:29 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:32:34 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:32:34 INFO  RechercheChallenger:229 - Le joueur gagne il lui reste 1 vie(s)
+2018-08-16 08:32:50 TRACE RechercheChallenger:268 - Le joueur rejour au même jeu
+2018-08-16 08:32:50 DEBUG RechercheChallenger:91 - La solution aléatoire est : 2271
+2018-08-16 08:32:58 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:33:05 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:33:13 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:33:23 DEBUG RechercheChallenger:175 - Saisie du joueur : 0
+2018-08-16 08:33:23 INFO  RechercheChallenger:229 - Le joueur gagne il lui reste 1 vie(s)
+2018-08-16 08:33:25 TRACE RechercheChallenger:288 - Le joueur quitte le jeu
