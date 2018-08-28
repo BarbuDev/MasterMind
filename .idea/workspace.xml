@@ -8,16 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9172ca82-1024-41d6-8665-a96ee533b390" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Changer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Changer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Commencer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Commencer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Jouer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Jouer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Quiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Quiter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Rejouer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger$Rejouer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheChallenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDeffenseur$Commencer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDeffenseur$Commencer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDeffenseur$Jouer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDeffenseur$Jouer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDeffenseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDeffenseur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/main/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/mastermind/MastermindChallenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/mastermind/MastermindChallenger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Changer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Changer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Commencer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Commencer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Jouer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Jouer.class" afterDir="false" />
@@ -25,12 +19,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Rejouer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$Rejouer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$TourJoueur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel$TourJoueur.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/fr/logicrooms/recherche/RechercheDuel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/main/Accueil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/main/Accueil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/main/CallConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/main/CallConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/main/Fenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/main/Fenetre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/main/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindChallenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindChallenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,32 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RechercheDuel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RechercheDeffenseur.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
+      <file leaf-file-name="IA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/mastermind/IA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Accueil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/main/Accueil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="89" column="91" selection-start-line="89" selection-start-column="91" selection-end-line="89" selection-end-column="91" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,37 +57,10 @@
       <file leaf-file-name="MastermindChallenger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindChallenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="284">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
               <folding>
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MastermindDeffenseur.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindDeffenseur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-              <folding>
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MastermindDuel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindDuel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,18 +102,21 @@
         <option value="$PROJECT_DIR$/log/log.log" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/README.txt" />
-        <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/mastermind/Mastermind.java" />
-        <option value="$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindChallenger.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindDeffenseur.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindDuel.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/main/Fenetre.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/main/Accueil.java" />
-        <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/main/CallConfig.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/main/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java" />
+        <option value="$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java" />
+        <option value="$PROJECT_DIR$/src/fr/logicrooms/mastermind/zMain.java" />
+        <option value="$PROJECT_DIR$/src/fr/logicrooms/mastermind/CalculScore.java" />
+        <option value="$PROJECT_DIR$/src/fr/logicrooms/mastermind/IA.java" />
+        <option value="$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindChallenger.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
       </list>
     </option>
   </component>
@@ -276,7 +221,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/libraries/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -284,14 +229,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="fr.logicrooms.recherche" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projetOCS\MasterMind\src\fr\logicrooms\mastermind" />
+      <recent name="D:\projetOCS\MasterMind\autre" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projetOCS\MasterMind\autre" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projetOCS\MasterMind\autre" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fr.logicrooms.mastermind" />
+      <recent name="fr.logicrooms.recherche" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,12 +352,12 @@
       <workItem from="1534350683098" duration="116000" />
       <workItem from="1534400772568" duration="7138000" />
       <workItem from="1535299745517" duration="755000" />
-      <workItem from="1535443177959" duration="1483000" />
+      <workItem from="1535443177959" duration="10026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195462000" />
+    <option name="totallyTimeSpent" value="204005000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,6 +370,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
@@ -433,12 +381,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.26815644" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.26815644" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.26815644" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -458,10 +406,10 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.26815644" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.26815644" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
@@ -496,15 +444,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/ligicrooms/main/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/ligicrooms/main/Accueil.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/Recherche.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -571,24 +510,10 @@
     <entry file="file://$PROJECT_DIR$/autre/ClassDiagram1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/main/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -655,10 +580,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java">
+    <entry file="file://$PROJECT_DIR$/log/log.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="358">
+          <caret line="111" column="61" lean-forward="true" selection-start-line="111" selection-start-column="61" selection-end-line="111" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/main/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="187" column="17" lean-forward="true" selection-start-line="187" selection-start-column="17" selection-end-line="187" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/mastermind/zMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/mastermind/CalculScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -669,37 +632,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDuel.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/mastermind/IA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/log.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="358">
-          <caret line="111" column="61" lean-forward="true" selection-start-line="111" selection-start-column="61" selection-end-line="111" selection-end-column="61" />
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheDeffenseur.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/recherche/RechercheChallenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="-51">
+          <caret line="207" column="67" lean-forward="true" selection-start-line="207" selection-start-column="67" selection-end-line="207" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/mastermind/MastermindChallenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="284">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
           <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
