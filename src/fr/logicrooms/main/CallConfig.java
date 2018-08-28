@@ -1,4 +1,4 @@
-package fr.ligicrooms.main;
+package fr.logicrooms.main;
 
 import java.io.FileInputStream;
 import java.io.IOException;

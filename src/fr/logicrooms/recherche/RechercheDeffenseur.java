@@ -1,14 +1,11 @@
 package fr.logicrooms.recherche;
 
-import fr.ligicrooms.main.Accueil;
-import fr.ligicrooms.main.CallConfig;
-import fr.ligicrooms.main.Fenetre;
+import fr.logicrooms.main.*;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.text.NumberFormat;
 
 import org.apache.log4j.Logger;
 
@@ -27,7 +24,6 @@ public class RechercheDeffenseur {
     int intervalMax[] = new int[nombreDeChiffre];
     char indice[] = new char[nombreDeChiffre];
     boolean win = false;
-    int boucle = 0;
     int choix = 0;
     String strHistorique = "";
     String solutionStr = "";
@@ -61,7 +57,7 @@ public class RechercheDeffenseur {
     JButton boutonQuiter = new JButton("Quiter");
 
     // ajout champ de text
-    JFormattedTextField champText = new JFormattedTextField(NumberFormat.getIntegerInstance());
+    JTextField champText = new JTextField();
 
     // objet listener
     Jouer jouer = new Jouer();
@@ -71,10 +67,10 @@ public class RechercheDeffenseur {
 
 
         // création de al fenetre
-        fenetre.setSize(480, 200);
+        fenetre.setSize(580, 200);
 
         // parametrage du champ text
-        champText.setPreferredSize(new Dimension(100, 50));
+        champText.setPreferredSize(new Dimension(200, 50));
 
         // mise en place des Layout
         panCorpJeu.setLayout(new BorderLayout());
@@ -95,7 +91,7 @@ public class RechercheDeffenseur {
 
         // configuration des police d'écriture
         Font font = new Font("Georgia", Font.CENTER_BASELINE, 15);
-        Font fontChampText = new Font("Georgia", Font.CENTER_BASELINE, 35);
+        Font fontChampText = new Font("Georgia", Font.CENTER_BASELINE, 25);
         champText.setForeground(Color.blue);
         champText.setFont(fontChampText);
         labCorpJeu.setFont(font);
@@ -142,6 +138,7 @@ public class RechercheDeffenseur {
         public void actionPerformed(ActionEvent e) {
             try {
                 choix = Integer.parseInt(champText.getText());
+                logger.debug("Le joueur choisi la combinaison :" + choix);
 
                 for(int i = nombreDeChiffre-1;i >= 0;i--){
                     solution[i] = choix % 10;
@@ -159,7 +156,7 @@ public class RechercheDeffenseur {
                     }
 
 
-                    logger.debug("Le joueur choisi la combinaison :" + choix);
+
 
                     while (!win) {
 

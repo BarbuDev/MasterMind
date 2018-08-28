@@ -1,8 +1,6 @@
 package fr.logicrooms.recherche;
 
-import fr.ligicrooms.main.Accueil;
-import fr.ligicrooms.main.CallConfig;
-import fr.ligicrooms.main.Fenetre;
+import fr.logicrooms.main.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,12 +30,14 @@ public class RechercheDuel {
     int intervalMax[] = new int[nombreDeChiffre];
 
     boolean win = false;
+    boolean winIA = false;
 
     char indiceJoueur[] = new char[nombreDeChiffre];
     char indiceOrdi[] = new char[nombreDeChiffre];
 
     int boucle = 0;
     int boucleJoueur = 0;
+    int choix = 0;
 
     String strIndice = "";
     String strSolutionJoueur = "";
@@ -45,6 +45,9 @@ public class RechercheDuel {
 
     // création de la fenetre
     Fenetre fenetre = new Fenetre();
+
+    // En cas de mauvaise saisie
+    JOptionPane jOP = new JOptionPane();
 
     // Création des JPenel
     // panel général
@@ -69,7 +72,7 @@ public class RechercheDuel {
     JButton boutonQuiter = new JButton("Quiter");
 
     // ajout champ de text
-    JFormattedTextField champText = new JFormattedTextField(NumberFormat.getIntegerInstance());
+    JTextField champText = new JTextField();
 
 
     // objet listener
@@ -87,11 +90,10 @@ public class RechercheDuel {
         }
 
         // création de al fenetre
-        fenetre.setSize(480, 200);
+        fenetre.setSize(580, 200);
 
         // parametrage du champ text
-        champText.setPreferredSize(new Dimension(100, 50));
-        champText.setText("0");
+        champText.setPreferredSize(new Dimension(200, 50));
 
         // mise en place des Layout
         panCorpJeu.setLayout(new BorderLayout());
@@ -111,7 +113,7 @@ public class RechercheDuel {
 
         // configuration des police d'écriture
         Font font = new Font("Georgia", Font.CENTER_BASELINE, 15);
-        Font fontChampText = new Font("Georgia", Font.CENTER_BASELINE, 35);
+        Font fontChampText = new Font("Georgia", Font.CENTER_BASELINE, 25);
         champText.setForeground(Color.blue);
         champText.setFont(fontChampText);
         labCorpJeu.setFont(font);
@@ -142,13 +144,10 @@ public class RechercheDuel {
         @Override
         public void actionPerformed(ActionEvent e) {
             // choix de la combinaison pour l'ordinateur
-            labCorpTitre.setText("Donner votre chiffre N° " + (boucle + 1)+ " :");
             boutonValider.removeActionListener(commencer);
             boutonValider.addActionListener(jouer);
             boutonValider.setText("Valider");
             panCorpJeu.add(champText, BorderLayout.EAST);
-
-
             fenetre.setVisible(true);
         }
     }
@@ -156,28 +155,38 @@ public class RechercheDuel {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            solutionOrdi[boucle] = Integer.parseInt(champText.getText());
-            champText.setText("");
-            boucle++;
-            labCorpTitre.setText("");
+            try {
 
-            if (boucle < (nombreDeChiffre)) {
-                labCorpJeu.setText("Donner votre chiffre N° " + (boucle + 1) + " :");
-            }else{
+                choix = Integer.parseInt(champText.getText());
+                logger.debug("le joueur choisi la combinaison suivante pour l'IA : " + choix);
+                for(int i = nombreDeChiffre-1;i>=0;i--){
+                    solutionOrdi[i] = choix%10;
+                    choix/=10;
+                }
+                champText.setText("");
+                labCorpTitre.setText("");
 
-                for (int i = 0; i < nombreDeChiffre; i++) {
-                    strSolutionOrdi = strSolutionOrdi + solutionOrdi[i];
-                }
-                for (int i = 0; i < nombreDeChiffre; i++) {
-                    strSolutionJoueur = strSolutionJoueur + solutionJoueur[i];
-                }
-                if(modeDev) {
-                    System.out.println("Mode développeur activé !\nLa solution de l'ordinateur est : " + strSolutionOrdi + "\nLa solution du joueur est : " + strSolutionJoueur);
-                }
 
-                labCorpJeu.setText("Donner le chiffre N° " + (boucleJoueur + 1) + " de votre solution :");
-                boutonValider.removeActionListener(jouer);
-                boutonValider.addActionListener(tourJoueur);
+
+                    for (int i = 0; i < nombreDeChiffre; i++) {
+                        strSolutionOrdi = strSolutionOrdi + solutionOrdi[i];
+                    }
+                    for (int i = 0; i < nombreDeChiffre; i++) {
+                        strSolutionJoueur = strSolutionJoueur + solutionJoueur[i];
+                    }
+                    logger.debug("La solution aléatoire du joueur est : " + strSolutionJoueur);
+                    if (modeDev) {
+                        System.out.println("Mode développeur activé !\nLa solution de l'ordinateur est : " + strSolutionOrdi + "\nLa solution du joueur est : " + strSolutionJoueur);
+                    }
+
+                    labCorpJeu.setText("Essayez de trouver la combinaison de l'ordinateur :");
+                    boutonValider.removeActionListener(jouer);
+                    boutonValider.addActionListener(tourJoueur);
+
+            }catch (Exception z){
+                logger.warn("Mauvaise saisie du joueur");
+                logger.warn(z);
+                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
             }
 
         }
@@ -186,82 +195,90 @@ public class RechercheDuel {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            if(boucleJoueur<(nombreDeChiffre-1)) {
-                propositionJoueur[boucleJoueur] = Integer.parseInt(champText.getText());
-                champText.setText("");
-                boucleJoueur++;
-                labCorpJeu.setText("Donner le chiffre N° " + (boucleJoueur + 1) + " de votre solution :");
-            }else{
-                propositionJoueur[boucleJoueur] = Integer.parseInt(champText.getText());
-                champText.setText("");
-                strIndice = "";
-                for (int i = 0; i < nombreDeChiffre; i++) {
-                    if (solutionJoueur[i] < propositionJoueur[i]) {
-                        indiceJoueur[i] = '-';
-                    } else if (solutionJoueur[i] > propositionJoueur[i]) {
-                        indiceJoueur[i] = '+';
-                    } else {
-                        indiceJoueur[i] = '=';
-                    }
-                    strIndice = strIndice + indiceJoueur[i];
-                    boucleJoueur = 0;
-                }
 
-                for (int i = 0; i < nombreDeChiffre; i++) {
-                    if (indiceJoueur[i] != '=') {
-                        win = false;
-                        break;
-                    } else {
-                        win = true;
+            try {
+                    choix = Integer.parseInt(champText.getText());
+                    for(int i = nombreDeChiffre-1;i>=0;i--){
+                        propositionJoueur[i] = choix%10;
+                        choix/=10;
                     }
-                }
-                if(win){
+
+                    champText.setText("");
+                    strIndice = "";
+                    for (int i = 0; i < nombreDeChiffre; i++) {
+                        if (solutionJoueur[i] < propositionJoueur[i]) {
+                            indiceJoueur[i] = '-';
+                        } else if (solutionJoueur[i] > propositionJoueur[i]) {
+                            indiceJoueur[i] = '+';
+                        } else {
+                            indiceJoueur[i] = '=';
+                        }
+                        strIndice = strIndice + indiceJoueur[i];
+                        boucleJoueur = 0;
+                    }
+
+                    for (int i = 0; i < nombreDeChiffre; i++) {
+                        if (indiceJoueur[i] != '=') {
+                            win = false;
+                            break;
+                        } else {
+                            win = true;
+                        }
+                    }
+
+
+
+                    for (int i = 0; i < nombreDeChiffre; i++) {
+                        propositionOrdi[i] = (intervalMax[i] - intervalMin[i]) / 2 + intervalMin[i];
+                    }
+
+                    String strPropositionOrdi = "";
+
+                    for (int i = 0; i < nombreDeChiffre; i++) {
+                        strPropositionOrdi = strPropositionOrdi + propositionOrdi[i];
+                    }
+
+                    for (int i = 0; i < nombreDeChiffre; i++) {
+                        if (solutionOrdi[i] < propositionOrdi[i]) {
+                            indiceOrdi[i] = '-';
+                            intervalMax[i] = propositionOrdi[i];
+                        } else if (solutionOrdi[i] > propositionOrdi[i]) {
+                            indiceOrdi[i] = '-';
+                            intervalMin[i] = propositionOrdi[i];
+                        } else {
+                            indiceOrdi[i] = '=';
+                        }
+                    }
+                    for (int i = 0; i < nombreDeChiffre; i++) {
+                        if (indiceOrdi[i] != '=') {
+                            winIA = false;
+                            break;
+                        } else {
+                            winIA = true;
+
+                        }
+                    }
+                if (win) {
                     labFinJeu.setText("Bravo vous avez gagné !");
                     fenetre.setContentPane(panFinJeu);
                     fenetre.setVisible(true);
-                }
-
-
-                for (int i = 0; i < nombreDeChiffre; i++) {
-                    propositionOrdi[i] = (intervalMax[i] - intervalMin[i]) / 2 + intervalMin[i];
-                }
-
-                String strPropositionOrdi = "";
-
-                for(int i = 0; i < nombreDeChiffre; i++){
-                    strPropositionOrdi = strPropositionOrdi + propositionOrdi[i];
-                }
-
-                for (int i = 0; i < nombreDeChiffre; i++) {
-                    if (solutionOrdi[i] < propositionOrdi[i]) {
-                        indiceOrdi[i] = '-';
-                        intervalMax[i] = propositionOrdi[i];
-                    } else if (solutionOrdi[i] > propositionOrdi[i]) {
-                        indiceOrdi[i] = '-';
-                        intervalMin[i] = propositionOrdi[i];
-                    } else {
-                        indiceOrdi[i] = '=';
+                    logger.trace("Le joueur gagne");
+                }else if (winIA) {
+                        labFinJeu.setText("L'ordinateur gagne votre solution était : " + strSolutionJoueur);
+                        fenetre.setContentPane(panFinJeu);
+                        fenetre.setVisible(true);
+                        logger.trace("L'IA gagne");
                     }
-                }
-                for (int i = 0; i < nombreDeChiffre; i++) {
-                    if (indiceOrdi[i] != '=') {
-                        win = false;
-                        break;
-                    } else {
-                        win = true;
 
-                    }
-                }
-                if(win){
-                    labFinJeu.setText("L'ordinateur gagne votre solution était : " + strSolutionJoueur);
-                    fenetre.setContentPane(panFinJeu);
-                    fenetre.setVisible(true);
-                }
+                    labCorpTitre.setText("L'ordinateur propose : " + strPropositionOrdi);
+                    boucleJoueur = 0;
+                    labCorpJeu.setText("Donner le chiffre N° " + (boucleJoueur + 1) + " de votre solution (" + strIndice + "):");
 
-                labCorpTitre.setText("L'ordinateur propose : " + strPropositionOrdi);
-                boucleJoueur = 0;
-                labCorpJeu.setText("Donner le chiffre N° " + (boucleJoueur + 1) + " de votre solution (" + strIndice + "):");
 
+            }catch(Exception z){
+                logger.warn("Mauvaise saisie du joueur");
+                logger.warn(z);
+                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
             }
         }
     }

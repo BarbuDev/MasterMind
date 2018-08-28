@@ -1,6 +1,7 @@
-package fr.ligicrooms.main;
+package fr.logicrooms.main;
 
-import fr.logicrooms.recherche.Recherche;
+import fr.logicrooms.recherche.*;
+import fr.logicrooms.mastermind.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -85,11 +86,9 @@ public class Accueil extends JFrame {
         boutonRechercheChallenger.addActionListener(new boutonRechercheChallengerListener());
         boutonRechercheDefender.addActionListener(new boutonRechercheDeffenseurListener());
         boutonRechercheDuel.addActionListener(new boutonRechercheDuelListener());
-
-        // Désactivation des boutons non programmés
-        boutonMastermindChallenger.setEnabled(false);
-        boutonMastermindDefender.setEnabled(false);
-        boutonMastermindDuel.setEnabled(false);
+        boutonMastermindChallenger.addActionListener(new boutonMastermindChallengerListener());
+        boutonMastermindDefender.addActionListener(new boutonMastermindDeffenseurListener());
+        boutonMastermindDuel.addActionListener(new boutonMastermindDuelListener());
 
 
     }
@@ -117,6 +116,31 @@ public class Accueil extends JFrame {
             fenetre.setVisible(false);
             logger.trace("Lancement du jeu recherche");
             Recherche recherche = new Recherche(boutonRechercheDuel.getText());
+        }
+    }
+    // Classe d'écoute Mastermind mode Challenger
+    class boutonMastermindChallengerListener implements ActionListener{
+
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            logger.trace("Lancement du Mastermind");
+            Mastermind mastermind = new Mastermind(boutonMastermindChallenger.getText());
+        }
+    }
+    class boutonMastermindDeffenseurListener implements ActionListener{
+
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            logger.trace("Lancement du Mastermind");
+            Mastermind mastermind = new Mastermind(boutonMastermindDefender.getText());
+        }
+    }
+    class boutonMastermindDuelListener implements ActionListener{
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            fenetre.setVisible(false);
+            logger.trace("Lancement du jeu recherche");
+            Mastermind mastermind = new Mastermind(boutonMastermindDuel.getText());
         }
     }
 
