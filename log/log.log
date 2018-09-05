@@ -1,0 +1,10 @@
+2018-09-05 16:24:02 TRACE Main:9 - Entré dans le programme
+2018-09-05 16:24:03 TRACE Accueil:142 - Lancement du jeu recherche
+2018-09-05 16:24:03 TRACE Mastermind:22 - Lancement du mode duel
+2018-09-05 16:24:45 TRACE Main:9 - Entré dans le programme
+2018-09-05 16:24:47 TRACE Accueil:142 - Lancement du jeu recherche
+2018-09-05 16:24:47 TRACE Mastermind:22 - Lancement du mode duel
+2018-09-05 16:24:53 TRACE MastermindChallenger:147 - Le joueur choisi la combinaison secrète : 12
+2018-09-05 16:25:42 TRACE MastermindChallenger:300 - Le joueur choisi de rejouer
+2018-09-05 16:25:50 TRACE MastermindChallenger:147 - Le joueur choisi la combinaison secrète : 2123
+2018-09-05 16:27:20 TRACE MastermindChallenger:317 - Le joueur quitte le jeu
