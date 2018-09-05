@@ -138,7 +138,7 @@ public class MastermindChallenger {
                         strSolution = strSolution + combinaisonAleatoire[i];
                     }
                     endGame.setText("Perdu ! La solution était : " + strSolution);
-                    logger.info("Le joueur gagne il lui reste " + life + " vie(s)");
+                    logger.info("Le joueur perd");
                     fenetre.setContentPane(endGamePan);
                     fenetre.setVisible(true);
                 }
