@@ -38,6 +38,7 @@ public class Accueil extends JFrame {
     JButton boutonMastermindDefender = new JButton("Mode défenseur");
     JButton boutonMastermindDuel = new JButton("Mode Duel");
 
+
     // Constructeur par défaut
     public Accueil(){
 
@@ -143,7 +144,4 @@ public class Accueil extends JFrame {
             Mastermind mastermind = new Mastermind(boutonMastermindDuel.getText());
         }
     }
-
-
-
 }

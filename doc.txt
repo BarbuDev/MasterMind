@@ -1,0 +1,5 @@
+readme en .md
+Diagramme de classe et use case
+Préparation document soutenance
+
+générer la javadoc

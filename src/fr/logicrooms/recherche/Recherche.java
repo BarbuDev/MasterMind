@@ -5,6 +5,7 @@ public class Recherche {
 
     private String modeDeJeu = "";
     public static final Logger logger = Logger.getLogger(Recherche.class);
+
     public Recherche(String mode) {
         this.modeDeJeu = mode;
         switch (modeDeJeu) {

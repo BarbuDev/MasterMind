@@ -8,15 +8,15 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MastermindChallenger {
+public class MastermindChallenger{
 
     // Ajout du logger
     public static final Logger logger = Logger.getLogger(MastermindChallenger.class);
 
-    // Variables a récupérées dans config.properties
-    CallConfig config = new CallConfig();
-    Boolean modeDev = config.CallConfigBoolean("modeDev");
-    int colorNumbers = config.CallConfig("couleurMastermind");
+    // Variables à récupérées dans config.properties
+    private CallConfig config = new CallConfig();
+    private Boolean modeDev = config.CallConfigBoolean("modeDev");
+    private int colorNumbers = config.CallConfig("couleurMastermind");
     int life = config.CallConfig("vie");
 
     // autres variables
@@ -39,13 +39,13 @@ public class MastermindChallenger {
 
     // création des labels
     JLabel mainLab = new JLabel("Mastermind");
-    JLabel solutionLab = new JLabel("Vos propositions précédentes : ");
+    JLabel solutionLab = new JLabel("Trouvé la combinaison de 4 chiffres compris entre 0 et " + (colorNumbers -1));
     JLabel entriesLab = new JLabel("Faites votre proposition :");
     JLabel endGame = new JLabel("Fin de jeu par ici");
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
-    JButton boutonRejouer = new JButton("Rejouer");
+    JButton boutonRejouer = new JButton("Changer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
@@ -165,7 +165,7 @@ public class MastermindChallenger {
             }catch (Exception z){
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + colorNumbers, "Attention", JOptionPane.WARNING_MESSAGE);
             }
         }
     }

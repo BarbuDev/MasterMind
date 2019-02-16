@@ -44,13 +44,13 @@ public class MastermindDeffenseur {
 
     // création des labels
     JLabel mainLab = new JLabel("Mastermind");
-    JLabel solutionLab = new JLabel("Choisissez une combinaison secrète !");
+    JLabel solutionLab = new JLabel("Choisissez une combinaison secrète de 4 chiffres compris entre 0 et " + (colorNumber-1));
     JLabel entriesLab = new JLabel("Faites votre proposition :");
     JLabel endGame = new JLabel("Fin de jeu par ici");
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Commencer");
-    JButton boutonRejouer = new JButton("Rejouer");
+    JButton boutonRejouer = new JButton("Changer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
@@ -133,11 +133,12 @@ public class MastermindDeffenseur {
                 solutionLab.setText("<html>" + history + "</html>");
 
                 champText.setText("");
+                entriesLab.setText("Donnez l'indice à l'IA");
 
             } catch (Exception z) {
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + colorNumber, "Attention", JOptionPane.WARNING_MESSAGE);
             }
         }
     }
@@ -149,8 +150,6 @@ public class MastermindDeffenseur {
 
 
                 // récupération de l'indice
-
-                entriesLab.setText("Donner les indices à l'IA :");
                 indice = Integer.parseInt(champText.getText());
 
                 if(indice == 40){
@@ -186,7 +185,7 @@ public class MastermindDeffenseur {
                     history = history + "<br> L'IA propose la solution suivante : " + propositionIA;
 
                     solutionLab.setText("<html>" + history + "</html>");
-
+                    champText.setText("");
 
                     fenetre.setVisible(true);
                 }
@@ -195,7 +194,7 @@ public class MastermindDeffenseur {
             } catch (Exception z) {
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + colorNumber, "Attention", JOptionPane.WARNING_MESSAGE);
             }
         }
     }

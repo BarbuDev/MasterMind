@@ -61,12 +61,12 @@ public class RechercheDuel {
 
     // Création des Labels
     JLabel labCorpJeu = new JLabel();
-    JLabel labCorpTitre = new JLabel("Choisissez une combinaison secrète pour l'ordinateur !");
+    JLabel labCorpTitre = new JLabel("Choisissez une combinaison secrète à " + nombreDeChiffre + " chiffres pour l'ordinateur !");
     JLabel labFinJeu = new JLabel("Fin de jeu");
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
-    JButton boutonRejouer = new JButton("Rejouer");
+    JButton boutonRejouer = new JButton("Changer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
@@ -178,14 +178,14 @@ public class RechercheDuel {
                         System.out.println("Mode développeur activé !\nLa solution de l'ordinateur est : " + strSolutionOrdi + "\nLa solution du joueur est : " + strSolutionJoueur);
                     }
 
-                    labCorpJeu.setText("Essayez de trouver la combinaison de l'ordinateur :");
+                    labCorpJeu.setText("Essayez de trouver la combinaison à " + nombreDeChiffre + " chiffres");
                     boutonValider.removeActionListener(jouer);
                     boutonValider.addActionListener(tourJoueur);
 
             }catch (Exception z){
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez un entier à " + nombreDeChiffre + " chiffres.", "Attention", JOptionPane.WARNING_MESSAGE);
             }
 
         }
@@ -271,7 +271,7 @@ public class RechercheDuel {
 
                     labCorpTitre.setText("L'ordinateur propose : " + strPropositionOrdi);
                     boucleJoueur = 0;
-                    labCorpJeu.setText("Donner le chiffre N° " + (boucleJoueur + 1) + " de votre solution (" + strIndice + "):");
+                    labCorpJeu.setText("Faite votre proposition suivante " + strIndice);
 
 
             }catch(Exception z){

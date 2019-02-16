@@ -47,12 +47,12 @@ public class RechercheDeffenseur {
 
     // Création des Labels
     JLabel labCorpJeu = new JLabel();
-    JLabel labCorpTitre = new JLabel("Touver la combinaison à " + nombreDeChiffre + " chiffres !");
+    JLabel labCorpTitre = new JLabel("Choisissez une combinaison à " + nombreDeChiffre + " chiffres pour que l'IA.");
     JLabel labFinJeu = new JLabel("Fin de jeu");
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
-    JButton boutonRejouer = new JButton("Rejouer");
+    JButton boutonRejouer = new JButton("Changer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
@@ -137,6 +137,9 @@ public class RechercheDeffenseur {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
+                if (Integer.parseInt(champText.getText()) < 1){
+                    champText.setText("a");
+                }
                 choix = Integer.parseInt(champText.getText());
                 logger.debug("Le joueur choisi la combinaison :" + choix);
 
@@ -145,19 +148,12 @@ public class RechercheDeffenseur {
                     choix/=10;
                 }
 
-                //solutionStr += solution[boucle];
-                //System.out.print(solution[boucle]);
-                //champText.setText("");
                 int nombreEssai = 0;
 
                     for (int i = 0; i < nombreDeChiffre; i++) {
                         intervalMin[i] = 0;
                         intervalMax[i] = 10;
                     }
-
-
-
-
                     while (!win) {
 
                         nombreEssai++;
@@ -210,7 +206,7 @@ public class RechercheDeffenseur {
                 fenetre.setVisible(true);
             }catch (Exception z){
                 logger.warn("Mauvaise saisie du joueur");
-                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez un entier entre à " + nombreDeChiffre + " chiffres.", "Attention", JOptionPane.WARNING_MESSAGE);
             }
 
         }

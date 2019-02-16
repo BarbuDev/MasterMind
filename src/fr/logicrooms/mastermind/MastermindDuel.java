@@ -56,7 +56,7 @@ public class MastermindDuel {
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
-    JButton boutonRejouer = new JButton("Rejouer");
+    JButton boutonRejouer = new JButton("Changer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
@@ -122,7 +122,6 @@ public class MastermindDuel {
             }
         }
 
-        // construction Arraylist de toutes les combinaisons possibles
         // construction ArrayList de toutes les combinaisons possibles
         for (int i = 0; i < colorNumbers;i++){
             for(int j = 0;j<colorNumbers;j++){
@@ -156,7 +155,7 @@ public class MastermindDuel {
             } catch (Exception z) {
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + colorNumbers, "Attention", JOptionPane.WARNING_MESSAGE);
             }
         }
     }
@@ -223,7 +222,7 @@ public class MastermindDuel {
             }catch (Exception z){
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + colorNumbers, "Attention", JOptionPane.WARNING_MESSAGE);
             }
 
         }
@@ -269,14 +268,6 @@ public class MastermindDuel {
                     // proposition d'une nouvelle solution
                     propositionIA = Integer.parseInt((String) tabCombinaisonPossible.get(0));
 
-                    // fin de boucle
-
-
-                    /*history = history + "<br> L'IA propose la solution suivante : " + propositionIA;
-
-                    solutionLabIA.setText("<html>" + history + "</html>");*/
-
-
                     fenetre.setVisible(true);
                 }
 
@@ -287,7 +278,7 @@ public class MastermindDuel {
             } catch (Exception z) {
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + colorNumbers, "Attention", JOptionPane.WARNING_MESSAGE);
             }
         }
     }

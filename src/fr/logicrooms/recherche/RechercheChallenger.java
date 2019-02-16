@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 
 import org.apache.log4j.Logger;
 
-public class RechercheChallenger {
+public class RechercheChallenger{
 
     public static final Logger logger = Logger.getLogger(RechercheChallenger.class);
     // variable à récupérer dans config.properties
@@ -26,6 +26,7 @@ public class RechercheChallenger {
     char indice[] = new char[nombreDeChiffre];
     boolean win = false;
     String solutionStr = "";
+    String game = "rechercheChallenger";
 
 
     int choix;
@@ -50,12 +51,12 @@ public class RechercheChallenger {
 
     // Création des Labels
     JLabel labCorpJeu = new JLabel();
-    JLabel labCorpTitre = new JLabel("Touver la combinaison à " + nombreDeChiffre + " chiffres !");
+    JLabel labCorpTitre = new JLabel("Touvez la combinaison à " + nombreDeChiffre + " chiffres !");
     JLabel labFinJeu = new JLabel("Fin de jeu");
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Commencer");
-    JButton boutonRejouer = new JButton("Rejouer");
+    JButton boutonRejouer = new JButton("Changer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
@@ -132,6 +133,7 @@ public class RechercheChallenger {
         // Ajout des listeners
         boutonValider.addActionListener(commencer);
 
+        //boutonRejouer.addActionListener((ActionListener) new EndGame(game));
         boutonRejouer.addActionListener(new Rejouer());
         boutonChanger.addActionListener(new Changer());
         boutonQuiter.addActionListener(new Quiter());
@@ -242,7 +244,7 @@ public class RechercheChallenger {
             catch (Exception z){
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez un entier à " + nombreDeChiffre + " chiffres.", "Attention", JOptionPane.WARNING_MESSAGE);
             }
 
 
@@ -258,9 +260,7 @@ public class RechercheChallenger {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur rejour au même jeu");
-            RechercheChallenger recherche = new RechercheChallenger();
+
 
         }
     }
