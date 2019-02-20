@@ -47,12 +47,12 @@ public class RechercheDeffenseur {
 
     // Création des Labels
     JLabel labCorpJeu = new JLabel();
-    JLabel labCorpTitre = new JLabel("Choisissez une combinaison à " + nombreDeChiffre + " chiffres pour que l'IA.");
+    JLabel labCorpTitre = new JLabel("Choisissez une combinaison à " + nombreDeChiffre + " chiffres pour l'IA.");
     JLabel labFinJeu = new JLabel("Fin de jeu");
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
-    JButton boutonRejouer = new JButton("Changer");
+    JButton boutonRejouer = new JButton("Rejouer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 

@@ -1,5 +1,3 @@
-readme en .md
-Diagramme de classe et use case
-Préparation document soutenance
+Préparation document soutenance finir diagramme de classe (méthode + attributs)
 
 générer la javadoc

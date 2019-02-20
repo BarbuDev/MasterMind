@@ -66,7 +66,7 @@ public class RechercheDuel {
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
-    JButton boutonRejouer = new JButton("Changer");
+    JButton boutonRejouer = new JButton("Rejouer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 

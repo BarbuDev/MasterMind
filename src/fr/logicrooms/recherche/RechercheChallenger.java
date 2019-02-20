@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 
 import org.apache.log4j.Logger;
 
-public class RechercheChallenger{
+public class RechercheChallenger {
 
     public static final Logger logger = Logger.getLogger(RechercheChallenger.class);
     // variable à récupérer dans config.properties
@@ -56,7 +56,7 @@ public class RechercheChallenger{
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Commencer");
-    JButton boutonRejouer = new JButton("Changer");
+    JButton boutonRejouer = new JButton("Rejouer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
@@ -168,14 +168,6 @@ public class RechercheChallenger{
                     choix/=10;
                 }
 
-
-
-
-
-
-
-
-
                     if(!win && vie>=1) {
 
                         for (int i = 0; i < nombreDeChiffre; i++) {
@@ -215,7 +207,6 @@ public class RechercheChallenger{
                                 win = true;
                             }
                         }
-
                         if (win && vie>=1) {
                             String strSolution = "";
                             for (int i = 0; i < nombreDeChiffre; i++) {
@@ -233,11 +224,7 @@ public class RechercheChallenger{
                             logger.info("Le joueur à perdu");
                             fenetre.setContentPane(panFinJeu);
                         }
-
                     }
-
-
-
                 champText.setText(null);
                 fenetre.setVisible(true);
             }
@@ -246,13 +233,7 @@ public class RechercheChallenger{
                 logger.warn(z);
                 jOP.showMessageDialog(null, "Saisissez un entier à " + nombreDeChiffre + " chiffres.", "Attention", JOptionPane.WARNING_MESSAGE);
             }
-
-
-
-
         }
-
-
     }
 
 

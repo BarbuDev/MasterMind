@@ -13,7 +13,7 @@ public class Recherche {
             // condition de lancement du mode de jeu
             case "Mode Challenger":
                 logger.trace("Lancement du mode challenger");
-                RechercheChallenger challenger = new RechercheChallenger();
+                RechercheChallenger Recherche = new RechercheChallenger();
                 break;
             case "Mode défenseur":
                 logger.trace("Lancement du mode deffenseur");

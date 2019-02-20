@@ -50,7 +50,7 @@ public class MastermindDeffenseur {
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Commencer");
-    JButton boutonRejouer = new JButton("Changer");
+    JButton boutonRejouer = new JButton("Rejouer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
@@ -138,7 +138,7 @@ public class MastermindDeffenseur {
             } catch (Exception z) {
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + colorNumber, "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + (colorNumber-1), "Attention", JOptionPane.WARNING_MESSAGE);
             }
         }
     }

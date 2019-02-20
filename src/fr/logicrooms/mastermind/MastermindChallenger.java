@@ -45,7 +45,7 @@ public class MastermindChallenger{
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
-    JButton boutonRejouer = new JButton("Changer");
+    JButton boutonRejouer = new JButton("Rejouer");
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
@@ -165,7 +165,7 @@ public class MastermindChallenger{
             }catch (Exception z){
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + colorNumbers, "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + (colorNumbers-1), "Attention", JOptionPane.WARNING_MESSAGE);
             }
         }
     }
