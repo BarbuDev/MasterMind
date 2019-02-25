@@ -1,6 +1,6 @@
 faire diagramme de classe
 
-présentation
+
 nom + titre projet
 
 2ème rappel de l'objectif (cahier des charge)
@@ -11,4 +11,4 @@ nom + titre projet
 6bis - démo
 7 - conclusion (poinf fort faible) ce que j'ai compris
 
-faire readme en .md
+

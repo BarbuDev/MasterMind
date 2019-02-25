@@ -140,6 +140,12 @@ public class MastermindDuel {
             try {
                 entriesLab.setText("Faites votre proposition");
                 boutonValider.setText("Valider");
+                if (Integer.parseInt(champText.getText())<0){
+                    champText.setText("a");
+
+                }else if (Integer.parseInt(champText.getText())>((colorNumbers-1)*1111)){
+                    champText.setText("a");
+                }
                 combinaisonSecrete = Integer.parseInt(champText.getText());
                 boutonValider.removeActionListener(commencer);
                 boutonValider.addActionListener(jouer);

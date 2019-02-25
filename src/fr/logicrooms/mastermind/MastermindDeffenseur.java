@@ -31,6 +31,7 @@ public class MastermindDeffenseur {
     int combinaisonPossible[] = new int[4];
     ArrayList tabCombinaisonPossible = new ArrayList();
     int tabCombinaisonPossibleInt = 0;
+    String messageErreur = "Saisissez une combinaison à 4 chiffres compris entre 0 et " + (colorNumber-1);
 
     // création de la fenetre
     Fenetre fenetre = new Fenetre();
@@ -120,6 +121,13 @@ public class MastermindDeffenseur {
         public void actionPerformed(ActionEvent e) {
             try {
 
+                if (Integer.parseInt(champText.getText())<0){
+                    champText.setText("a");
+
+                }else if (Integer.parseInt(champText.getText())>5555){
+                    champText.setText("a");
+                }
+
                 boutonValider.setText("Valider");
                 combinaisonSecrete = Integer.parseInt(champText.getText());
                 boutonValider.removeActionListener(commencer);
@@ -140,6 +148,7 @@ public class MastermindDeffenseur {
                 logger.warn(z);
                 jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + (colorNumber-1), "Attention", JOptionPane.WARNING_MESSAGE);
             }
+            messageErreur = "Saisissez un indice compris entre 00 et 40";
         }
     }
     class Jouer implements ActionListener {
@@ -151,6 +160,7 @@ public class MastermindDeffenseur {
 
                 // récupération de l'indice
                 indice = Integer.parseInt(champText.getText());
+
 
                 if(indice == 40){
                     endGame.setText("L'IA a trouvé la solution : " + combinaisonSecrete);
@@ -194,7 +204,7 @@ public class MastermindDeffenseur {
             } catch (Exception z) {
                 logger.warn("Mauvaise saisie du joueur");
                 logger.warn(z);
-                jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + colorNumber, "Attention", JOptionPane.WARNING_MESSAGE);
+                jOP.showMessageDialog(null, messageErreur, "Attention", JOptionPane.WARNING_MESSAGE);
             }
         }
     }
