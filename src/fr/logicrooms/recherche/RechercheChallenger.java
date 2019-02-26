@@ -241,8 +241,9 @@ public class RechercheChallenger {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-
-
+            fenetre.setVisible(false);
+            logger.trace("Le joueur choisi de rejouer");
+            RechercheChallenger recherche = new RechercheChallenger();
         }
     }
 
