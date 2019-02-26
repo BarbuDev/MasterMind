@@ -26,14 +26,7 @@ public class RechercheChallenger {
     char indice[] = new char[nombreDeChiffre];
     boolean win = false;
     String solutionStr = "";
-    String game = "rechercheChallenger";
-
-
     int choix;
-    boolean rejouer = true;
-    boolean quiter = false;
-    boolean changer = false;
-
 
     // création de la fenetre
     Fenetre fenetre = new Fenetre();
