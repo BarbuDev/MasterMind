@@ -36,6 +36,7 @@ public class MastermindDuel {
     int combinaisonPossible[] = new int[4];
     int propositionIA = 0;
     CalculScore calcul = new CalculScore();
+    String stringPropositionIA ="";
 
     // création de la fenetre
     Fenetre fenetre = new Fenetre();
@@ -50,7 +51,7 @@ public class MastermindDuel {
     // création des labels
     JLabel mainLab = new JLabel("Mastermind");
     JLabel solutionLabJoueur = new JLabel("Vos propositions précédentes : ");
-    JLabel solutionLabIA = new JLabel("Proposition de l'IA");
+    JLabel solutionLabIA = new JLabel("Propositions de l'IA");
     JLabel entriesLab = new JLabel("Choisissez une combinaison secrète :");
     JLabel endGame = new JLabel("Fin de jeu par ici");
 
@@ -202,11 +203,11 @@ public class MastermindDuel {
 
                 if(tabPropositionJoueur == 0){
                     historique = historique + "0000";
-                }else if(tabPropositionJoueur <=9){
+                }else if(tabPropositionJoueur < 10){
                     historique = historique + "000" + tabPropositionJoueur;
-                }else if(tabPropositionJoueur <=99){
+                }else if(tabPropositionJoueur <100){
                     historique = historique + "00" + tabPropositionJoueur;
-                }else if(tabPropositionJoueur<=999){
+                }else if(tabPropositionJoueur<1000){
                     historique = historique + "0" + tabPropositionJoueur;
                 }else{
                     historique = historique + tabPropositionJoueur;
@@ -220,7 +221,18 @@ public class MastermindDuel {
                 champText.setText("");
 
                 entriesLab.setText("Donnez l'indice à l'IA");
-                history = history + "<br>" +propositionIA;
+
+                if(propositionIA < 10){
+                    stringPropositionIA = "000" + propositionIA;
+                }else if(propositionIA < 100){
+                    stringPropositionIA = "00" + propositionIA;
+                }else if(propositionIA <1000){
+                    stringPropositionIA = "0" + propositionIA;
+                }else{
+                    stringPropositionIA = "" + propositionIA;
+                }
+
+                history = history + "<br>" +stringPropositionIA;
                 solutionLabIA.setText("<html>" + history + "</html>");
                 boutonValider.removeActionListener(jouer);
                 boutonValider.addActionListener(tourIA);

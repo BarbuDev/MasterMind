@@ -5170,3 +5170,32 @@
 2019-02-26 12:47:26 TRACE Mastermind:22 - Lancement du mode duel
 2019-02-26 12:48:00 TRACE MastermindChallenger:152 - Le joueur choisi la combinaison secrète : 2110
 2019-02-26 12:52:05 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:00:35 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:00:45 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:00:45 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:00:50 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2110
+2019-02-26 13:02:18 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:02:20 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:02:20 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:02:26 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2110
+2019-02-26 13:04:29 INFO  MastermindChallenger:188 - Le joueur gagne il lui reste 6 vie(s)
+2019-02-26 13:04:32 TRACE MastermindChallenger:326 - Le joueur quitte le jeu
+2019-02-26 13:10:51 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:10:55 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:10:55 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:11:37 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2113
+2019-02-26 13:14:03 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:14:04 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:14:04 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:15:37 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:15:39 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:15:39 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:15:45 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2310
+2019-02-26 13:19:20 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:19:31 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:19:31 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:19:37 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2130
+2019-02-26 13:21:12 INFO  MastermindChallenger:188 - Le joueur gagne il lui reste 6 vie(s)
+2019-02-26 13:21:15 TRACE MastermindChallenger:309 - Le joueur choisi de rejouer
+2019-02-26 13:21:20 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2110
+2019-02-26 13:22:32 TRACE MastermindChallenger:326 - Le joueur quitte le jeu
