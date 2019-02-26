@@ -5066,3 +5066,107 @@
 2019-02-25 13:10:48 WARN  MastermindChallenger:205 - Mauvaise saisie du joueur
 2019-02-25 13:10:48 WARN  MastermindChallenger:206 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
 2019-02-25 13:10:59 TRACE MastermindChallenger:236 - Le joueur quitte le jeu
+2019-02-25 13:13:51 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:13:58 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:13:58 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:14:06 TRACE MastermindChallenger:137 - Le joueur choisi la combinaison secrète : 2650
+2019-02-25 13:16:08 WARN  MastermindChallenger:205 - Mauvaise saisie du joueur
+2019-02-25 13:16:08 WARN  MastermindChallenger:206 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:17:25 TRACE MastermindChallenger:236 - Le joueur quitte le jeu
+2019-02-25 13:26:44 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:26:47 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:26:47 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:26:52 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 2030
+2019-02-25 13:27:26 WARN  MastermindChallenger:214 - Mauvaise saisie du joueur
+2019-02-25 13:27:26 WARN  MastermindChallenger:215 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:27:36 WARN  MastermindChallenger:214 - Mauvaise saisie du joueur
+2019-02-25 13:27:36 WARN  MastermindChallenger:215 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:28:28 WARN  MastermindChallenger:214 - Mauvaise saisie du joueur
+2019-02-25 13:28:28 WARN  MastermindChallenger:215 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:28:36 WARN  MastermindChallenger:214 - Mauvaise saisie du joueur
+2019-02-25 13:28:36 WARN  MastermindChallenger:215 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:28:43 WARN  MastermindChallenger:214 - Mauvaise saisie du joueur
+2019-02-25 13:28:43 WARN  MastermindChallenger:215 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:28:53 TRACE MastermindChallenger:226 - Le joueur choisi de rejouer
+2019-02-25 13:33:14 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 2010
+2019-02-25 13:34:13 WARN  MastermindChallenger:214 - Mauvaise saisie du joueur
+2019-02-25 13:34:13 WARN  MastermindChallenger:215 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:34:25 TRACE MastermindChallenger:226 - Le joueur choisi de rejouer
+2019-02-25 13:34:32 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 3520
+2019-02-25 13:34:40 WARN  MastermindChallenger:214 - Mauvaise saisie du joueur
+2019-02-25 13:34:40 WARN  MastermindChallenger:215 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:34:48 WARN  MastermindChallenger:214 - Mauvaise saisie du joueur
+2019-02-25 13:34:48 WARN  MastermindChallenger:215 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:40:21 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:40:23 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:40:23 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:40:29 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 2000
+2019-02-25 13:41:14 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:41:18 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:41:18 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:41:22 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 2000
+2019-02-25 13:42:14 WARN  MastermindChallenger:214 - Mauvaise saisie du joueur
+2019-02-25 13:42:14 WARN  MastermindChallenger:215 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:42:26 TRACE MastermindChallenger:226 - Le joueur choisi de rejouer
+2019-02-25 13:42:32 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 123
+2019-02-25 13:47:53 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:47:57 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:47:57 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:48:11 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 2120
+2019-02-25 13:48:19 TRACE MastermindChallenger:239 - Le joueur choisi de rejouer
+2019-02-25 13:48:24 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 12
+2019-02-25 13:49:05 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:49:40 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:49:40 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:49:54 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 321
+2019-02-25 13:49:59 WARN  MastermindChallenger:227 - Mauvaise saisie du joueur
+2019-02-25 13:49:59 WARN  MastermindChallenger:228 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:50:09 WARN  MastermindChallenger:227 - Mauvaise saisie du joueur
+2019-02-25 13:50:09 WARN  MastermindChallenger:228 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:50:18 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:50:22 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:50:22 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:50:33 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 123
+2019-02-25 13:50:38 WARN  MastermindChallenger:227 - Mauvaise saisie du joueur
+2019-02-25 13:50:38 WARN  MastermindChallenger:228 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:50:51 WARN  MastermindChallenger:227 - Mauvaise saisie du joueur
+2019-02-25 13:50:51 WARN  MastermindChallenger:228 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-25 13:50:58 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:51:00 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:51:00 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:51:11 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 123
+2019-02-25 13:51:51 TRACE MastermindChallenger:258 - Le joueur quitte le jeu
+2019-02-25 13:54:59 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:55:01 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:55:01 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:55:06 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 321
+2019-02-25 13:55:56 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:55:59 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:55:59 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:56:03 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 3210
+2019-02-25 13:57:06 TRACE Main:9 - Entré dans le programme
+2019-02-25 13:57:10 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-25 13:57:10 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-25 13:57:14 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 2103
+2019-02-26 12:40:01 TRACE Main:9 - Entré dans le programme
+2019-02-26 12:40:21 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-26 12:40:21 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-26 12:40:25 WARN  MastermindChallenger:159 - Mauvaise saisie du joueur
+2019-02-26 12:40:25 WARN  MastermindChallenger:160 - java.lang.NumberFormatException: For input string: "p"
+2019-02-26 12:40:34 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 2350
+2019-02-26 12:40:37 WARN  MastermindChallenger:230 - Mauvaise saisie du joueur
+2019-02-26 12:40:37 WARN  MastermindChallenger:231 - java.lang.NumberFormatException: For input string: "a"
+2019-02-26 12:41:39 WARN  MastermindChallenger:230 - Mauvaise saisie du joueur
+2019-02-26 12:41:39 WARN  MastermindChallenger:231 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-02-26 12:42:22 TRACE Main:9 - Entré dans le programme
+2019-02-26 12:42:23 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-26 12:42:23 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-26 12:46:26 TRACE Main:9 - Entré dans le programme
+2019-02-26 12:46:44 TRACE Accueil:135 - Lancement du Mastermind
+2019-02-26 12:46:44 TRACE Mastermind:18 - Lancement du mode deffenseur
+2019-02-26 12:46:49 TRACE MastermindChallenger:138 - Le joueur choisi la combinaison secrète : 2110
+2019-02-26 12:47:24 TRACE MastermindChallenger:252 - Le joueur choisi de changer de jeu
+2019-02-26 12:47:26 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 12:47:26 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 12:48:00 TRACE MastermindChallenger:152 - Le joueur choisi la combinaison secrète : 2110
+2019-02-26 12:52:05 TRACE Main:9 - Entré dans le programme

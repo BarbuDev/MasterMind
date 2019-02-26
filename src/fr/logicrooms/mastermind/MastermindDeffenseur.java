@@ -25,6 +25,7 @@ public class MastermindDeffenseur {
     String history = "";
 
     int propositionIA = 0;
+    String stringPropositionIA;
     int indice = 0;
     CalculScore calcul = new CalculScore();
     int score = 0;
@@ -136,7 +137,18 @@ public class MastermindDeffenseur {
 
                 logger.trace("Le joueur choisi la combinaison secrète : " + combinaisonSecrete);
 
-                history = history + "Vous avez choisi la combinaison secrète suivante : " + combinaisonSecrete + "<br> L'IA propose la solution suivante : 0000";
+                String stringCombinaisonSecrete = "";
+
+                if(combinaisonSecrete < 10){
+                    stringCombinaisonSecrete = "000" + combinaisonSecrete;
+                }else if(combinaisonSecrete <100){
+                    stringCombinaisonSecrete = "00" + combinaisonSecrete;
+                }else if (combinaisonSecrete < 1000){
+                    stringCombinaisonSecrete = "0" + combinaisonSecrete;
+                }else{
+                    stringCombinaisonSecrete = ""+combinaisonSecrete;
+                }
+                history = history + "Vous avez choisi la combinaison secrète suivante : " + stringCombinaisonSecrete + "<br> L'IA propose la solution suivante : 0000";
 
                 solutionLab.setText("<html>" + history + "</html>");
 
@@ -163,13 +175,15 @@ public class MastermindDeffenseur {
 
 
                 if(indice == 40){
-                    endGame.setText("L'IA a trouvé la solution : " + combinaisonSecrete);
+                    endGame.setText("L'IA a trouvé la solution : " + stringPropositionIA);
                     fenetre.setContentPane(endGamePan);
                     fenetre.setSize(580, 200);
                     fenetre.setVisible(true);
                 }else {
 
                     tabCombinaisonPossible.remove(0);
+
+
 
                     // traitement de l'information
                     for (int i = 0; i < tabCombinaisonPossible.size(); i++) {
@@ -187,12 +201,23 @@ public class MastermindDeffenseur {
                         }
                     }
                     // proposition d'une nouvelle solution
+                    // Ajout des zéros pour affichage
+
                     propositionIA = Integer.parseInt((String) tabCombinaisonPossible.get(0));
+                    if (propositionIA <10){
+                        stringPropositionIA = "000" + propositionIA;
+                    }else if(propositionIA <100){
+                        stringPropositionIA = "00" + propositionIA;
+                    }else if(propositionIA <1000){
+                        stringPropositionIA = "0" + propositionIA;
+                    }else{
+                        stringPropositionIA = "" + propositionIA;
+                    }
 
                     // fin de boucle
 
 
-                    history = history + "<br> L'IA propose la solution suivante : " + propositionIA;
+                    history = history + "<br> L'IA propose la solution suivante : " + stringPropositionIA;
 
                     solutionLab.setText("<html>" + history + "</html>");
                     champText.setText("");
