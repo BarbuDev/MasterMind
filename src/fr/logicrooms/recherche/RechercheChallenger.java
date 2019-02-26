@@ -132,8 +132,6 @@ public class RechercheChallenger {
 
         // Ajout des listeners
         boutonValider.addActionListener(commencer);
-
-        //boutonRejouer.addActionListener((ActionListener) new EndGame(game));
         boutonRejouer.addActionListener(new Rejouer());
         boutonChanger.addActionListener(new Changer());
         boutonQuiter.addActionListener(new Quiter());

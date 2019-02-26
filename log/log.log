@@ -5226,3 +5226,12 @@
 2019-02-26 13:34:31 DEBUG RechercheChallenger:164 - Saisie du joueur : 5946
 2019-02-26 13:34:31 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
 2019-02-26 13:34:32 TRACE RechercheChallenger:264 - Le joueur quitte le jeu
+2019-02-26 13:42:19 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:42:20 TRACE Accueil:102 - Lancement du jeu recherche
+2019-02-26 13:42:20 TRACE Recherche:15 - Lancement du mode challenger
+2019-02-26 13:42:20 DEBUG RechercheChallenger:88 - La solution aléatoire est : 6246
+2019-02-26 13:42:25 DEBUG RechercheChallenger:164 - Saisie du joueur : 5555
+2019-02-26 13:42:31 DEBUG RechercheChallenger:164 - Saisie du joueur : 6246
+2019-02-26 13:42:31 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 8 vie(s)
+2019-02-26 13:42:34 TRACE RechercheChallenger:245 - Le joueur choisi de rejouer
+2019-02-26 13:42:34 DEBUG RechercheChallenger:88 - La solution aléatoire est : 8880
