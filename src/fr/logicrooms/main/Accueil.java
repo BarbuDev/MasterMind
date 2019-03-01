@@ -24,6 +24,15 @@ public class Accueil extends JFrame {
 
     public static final Logger logger = Logger.getLogger(Accueil.class);
 
+
+
+    int lifeConfig = config.CallConfig("life");
+    int combinaisonLengthConfig = config.CallConfig("combinaisonLength");
+    boolean modeDev = config.CallConfigBoolean("modeDev");
+    int colorsMastermindConfig = config.CallConfig("colorsMastermind");
+
+
+
     // Création de la première page du jeu
     Fenetre fenetre = new Fenetre();
 
@@ -56,6 +65,8 @@ public class Accueil extends JFrame {
      * Génère l'IHM et renvoi vers le bon jeu
      */
     public Accueil(){
+
+        human.setLife(config.CallConfig("life"));
 
         // configuration de la fenetre
         fenetre.setSize(480,300);

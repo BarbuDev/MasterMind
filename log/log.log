@@ -5170,6 +5170,7 @@
 2019-02-26 12:47:26 TRACE Mastermind:22 - Lancement du mode duel
 2019-02-26 12:48:00 TRACE MastermindChallenger:152 - Le joueur choisi la combinaison secrète : 2110
 2019-02-26 12:52:05 TRACE Main:9 - Entré dans le programme
+<<<<<<< HEAD
 2019-02-27 14:18:58 TRACE Main:9 - Entré dans le programme
 2019-02-27 14:19:00 TRACE Accueil:102 - Lancement du jeu recherche
 2019-02-27 14:19:00 TRACE Recherche:15 - Lancement du mode challenger
@@ -5181,3 +5182,70 @@
 2019-02-27 14:19:45 DEBUG RechercheChallenger:164 - Saisie du joueur : 2103
 2019-02-27 14:19:45 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 5 vie(s)
 2019-02-27 14:19:48 TRACE RechercheChallenger:263 - Le joueur quitte le jeu
+=======
+2019-02-26 13:00:35 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:00:45 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:00:45 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:00:50 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2110
+2019-02-26 13:02:18 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:02:20 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:02:20 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:02:26 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2110
+2019-02-26 13:04:29 INFO  MastermindChallenger:188 - Le joueur gagne il lui reste 6 vie(s)
+2019-02-26 13:04:32 TRACE MastermindChallenger:326 - Le joueur quitte le jeu
+2019-02-26 13:10:51 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:10:55 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:10:55 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:11:37 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2113
+2019-02-26 13:14:03 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:14:04 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:14:04 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:15:37 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:15:39 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:15:39 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:15:45 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2310
+2019-02-26 13:19:20 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:19:31 TRACE Accueil:143 - Lancement du jeu recherche
+2019-02-26 13:19:31 TRACE Mastermind:22 - Lancement du mode duel
+2019-02-26 13:19:37 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2130
+2019-02-26 13:21:12 INFO  MastermindChallenger:188 - Le joueur gagne il lui reste 6 vie(s)
+2019-02-26 13:21:15 TRACE MastermindChallenger:309 - Le joueur choisi de rejouer
+2019-02-26 13:21:20 TRACE MastermindChallenger:153 - Le joueur choisi la combinaison secrète : 2110
+2019-02-26 13:22:32 TRACE MastermindChallenger:326 - Le joueur quitte le jeu
+2019-02-26 13:31:16 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:31:20 TRACE Accueil:102 - Lancement du jeu recherche
+2019-02-26 13:31:20 TRACE Recherche:15 - Lancement du mode challenger
+2019-02-26 13:31:20 DEBUG RechercheChallenger:88 - La solution aléatoire est : 5713
+2019-02-26 13:31:26 DEBUG RechercheChallenger:164 - Saisie du joueur : 5555
+2019-02-26 13:31:35 DEBUG RechercheChallenger:164 - Saisie du joueur : 5733
+2019-02-26 13:31:49 DEBUG RechercheChallenger:164 - Saisie du joueur : 5713
+2019-02-26 13:31:49 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 7 vie(s)
+2019-02-26 13:31:58 TRACE RechercheChallenger:255 - le joueur veut changer de jeu
+2019-02-26 13:32:26 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:32:29 TRACE Accueil:102 - Lancement du jeu recherche
+2019-02-26 13:32:29 TRACE Recherche:15 - Lancement du mode challenger
+2019-02-26 13:32:29 DEBUG RechercheChallenger:88 - La solution aléatoire est : 6103
+2019-02-26 13:32:38 DEBUG RechercheChallenger:164 - Saisie du joueur : 6103
+2019-02-26 13:32:38 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
+2019-02-26 13:32:41 TRACE RechercheChallenger:263 - Le joueur quitte le jeu
+2019-02-26 13:34:04 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:34:06 TRACE Accueil:102 - Lancement du jeu recherche
+2019-02-26 13:34:06 TRACE Recherche:15 - Lancement du mode challenger
+2019-02-26 13:34:06 DEBUG RechercheChallenger:88 - La solution aléatoire est : 8070
+2019-02-26 13:34:20 DEBUG RechercheChallenger:164 - Saisie du joueur : 8070
+2019-02-26 13:34:20 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
+2019-02-26 13:34:22 TRACE RechercheChallenger:245 - Le joueur choisi de rejouer
+2019-02-26 13:34:22 DEBUG RechercheChallenger:88 - La solution aléatoire est : 5946
+2019-02-26 13:34:31 DEBUG RechercheChallenger:164 - Saisie du joueur : 5946
+2019-02-26 13:34:31 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
+2019-02-26 13:34:32 TRACE RechercheChallenger:264 - Le joueur quitte le jeu
+2019-02-26 13:42:19 TRACE Main:9 - Entré dans le programme
+2019-02-26 13:42:20 TRACE Accueil:102 - Lancement du jeu recherche
+2019-02-26 13:42:20 TRACE Recherche:15 - Lancement du mode challenger
+2019-02-26 13:42:20 DEBUG RechercheChallenger:88 - La solution aléatoire est : 6246
+2019-02-26 13:42:25 DEBUG RechercheChallenger:164 - Saisie du joueur : 5555
+2019-02-26 13:42:31 DEBUG RechercheChallenger:164 - Saisie du joueur : 6246
+2019-02-26 13:42:31 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 8 vie(s)
+2019-02-26 13:42:34 TRACE RechercheChallenger:245 - Le joueur choisi de rejouer
+2019-02-26 13:42:34 DEBUG RechercheChallenger:88 - La solution aléatoire est : 8880
+>>>>>>> refs/remotes/origin/master

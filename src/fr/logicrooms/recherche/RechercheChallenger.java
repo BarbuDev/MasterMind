@@ -33,14 +33,13 @@ public class RechercheChallenger {
     char indice[] = new char[nombreDeChiffre];
     boolean win = false;
     String solutionStr = "";
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> refs/remotes/origin/master
     int choix;
-    boolean rejouer = true;
-    boolean quiter = false;
-    boolean changer = false;
-
 
     // création de la fenetre
     Fenetre fenetre = new Fenetre();
@@ -140,8 +139,6 @@ public class RechercheChallenger {
 
         // Ajout des listeners
         boutonValider.addActionListener(commencer);
-
-        //boutonRejouer.addActionListener((ActionListener) new EndGame(game));
         boutonRejouer.addActionListener(new Rejouer());
         boutonChanger.addActionListener(new Changer());
         boutonQuiter.addActionListener(new Quiter());
