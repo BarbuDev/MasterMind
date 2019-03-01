@@ -10,6 +10,13 @@ import java.awt.event.ActionListener;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Joue le jeu de recherche en mode Challenger<br>
+ *     Algorithme utilisé : intervale qui se réduit fonction de la saisie joueur
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
 public class RechercheChallenger {
 
     public static final Logger logger = Logger.getLogger(RechercheChallenger.class);
@@ -26,7 +33,7 @@ public class RechercheChallenger {
     char indice[] = new char[nombreDeChiffre];
     boolean win = false;
     String solutionStr = "";
-    String game = "rechercheChallenger";
+
 
 
     int choix;
@@ -71,8 +78,9 @@ public class RechercheChallenger {
     Commencer commencer = new Commencer();
 
 
-
-
+    /**
+     * Construit l'IHM et selectionne la combinaison aléatoire
+     */
     public RechercheChallenger() {
 
         // choix de la combinaison aléatoire
@@ -143,6 +151,9 @@ public class RechercheChallenger {
 
     }
 
+    /**
+     * Récupère les information pour le lancement de la boucle de jeu
+     */
     class Commencer implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -153,6 +164,9 @@ public class RechercheChallenger {
         }
     }
 
+    /**
+     * Traite les informations et lance l'algorithme
+     */
     class Jouer implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -236,13 +250,18 @@ public class RechercheChallenger {
         }
     }
 
-
+    /**
+     * Traite l'interface de fin de jeu
+     *
+     * @see Accueil
+     */
     class Rejouer implements ActionListener {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-
-
+            fenetre.setVisible(false);
+            logger.trace("Le joueur choisi de rejouer");
+            RechercheChallenger recherche = new RechercheChallenger();
         }
     }
 

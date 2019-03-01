@@ -9,6 +9,14 @@ import java.awt.event.ActionListener;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Joue le jeu de recherche en mode Deffenseur<br>
+ *     Algorithme utilisé : intervale interval divisé par deux à chaque proposition IA
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
+
 public class RechercheDeffenseur {
 
     public static final Logger logger = Logger.getLogger(RechercheDeffenseur.class);
@@ -63,6 +71,10 @@ public class RechercheDeffenseur {
     Jouer jouer = new Jouer();
     Commencer commencer = new Commencer();
 
+    /**
+     * Construit l'IHM
+     */
+
     public RechercheDeffenseur() {
 
 
@@ -112,6 +124,9 @@ public class RechercheDeffenseur {
 
     }
 
+    /**
+     * Récupère les information pour le lancement de la boucle de jeu
+     */
     class Commencer implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -132,7 +147,9 @@ public class RechercheDeffenseur {
 
     }
 
-
+    /**
+     * Traite les informations et lance l'algorithme
+     */
     class Jouer implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -215,7 +232,11 @@ public class RechercheDeffenseur {
 
 
 
-
+    /**
+     * Traite l'interface de fin de jeu
+     *
+     * @see Accueil
+     */
     class Rejouer implements ActionListener {
 
         @Override

@@ -10,7 +10,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-
+/**
+ * Joue le jeu de mastermind en mode Duel<br>
+ *     Algorithme utilisé : Knuth (recherche de sous chaine)
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
 public class MastermindDuel {
     // Ajout du logger
     public static final Logger logger = Logger.getLogger(MastermindChallenger.class);
@@ -71,7 +77,9 @@ public class MastermindDuel {
     JOptionPane jOP = new JOptionPane();
 
 
-
+    /**
+     * Construit l'IHM et choisi une combinaison aléatoire pour le joueur
+     */
     public MastermindDuel(){
         // création de la fenetre
         fenetre.setSize(680, 350);
@@ -133,7 +141,9 @@ public class MastermindDuel {
             }
         }
     }
-
+    /**
+     * Récupère la combinaison choisie par le joueur
+     */
     class Commencer implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -165,7 +175,9 @@ public class MastermindDuel {
             }
         }
     }
-
+    /**
+     * Lance l'algorithme et traite les information saisie par le joueur
+     */
     class Jouer implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -233,7 +245,9 @@ public class MastermindDuel {
 
         }
     }
-
+    /**
+     * Lance l'algorithme et traite les information saisie par l'IA
+     */
     class TourIA implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -288,7 +302,11 @@ public class MastermindDuel {
             }
         }
     }
-
+    /**
+     * Traite l'interface de fin de jeu
+     *
+     * @see Accueil
+     */
     class Rejouer implements ActionListener {
 
         @Override

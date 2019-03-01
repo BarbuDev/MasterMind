@@ -1,7 +1,15 @@
 package fr.logicrooms.mastermind;
 
 import org.apache.log4j.Logger;
-
+/**
+ * Renvoi vers le bon mode du jeu Recherche
+ * @see MastermindChallenger
+ * @see MastermindDeffenseur
+ * @see MastermindDuel
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
 public class Mastermind {
     private String modeDeJeu = "";
     public static final Logger logger = Logger.getLogger(Mastermind.class);

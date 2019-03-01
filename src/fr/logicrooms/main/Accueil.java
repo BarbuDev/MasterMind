@@ -10,7 +10,18 @@ import java.awt.event.ActionListener;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Génère l'accueil du jeu : choix du type et mode
+ *
+ * @see Recherche
+ * @see Mastermind
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
+
 public class Accueil extends JFrame {
+
     public static final Logger logger = Logger.getLogger(Accueil.class);
 
     // Création de la première page du jeu
@@ -40,6 +51,10 @@ public class Accueil extends JFrame {
 
 
     // Constructeur par défaut
+
+    /**
+     * Génère l'IHM et renvoi vers le bon jeu
+     */
     public Accueil(){
 
         // configuration de la fenetre

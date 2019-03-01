@@ -8,7 +8,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-
+/**
+ * Joue le jeu de mastermind en mode Deffenseur<br>
+ *     Algorithme utilisé : Knuth (recherche de sous chaine)
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
 public class MastermindDeffenseur {
 
     // Ajout du logger
@@ -65,7 +71,9 @@ public class MastermindDeffenseur {
 
     JOptionPane jOP = new JOptionPane();
 
-
+    /**
+     * Construit l'IHM
+     */
     public MastermindDeffenseur() {
         // création de la fenetre
         fenetre.setSize(580, 350);
@@ -116,7 +124,9 @@ public class MastermindDeffenseur {
 
 
     }
-
+    /**
+     * Récupère la combinaison choisie par le joueur
+     */
     class Commencer implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -163,6 +173,10 @@ public class MastermindDeffenseur {
             messageErreur = "Saisissez un indice compris entre 00 et 40";
         }
     }
+
+    /**
+     * Lance l'algorithme et traite les information saisie par le joueur et l'IA
+     */
     class Jouer implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -233,7 +247,11 @@ public class MastermindDeffenseur {
             }
         }
     }
-
+    /**
+     * Traite l'interface de fin de jeu
+     *
+     * @see Accueil
+     */
         class Rejouer implements ActionListener {
 
             @Override

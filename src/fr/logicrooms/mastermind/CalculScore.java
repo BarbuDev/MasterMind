@@ -1,9 +1,25 @@
 package fr.logicrooms.mastermind;
 
+/**
+ * Calcul les scores pour l'algorithme de Knuth
+ *
+ * @author BarbuDev
+ * @version 1.0
+ * @see MastermindChallenger
+ * @see MastermindDeffenseur
+ * @see MastermindDuel
+ */
 public class CalculScore {
 
     public CalculScore(){}
 
+    /**
+     * Calcul le score du joueur ou de l'IA
+     * @param propositionJoueur Renvoi la proposition du joueur à traiter
+     * @param combinaisonAleatoire Renvoi la solution pour comparaison
+     * @param colorNumbers Renvoi le paramètre donnant le nombre de couleur du mastermind
+     * @return renvoi le score dans une variable de type integer
+     */
     public int calculer(int propositionJoueur, int[] combinaisonAleatoire, int colorNumbers){
 
         int combinaisonPossible[] = new int[colorNumbers];

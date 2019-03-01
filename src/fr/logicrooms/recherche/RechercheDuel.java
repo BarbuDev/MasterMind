@@ -8,7 +8,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import org.apache.log4j.Logger;
-
+/**
+ * Joue le jeu de recherche en mode Duel<br>
+ *     Algorithme utilisé : intervale interval divisé par deux à chaque proposition IA
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
 public class RechercheDuel {
 
     public static final Logger logger = Logger.getLogger(RechercheDuel.class);
@@ -79,7 +85,9 @@ public class RechercheDuel {
     Commencer commencer = new Commencer();
     TourJoueur tourJoueur = new TourJoueur();
 
-
+    /**
+     * Construit l'IHM
+     */
     public RechercheDuel() {
 
 
@@ -138,6 +146,7 @@ public class RechercheDuel {
         }
 
     }
+
     class Commencer implements ActionListener {
 
         @Override
@@ -150,6 +159,10 @@ public class RechercheDuel {
             fenetre.setVisible(true);
         }
     }
+
+    /**
+     * Récupère les information pour le lancement de la boucle de jeu
+     */
     class Jouer implements ActionListener {
 
         @Override
@@ -190,6 +203,9 @@ public class RechercheDuel {
 
         }
     }
+    /**
+     * Traite les informations du joueur et lance l'algorithme
+     */
     class TourJoueur implements ActionListener{
 
         @Override
@@ -282,6 +298,11 @@ public class RechercheDuel {
         }
     }
 
+    /**
+     * Traite l'interface de fin de jeu
+     *
+     * @see Accueil
+     */
     class Rejouer implements ActionListener {
 
         @Override

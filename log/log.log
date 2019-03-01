@@ -5170,3 +5170,14 @@
 2019-02-26 12:47:26 TRACE Mastermind:22 - Lancement du mode duel
 2019-02-26 12:48:00 TRACE MastermindChallenger:152 - Le joueur choisi la combinaison secrète : 2110
 2019-02-26 12:52:05 TRACE Main:9 - Entré dans le programme
+2019-02-27 14:18:58 TRACE Main:9 - Entré dans le programme
+2019-02-27 14:19:00 TRACE Accueil:102 - Lancement du jeu recherche
+2019-02-27 14:19:00 TRACE Recherche:15 - Lancement du mode challenger
+2019-02-27 14:19:00 DEBUG RechercheChallenger:88 - La solution aléatoire est : 2103
+2019-02-27 14:19:04 DEBUG RechercheChallenger:164 - Saisie du joueur : 0
+2019-02-27 14:19:21 DEBUG RechercheChallenger:164 - Saisie du joueur : 5505
+2019-02-27 14:19:30 DEBUG RechercheChallenger:164 - Saisie du joueur : 3303
+2019-02-27 14:19:37 DEBUG RechercheChallenger:164 - Saisie du joueur : 1103
+2019-02-27 14:19:45 DEBUG RechercheChallenger:164 - Saisie du joueur : 2103
+2019-02-27 14:19:45 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 5 vie(s)
+2019-02-27 14:19:48 TRACE RechercheChallenger:263 - Le joueur quitte le jeu

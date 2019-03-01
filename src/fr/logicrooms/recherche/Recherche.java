@@ -1,6 +1,16 @@
 package fr.logicrooms.recherche;
 import org.apache.log4j.Logger;
 
+/**
+ * Renvoi vers le bon mode du jeu Recherche
+ * @see RechercheChallenger
+ * @see RechercheDeffenseur
+ * @see RechercheDuel
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
+
 public class Recherche {
 
     private String modeDeJeu = "";

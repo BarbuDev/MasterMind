@@ -7,7 +7,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+/**
+ * Joue le jeu de mastermind en mode Challenger<br>
+ *     Algorithme utilisé : Knuth (recherche de sous chaine)
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
 public class MastermindChallenger{
 
     // Ajout du logger
@@ -58,7 +64,9 @@ public class MastermindChallenger{
     JOptionPane jOP = new JOptionPane();
 
 
-
+    /**
+     * Construit l'IHM et selectionne la combinaison aléatoire
+     */
     public MastermindChallenger(){
         // création de la fenetre
         fenetre.setSize(580, 350);
@@ -109,6 +117,9 @@ public class MastermindChallenger{
         }
     }
 
+    /**
+     * Lance le jeu et execute l'algorithme
+     */
     class Jouer implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -169,7 +180,11 @@ public class MastermindChallenger{
             }
         }
     }
-
+    /**
+     * Traite l'interface de fin de jeu
+     *
+     * @see Accueil
+     */
     class Rejouer implements ActionListener {
 
         @Override

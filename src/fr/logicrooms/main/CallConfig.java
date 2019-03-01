@@ -4,7 +4,13 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-
+/**
+ * Appel la configuration dans le fichier .properties <br>
+ *
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
 public class CallConfig {
 
     String nom;
@@ -14,6 +20,12 @@ public class CallConfig {
     public CallConfig() {
     }
 
+    /**
+     * Renvoi les variable de type integer
+     *
+     * @param nom Repprends le nom du paramètre à appeler
+     * @return Variable de type integer correspondant au paramètre nom
+     */
     public int CallConfig(String nom){
 
         this.nom = nom;
@@ -47,6 +59,12 @@ public class CallConfig {
         return valeur;
     }
 
+    /**
+     * Renvoi les variable de type boolean
+     *
+     * @param nom Repprends le nom du paramètre à appeler
+     * @return Variable de type boolean correspondant au paramètre nom
+     */
     public boolean CallConfigBoolean(String nom){
 
         this.nom = nom;
