@@ -5249,3 +5249,64 @@
 2019-02-26 13:42:34 TRACE RechercheChallenger:245 - Le joueur choisi de rejouer
 2019-02-26 13:42:34 DEBUG RechercheChallenger:88 - La solution aléatoire est : 8880
 >>>>>>> refs/remotes/origin/master
+2019-03-01 15:05:28 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:05:33 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-01 15:05:33 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-01 15:06:29 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:06:30 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-01 15:06:30 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-01 15:07:15 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:07:17 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-01 15:07:17 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-01 15:08:11 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:08:13 TRACE Accueil:136 - Lancement du jeu recherche
+2019-03-01 15:08:13 TRACE Recherche:33 - Lancement du mode duel
+2019-03-01 15:08:46 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:08:49 TRACE Accueil:136 - Lancement du jeu recherche
+2019-03-01 15:08:49 TRACE Recherche:33 - Lancement du mode duel
+2019-03-01 15:09:33 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:09:35 TRACE Accueil:136 - Lancement du jeu recherche
+2019-03-01 15:09:35 TRACE Recherche:33 - Lancement du mode duel
+2019-03-01 15:10:18 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:10:20 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-01 15:10:20 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-01 15:11:32 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:11:33 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-01 15:11:33 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-01 15:12:14 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:12:15 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-01 15:12:15 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-01 15:12:45 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:12:46 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-01 15:12:46 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-01 15:12:46 DEBUG RechercheChallenger:92 - La solution aléatoire est : 5025
+2019-03-01 15:12:54 DEBUG RechercheChallenger:172 - Saisie du joueur : 0
+2019-03-01 15:13:03 DEBUG RechercheChallenger:172 - Saisie du joueur : 7077
+2019-03-01 15:13:07 DEBUG RechercheChallenger:172 - Saisie du joueur : 5055
+2019-03-01 15:13:13 DEBUG RechercheChallenger:172 - Saisie du joueur : 5035
+2019-03-01 15:13:21 DEBUG RechercheChallenger:172 - Saisie du joueur : 5015
+2019-03-01 15:13:27 DEBUG RechercheChallenger:172 - Saisie du joueur : 5025
+2019-03-01 15:13:27 INFO  RechercheChallenger:224 - Le joueur gagne il lui reste 4 vie(s)
+2019-03-01 15:13:28 TRACE RechercheChallenger:268 - le joueur veut changer de jeu
+2019-03-01 15:13:29 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-01 15:13:29 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-01 15:13:39 DEBUG RechercheDeffenseur:161 - Le joueur choisi la combinaison :3210
+2019-03-01 15:13:39 DEBUG RechercheDeffenseur:220 - Résolution par l'ordinateur : 5555 - 2222 - 3211 - 3210 -  en 4 boucle(s)
+2019-03-01 15:13:41 TRACE RechercheDeffenseur:255 - Le joueur choisi de changer de jeu
+2019-03-01 15:13:42 TRACE Accueil:136 - Lancement du jeu recherche
+2019-03-01 15:13:42 TRACE Recherche:33 - Lancement du mode duel
+2019-03-01 15:13:48 DEBUG RechercheDuel:173 - le joueur choisi la combinaison suivante pour l'IA : 2563
+2019-03-01 15:13:48 DEBUG RechercheDuel:189 - La solution aléatoire du joueur est : 7044
+2019-03-01 15:14:01 TRACE RechercheDuel:285 - L'IA gagne
+2019-03-01 15:14:06 TRACE RechercheDuel:320 - Le joueur choisi de changer de jeu
+2019-03-01 15:14:08 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-01 15:14:08 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-01 15:14:40 TRACE Main:15 - Entré dans le programme
+2019-03-01 15:14:41 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-01 15:14:41 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-01 15:15:04 INFO  MastermindChallenger:141 - Le joueur gagne il lui reste 6 vie(s)
+2019-03-01 15:15:06 TRACE MastermindChallenger:202 - Le joueur choisi de changer de jeu
+2019-03-01 15:15:07 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-01 15:15:07 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-01 15:15:12 TRACE MastermindChallenger:148 - Le joueur choisi la combinaison secrète : 1245
+2019-03-01 15:15:36 TRACE MastermindChallenger:279 - Le joueur quitte le jeu

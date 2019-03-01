@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+
 /**
  * Appel la configuration dans le fichier .properties <br>
  *
@@ -14,7 +15,7 @@ import java.util.Properties;
 public class CallConfig {
 
     String nom;
-    int valeur;
+    private int valeur;
     boolean valeurBoolean;
 
     public CallConfig() {

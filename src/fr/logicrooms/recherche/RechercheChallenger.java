@@ -33,12 +33,9 @@ public class RechercheChallenger {
     char indice[] = new char[nombreDeChiffre];
     boolean win = false;
     String solutionStr = "";
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> refs/remotes/origin/master
     int choix;
 
     // création de la fenetre

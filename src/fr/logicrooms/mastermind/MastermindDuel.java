@@ -142,14 +142,14 @@ public class MastermindDuel {
             }
         }
     }
-<<<<<<< HEAD
+
     /**
      * Récupère la combinaison choisie par le joueur
      */
-=======
 
 
->>>>>>> refs/remotes/origin/master
+
+
     class Commencer implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {

@@ -21,8 +21,8 @@ public class RechercheDeffenseur {
 
     public static final Logger logger = Logger.getLogger(RechercheDeffenseur.class);
     // variable à récupérer dans config.properties
-    CallConfig config = new CallConfig();
-    int nombreDeChiffre = config.CallConfig("nombreChiffreCombinaison");
+    private CallConfig config = new CallConfig();
+    private int nombreDeChiffre = config.CallConfig("nombreChiffreCombinaison");
     boolean modeDev = config.CallConfigBoolean("modDev");
 
     // autre variables
