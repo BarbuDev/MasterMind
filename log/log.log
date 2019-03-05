@@ -1,0 +1,232 @@
+2019-03-05 21:26:24 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:26:27 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:26:27 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:26:27 DEBUG RechercheChallenger:89 - La solution aléatoire est : 80
+2019-03-05 21:26:36 DEBUG RechercheChallenger:163 - Saisie du joueur : 55
+2019-03-05 21:26:42 DEBUG RechercheChallenger:163 - Saisie du joueur : 73
+2019-03-05 21:26:48 DEBUG RechercheChallenger:163 - Saisie du joueur : 82
+2019-03-05 21:26:53 DEBUG RechercheChallenger:163 - Saisie du joueur : 81
+2019-03-05 21:26:58 DEBUG RechercheChallenger:163 - Saisie du joueur : 80
+2019-03-05 21:26:58 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 5 vie(s)
+2019-03-05 21:27:05 DEBUG RechercheChallenger:163 - Saisie du joueur : 80
+2019-03-05 21:28:52 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:28:58 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:28:58 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:28:59 DEBUG RechercheChallenger:89 - La solution aléatoire est : 78
+2019-03-05 21:29:04 DEBUG RechercheChallenger:163 - Saisie du joueur : 78
+2019-03-05 21:29:04 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:30:46 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:30:48 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:30:48 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:30:48 DEBUG RechercheChallenger:89 - La solution aléatoire est : 71
+2019-03-05 21:30:54 DEBUG RechercheChallenger:163 - Saisie du joueur : 71
+2019-03-05 21:30:54 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:30:57 WARN  RechercheChallenger:234 - Mauvaise saisie du joueur
+2019-03-05 21:30:57 WARN  RechercheChallenger:235 - java.lang.NumberFormatException: For input string: ""
+2019-03-05 21:31:04 DEBUG RechercheChallenger:163 - Saisie du joueur : 10
+2019-03-05 21:33:16 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:33:17 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:33:18 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:33:18 DEBUG RechercheChallenger:89 - La solution aléatoire est : 15
+2019-03-05 21:33:23 DEBUG RechercheChallenger:163 - Saisie du joueur : 15
+2019-03-05 21:33:23 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:33:38 WARN  RechercheChallenger:235 - Mauvaise saisie du joueur
+2019-03-05 21:33:38 WARN  RechercheChallenger:236 - java.lang.NumberFormatException: For input string: ""
+2019-03-05 21:33:44 DEBUG RechercheChallenger:163 - Saisie du joueur : 12
+2019-03-05 21:35:03 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:35:05 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:35:05 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:35:05 DEBUG RechercheChallenger:89 - La solution aléatoire est : 48
+2019-03-05 21:35:10 DEBUG RechercheChallenger:163 - Saisie du joueur : 48
+2019-03-05 21:35:10 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:35:49 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:35:52 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:35:52 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:35:52 DEBUG RechercheChallenger:89 - La solution aléatoire est : 87
+2019-03-05 21:35:58 DEBUG RechercheChallenger:163 - Saisie du joueur : 87
+2019-03-05 21:35:58 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:39:56 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:39:58 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:39:58 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:39:59 DEBUG RechercheChallenger:89 - La solution aléatoire est : 06
+2019-03-05 21:40:04 DEBUG RechercheChallenger:163 - Saisie du joueur : 6
+2019-03-05 21:40:04 INFO  RechercheChallenger:216 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:42:31 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:42:33 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:42:33 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:42:33 DEBUG RechercheChallenger:89 - La solution aléatoire est : 92
+2019-03-05 21:42:38 DEBUG RechercheChallenger:163 - Saisie du joueur : 92
+2019-03-05 21:42:38 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:42:53 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:42:55 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 21:42:55 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 21:43:01 DEBUG RechercheDeffenseur:161 - Le joueur choisi la combinaison :12
+2019-03-05 21:43:01 DEBUG RechercheDeffenseur:220 - Résolution par l'ordinateur : 55 - 22 - 12 -  en 3 boucle(s)
+2019-03-05 21:43:43 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:43:45 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:43:45 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:43:45 DEBUG RechercheChallenger:89 - La solution aléatoire est : 92
+2019-03-05 21:43:51 DEBUG RechercheChallenger:163 - Saisie du joueur : 92
+2019-03-05 21:43:51 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:45:46 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:45:48 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:45:48 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:45:48 DEBUG RechercheChallenger:89 - La solution aléatoire est : 00
+2019-03-05 21:45:53 DEBUG RechercheChallenger:163 - Saisie du joueur : 0
+2019-03-05 21:45:53 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:45:55 DEBUG RechercheChallenger:89 - La solution aléatoire est : 00
+2019-03-05 21:45:55 TRACE EndGame:67 - Le joueur choisi de rejouer
+2019-03-05 21:45:59 DEBUG RechercheChallenger:89 - La solution aléatoire est : 27
+2019-03-05 21:45:59 TRACE EndGame:67 - Le joueur choisi de rejouer
+2019-03-05 21:46:36 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:46:37 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 21:46:37 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 21:46:38 DEBUG RechercheChallenger:89 - La solution aléatoire est : 65
+2019-03-05 21:46:43 DEBUG RechercheChallenger:163 - Saisie du joueur : 65
+2019-03-05 21:46:43 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:46:45 DEBUG RechercheChallenger:89 - La solution aléatoire est : 94
+2019-03-05 21:46:45 TRACE EndGame:67 - Le joueur choisi de rejouer
+2019-03-05 21:46:51 DEBUG RechercheChallenger:163 - Saisie du joueur : 94
+2019-03-05 21:46:51 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 21:46:53 DEBUG RechercheChallenger:89 - La solution aléatoire est : 47
+2019-03-05 21:46:53 TRACE EndGame:67 - Le joueur choisi de rejouer
+2019-03-05 21:46:58 DEBUG RechercheChallenger:163 - Saisie du joueur : 55
+2019-03-05 21:47:02 DEBUG RechercheChallenger:163 - Saisie du joueur : 37
+2019-03-05 21:47:07 DEBUG RechercheChallenger:163 - Saisie du joueur : 17
+2019-03-05 21:47:11 DEBUG RechercheChallenger:163 - Saisie du joueur : 27
+2019-03-05 21:47:17 DEBUG RechercheChallenger:163 - Saisie du joueur : 47
+2019-03-05 21:47:17 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 5 vie(s)
+2019-03-05 21:47:20 TRACE EndGame:80 - le joueur veut changer de jeu
+2019-03-05 21:56:18 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:56:20 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 21:56:20 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 21:56:26 DEBUG RechercheDeffenseur:155 - Le joueur choisi la combinaison :25
+2019-03-05 21:56:26 DEBUG RechercheDeffenseur:213 - Résolution par l'ordinateur : 55 - 25 -  en 2 boucle(s)
+2019-03-05 21:57:08 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:57:11 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 21:57:11 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 21:57:15 DEBUG RechercheDeffenseur:155 - Le joueur choisi la combinaison :55
+2019-03-05 21:57:15 DEBUG RechercheDeffenseur:213 - Résolution par l'ordinateur : 55 -  en 1 boucle(s)
+2019-03-05 21:57:27 TRACE EndGame:103 - Le joueur quitte le jeu
+2019-03-05 21:57:40 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:57:42 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 21:57:42 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 21:57:46 DEBUG RechercheDeffenseur:155 - Le joueur choisi la combinaison :23
+2019-03-05 21:57:46 DEBUG RechercheDeffenseur:213 - Résolution par l'ordinateur : 55 - 22 - 23 -  en 3 boucle(s)
+2019-03-05 21:57:49 TRACE EndGame:95 - le joueur veut changer de jeu
+2019-03-05 21:58:33 TRACE Main:15 - Entré dans le programme
+2019-03-05 21:58:35 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 21:58:35 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 21:58:40 DEBUG RechercheDeffenseur:155 - Le joueur choisi la combinaison :19
+2019-03-05 21:58:40 DEBUG RechercheDeffenseur:213 - Résolution par l'ordinateur : 55 - 27 - 18 - 19 -  en 4 boucle(s)
+2019-03-05 21:58:43 DEBUG RechercheChallenger:89 - La solution aléatoire est : 85
+2019-03-05 21:58:43 TRACE EndGame:82 - Le joueur choisi de rejouer
+2019-03-05 21:59:29 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:00:10 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:00:13 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 22:00:13 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 22:00:18 DEBUG RechercheDeffenseur:155 - Le joueur choisi la combinaison :59
+2019-03-05 22:00:18 DEBUG RechercheDeffenseur:213 - Résolution par l'ordinateur : 55 - 57 - 58 - 59 -  en 4 boucle(s)
+2019-03-05 22:00:24 TRACE EndGame:82 - Le joueur choisi de rejouer
+2019-03-05 22:01:23 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:01:26 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 22:01:26 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 22:01:26 DEBUG RechercheChallenger:89 - La solution aléatoire est : 71
+2019-03-05 22:01:32 DEBUG RechercheChallenger:163 - Saisie du joueur : 71
+2019-03-05 22:01:32 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 22:01:34 DEBUG RechercheChallenger:89 - La solution aléatoire est : 08
+2019-03-05 22:01:34 TRACE EndGame:82 - Le joueur choisi de rejouer
+2019-03-05 22:02:43 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:02:45 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 22:02:45 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 22:02:45 DEBUG RechercheChallenger:89 - La solution aléatoire est : 04
+2019-03-05 22:02:52 DEBUG RechercheChallenger:163 - Saisie du joueur : 4
+2019-03-05 22:02:52 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 22:02:54 DEBUG RechercheChallenger:89 - La solution aléatoire est : 73
+2019-03-05 22:02:54 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 22:03:09 DEBUG RechercheChallenger:163 - Saisie du joueur : 73
+2019-03-05 22:03:09 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 22:03:11 TRACE EndGame:101 - le joueur veut changer de jeu
+2019-03-05 22:03:13 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 22:03:13 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 22:03:18 DEBUG RechercheDeffenseur:155 - Le joueur choisi la combinaison :15
+2019-03-05 22:03:18 DEBUG RechercheDeffenseur:213 - Résolution par l'ordinateur : 55 - 25 - 15 -  en 3 boucle(s)
+2019-03-05 22:03:21 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 22:04:11 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:04:13 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 22:04:13 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 22:04:13 DEBUG RechercheChallenger:89 - La solution aléatoire est : 19
+2019-03-05 22:04:20 DEBUG RechercheChallenger:163 - Saisie du joueur : 19
+2019-03-05 22:04:20 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 22:04:27 DEBUG RechercheChallenger:89 - La solution aléatoire est : 62
+2019-03-05 22:04:27 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 22:04:51 DEBUG RechercheChallenger:163 - Saisie du joueur : 62
+2019-03-05 22:04:51 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 22:04:55 DEBUG RechercheChallenger:89 - La solution aléatoire est : 87
+2019-03-05 22:04:56 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 22:05:04 DEBUG RechercheChallenger:163 - Saisie du joueur : 87
+2019-03-05 22:05:04 INFO  RechercheChallenger:218 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-05 22:05:06 TRACE EndGame:101 - le joueur veut changer de jeu
+2019-03-05 22:05:07 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 22:05:07 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 22:05:15 DEBUG RechercheDeffenseur:155 - Le joueur choisi la combinaison :56
+2019-03-05 22:05:15 DEBUG RechercheDeffenseur:213 - Résolution par l'ordinateur : 55 - 57 - 56 -  en 3 boucle(s)
+2019-03-05 22:05:49 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:08:14 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:08:16 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 22:08:16 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 22:08:21 DEBUG RechercheDeffenseur:155 - Le joueur choisi la combinaison :26
+2019-03-05 22:08:21 DEBUG RechercheDeffenseur:213 - Résolution par l'ordinateur : 55 - 27 - 26 -  en 3 boucle(s)
+2019-03-05 22:12:43 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:12:45 TRACE Accueil:128 - Lancement du jeu recherche
+2019-03-05 22:12:45 TRACE Recherche:29 - Lancement du mode deffenseur
+2019-03-05 22:12:50 DEBUG RechercheDeffenseur:156 - Le joueur choisi la combinaison :12
+2019-03-05 22:12:50 DEBUG RechercheDeffenseur:213 - Résolution par l'ordinateur : 55 - 22 - 12 -  en 3 boucle(s)
+2019-03-05 22:12:56 TRACE EndGame:109 - Le joueur quitte le jeu
+2019-03-05 22:22:01 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:22:03 TRACE Accueil:136 - Lancement du jeu recherche
+2019-03-05 22:22:03 TRACE Recherche:33 - Lancement du mode duel
+2019-03-05 22:22:10 DEBUG RechercheDuel:173 - le joueur choisi la combinaison suivante pour l'IA : 55
+2019-03-05 22:22:10 DEBUG RechercheDuel:189 - La solution aléatoire du joueur est : 04
+2019-03-05 22:22:15 TRACE RechercheDuel:285 - L'IA gagne
+2019-03-05 22:22:20 TRACE RechercheDuel:311 - Le joueur choisi de rejouer
+2019-03-05 22:22:26 DEBUG RechercheDuel:173 - le joueur choisi la combinaison suivante pour l'IA : 19
+2019-03-05 22:22:26 DEBUG RechercheDuel:189 - La solution aléatoire du joueur est : 96
+2019-03-05 22:22:30 TRACE RechercheDuel:280 - Le joueur gagne
+2019-03-05 22:22:33 TRACE RechercheDuel:328 - Le joueur quitte le jeu
+2019-03-05 22:25:28 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:25:30 TRACE Accueil:136 - Lancement du jeu recherche
+2019-03-05 22:25:30 TRACE Recherche:33 - Lancement du mode duel
+2019-03-05 22:25:35 DEBUG RechercheDuel:173 - le joueur choisi la combinaison suivante pour l'IA : 26
+2019-03-05 22:25:35 DEBUG RechercheDuel:189 - La solution aléatoire du joueur est : 67
+2019-03-05 22:25:39 TRACE RechercheDuel:280 - Le joueur gagne
+2019-03-05 22:25:42 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 22:28:23 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:28:25 TRACE Accueil:136 - Lancement du jeu recherche
+2019-03-05 22:28:25 TRACE Recherche:33 - Lancement du mode duel
+2019-03-05 22:28:31 DEBUG RechercheDuel:165 - le joueur choisi la combinaison suivante pour l'IA : 19
+2019-03-05 22:28:31 DEBUG RechercheDuel:181 - La solution aléatoire du joueur est : 18
+2019-03-05 22:28:45 TRACE RechercheDuel:272 - Le joueur gagne
+2019-03-05 22:28:48 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 22:29:03 DEBUG RechercheDuel:165 - le joueur choisi la combinaison suivante pour l'IA : 56
+2019-03-05 22:29:03 DEBUG RechercheDuel:181 - La solution aléatoire du joueur est : 47
+2019-03-05 22:29:48 TRACE RechercheDuel:272 - Le joueur gagne
+2019-03-05 22:29:50 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 22:29:56 DEBUG RechercheDuel:165 - le joueur choisi la combinaison suivante pour l'IA : 55
+2019-03-05 22:29:56 DEBUG RechercheDuel:181 - La solution aléatoire du joueur est : 02
+2019-03-05 22:29:59 TRACE RechercheDuel:277 - L'IA gagne
+2019-03-05 22:30:04 TRACE EndGame:109 - Le joueur quitte le jeu
+2019-03-05 22:34:23 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:34:26 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-05 22:34:26 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-05 22:34:55 INFO  MastermindChallenger:131 - Le joueur gagne il lui reste 6 vie(s)
+2019-03-05 22:34:57 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 22:35:34 INFO  MastermindChallenger:141 - Le joueur perd
+2019-03-05 22:35:39 TRACE EndGame:109 - Le joueur quitte le jeu
+2019-03-05 22:38:09 TRACE Main:15 - Entré dans le programme
+2019-03-05 22:38:12 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-05 22:38:12 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-05 22:38:19 TRACE MastermindChallenger:140 - Le joueur choisi la combinaison secrète : 2345
+2019-03-05 22:38:48 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 22:38:55 TRACE MastermindChallenger:140 - Le joueur choisi la combinaison secrète : 0
+2019-03-05 22:39:15 TRACE EndGame:109 - Le joueur quitte le jeu

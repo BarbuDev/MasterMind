@@ -2,6 +2,7 @@ package fr.logicrooms.mastermind;
 
 import fr.logicrooms.main.Accueil;
 import fr.logicrooms.main.CallConfig;
+import fr.logicrooms.main.EndGame;
 import fr.logicrooms.main.Fenetre;
 import org.apache.log4j.Logger;
 
@@ -111,9 +112,6 @@ public class MastermindDuel {
 
         // Ajout des listeners
         boutonValider.addActionListener(commencer);
-        boutonRejouer.addActionListener(new MastermindDuel.Rejouer());
-        boutonChanger.addActionListener(new MastermindDuel.Changer());
-        boutonQuiter.addActionListener(new MastermindDuel.Quiter());
 
         // affichage de la fenetre
         fenetre.setVisible(true);
@@ -201,22 +199,12 @@ public class MastermindDuel {
 
                 // sortie de la boucle de jeu lorsque la combinaison est trouvée
                 if(score == 40){
-                    endGame.setText("Bravo vous avez GAGNEZ !");
+                    EndGame endGame = new EndGame();
+                    endGame.finDeJeu("mastermindDuel","Bravo vous avez GAGNEZ !");
                     logger.info("Le joueur gagne il lui reste " + life + " vie(s)");
-                    fenetre.setContentPane(endGamePan);
-                    fenetre.setSize(580, 200);
-                    fenetre.setVisible(true);
+                    fenetre.setVisible(false);
                 }
-                if (life <= 1){
 
-                    for (int i = 0; i < 4; i++) {
-                        strSolution = strSolution + combinaisonAleatoire[i];
-                    }
-                    endGame.setText("Perdu ! La solution était : " + strSolution);
-                    logger.info("Le joueur perd");
-                    fenetre.setContentPane(endGamePan);
-                    fenetre.setVisible(true);
-                }
 
                 if(tabPropositionJoueur == 0){
                     historique = historique + "0000";
@@ -279,10 +267,9 @@ public class MastermindDuel {
                 champText.setText("");
 
                 if(indice == 40){
-                    endGame.setText("L'IA a trouvé la solution : " + combinaisonSecrete);
-                    fenetre.setContentPane(endGamePan);
-                    fenetre.setSize(580, 200);
-                    fenetre.setVisible(true);
+                    EndGame endGame = new EndGame();
+                    endGame.finDeJeu("mastermindDuel","L'IA a trouvé la solution : " + combinaisonSecrete);
+                    fenetre.setVisible(false);
                 }else {
 
                     tabCombinaisonPossible.remove(0);
@@ -319,35 +306,5 @@ public class MastermindDuel {
             }
         }
     }
-    /**
-     * Traite l'interface de fin de jeu
-     *
-     * @see Accueil
-     */
-    class Rejouer implements ActionListener {
 
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur choisi de rejouer");
-            MastermindDuel mastermind = new MastermindDuel();
-        }
-    }
-    class Changer implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur choisi de changer de jeu");
-            Accueil accueil = new Accueil();
-        }
-    }
-    class Quiter implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            logger.trace("Le joueur quitte le jeu");
-            System.exit(0);
-        }
-    }
 }

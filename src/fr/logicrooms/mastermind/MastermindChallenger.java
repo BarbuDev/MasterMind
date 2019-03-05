@@ -47,13 +47,9 @@ public class MastermindChallenger{
     JLabel mainLab = new JLabel("Mastermind");
     JLabel solutionLab = new JLabel("Trouvé la combinaison de 4 chiffres compris entre 0 et " + (colorNumbers -1));
     JLabel entriesLab = new JLabel("Faites votre proposition :");
-    JLabel endGame = new JLabel("Fin de jeu par ici");
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
-    JButton boutonRejouer = new JButton("Rejouer");
-    JButton boutonChanger = new JButton("Changer de jeu");
-    JButton boutonQuiter = new JButton("Quiter");
 
     // ajout champ de text
     JTextField champText = new JTextField();
@@ -88,17 +84,10 @@ public class MastermindChallenger{
         entriesPan.add(entriesLab, BorderLayout.WEST);
         entriesPan.add(champText,BorderLayout.CENTER);
         entriesPan.add(boutonValider, BorderLayout.EAST);
-        endGamePan.add(endGame, BorderLayout.CENTER);
         endGamePan.add(endGameButtonPan, BorderLayout.SOUTH);
-        endGameButtonPan.add(boutonRejouer);
-        endGameButtonPan.add(boutonChanger);
-        endGameButtonPan.add(boutonQuiter);
 
         // Ajout des listeners
         boutonValider.addActionListener(jouer);
-        boutonRejouer.addActionListener(new Rejouer());
-        boutonChanger.addActionListener(new Changer());
-        boutonQuiter.addActionListener(new Quiter());
 
         // affichage de la fenetre
         fenetre.setVisible(true);
@@ -137,21 +126,20 @@ public class MastermindChallenger{
 
                 // sortie de la boucle de jeu lorsque la combinaison est trouvée
                 if(score == 40){
-                    endGame.setText("Bravo vous avez GAGNEZ !");
+                    EndGame endGame = new EndGame();
+                    endGame.finDeJeu("mastermindChallenger","Bravo vous avez GAGNEZ !");
                     logger.info("Le joueur gagne il lui reste " + life + " vie(s)");
-                    fenetre.setContentPane(endGamePan);
-                    fenetre.setSize(580, 200);
-                    fenetre.setVisible(true);
+                    fenetre.setVisible(false);
                 }
                 if (life <= 1){
 
                     for (int i = 0; i < 4; i++) {
                         strSolution = strSolution + combinaisonAleatoire[i];
                     }
-                    endGame.setText("Perdu ! La solution était : " + strSolution);
+                    EndGame endGame = new EndGame();
+                    endGame.finDeJeu("mastermindChallenger","Perdu ! La solution était : " + strSolution);
                     logger.info("Le joueur perd");
-                    fenetre.setContentPane(endGamePan);
-                    fenetre.setVisible(true);
+                    fenetre.setVisible(false);
                 }
 
                 if(tabPropositionJoueur == 0){
@@ -178,37 +166,6 @@ public class MastermindChallenger{
                 logger.warn(z);
                 jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + (colorNumbers-1), "Attention", JOptionPane.WARNING_MESSAGE);
             }
-        }
-    }
-    /**
-     * Traite l'interface de fin de jeu
-     *
-     * @see Accueil
-     */
-    class Rejouer implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur choisi de rejouer");
-            MastermindChallenger mastermind = new MastermindChallenger();
-        }
-    }
-    class Changer implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur choisi de changer de jeu");
-            Accueil accueil = new Accueil();
-        }
-    }
-    class Quiter implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            logger.trace("Le joueur quitte le jeu");
-            System.exit(0);
         }
     }
 }

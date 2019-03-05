@@ -72,9 +72,7 @@ public class RechercheDuel {
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Valider");
-    JButton boutonRejouer = new JButton("Rejouer");
-    JButton boutonChanger = new JButton("Changer de jeu");
-    JButton boutonQuiter = new JButton("Quiter");
+
 
     // ajout champ de text
     JTextField champText = new JTextField();
@@ -114,9 +112,6 @@ public class RechercheDuel {
         panCorpJeu.add(labCorpTitre, BorderLayout.NORTH);
         panFinJeu.add(labFinJeu, BorderLayout.CENTER);
         panFinJeu.add(panBoutonFinJeu, BorderLayout.SOUTH);
-        panBoutonFinJeu.add(boutonRejouer);
-        panBoutonFinJeu.add(boutonChanger);
-        panBoutonFinJeu.add(boutonQuiter);
 
         // configuration des police d'écriture
         Font font = new Font("Georgia", Font.CENTER_BASELINE, 15);
@@ -130,9 +125,6 @@ public class RechercheDuel {
         // Ajout des listeners
         boutonValider.addActionListener(commencer);
 
-        boutonRejouer.addActionListener(new Rejouer());
-        boutonChanger.addActionListener(new Changer());
-        boutonQuiter.addActionListener(new Quiter());
 
 
         fenetre.setVisible(true);
@@ -274,14 +266,14 @@ public class RechercheDuel {
                         }
                     }
                 if (win) {
-                    labFinJeu.setText("Bravo vous avez gagné !");
-                    fenetre.setContentPane(panFinJeu);
-                    fenetre.setVisible(true);
+                        EndGame endGame = new EndGame();
+                        endGame.finDeJeu("rechercheDuel","Bravo vous avez gagné");
+                    fenetre.setVisible(false);
                     logger.trace("Le joueur gagne");
                 }else if (winIA) {
-                        labFinJeu.setText("L'ordinateur gagne votre solution était : " + strSolutionJoueur);
-                        fenetre.setContentPane(panFinJeu);
-                        fenetre.setVisible(true);
+                        EndGame endGame = new EndGame();
+                        endGame.finDeJeu("rechercheDuel","L'ordinateur gagne votre solution était : " + strSolutionJoueur);
+                        fenetre.setVisible(false);
                         logger.trace("L'IA gagne");
                     }
 
@@ -295,38 +287,6 @@ public class RechercheDuel {
                 logger.warn(z);
                 jOP.showMessageDialog(null, "Saisissez un entier entre 0 et 9", "Attention", JOptionPane.WARNING_MESSAGE);
             }
-        }
-    }
-
-    /**
-     * Traite l'interface de fin de jeu
-     *
-     * @see Accueil
-     */
-    class Rejouer implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur choisi de rejouer");
-            RechercheDuel recherche = new RechercheDuel();
-        }
-    }
-    class Changer implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur choisi de changer de jeu");
-            Accueil accueil = new Accueil();
-        }
-    }
-    class Quiter implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            logger.trace("Le joueur quitte le jeu");
-            System.exit(0);
         }
     }
 }

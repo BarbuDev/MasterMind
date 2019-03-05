@@ -58,9 +58,7 @@ public class MastermindDeffenseur {
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Commencer");
-    JButton boutonRejouer = new JButton("Rejouer");
-    JButton boutonChanger = new JButton("Changer de jeu");
-    JButton boutonQuiter = new JButton("Quiter");
+
 
     // ajout champ de text
     JTextField champText = new JTextField();
@@ -97,15 +95,9 @@ public class MastermindDeffenseur {
         entriesPan.add(boutonValider, BorderLayout.EAST);
         endGamePan.add(endGame, BorderLayout.CENTER);
         endGamePan.add(endGameButtonPan, BorderLayout.SOUTH);
-        endGameButtonPan.add(boutonRejouer);
-        endGameButtonPan.add(boutonChanger);
-        endGameButtonPan.add(boutonQuiter);
 
         // Ajout des listeners
         boutonValider.addActionListener(commencer);
-        boutonRejouer.addActionListener(new Rejouer());
-        boutonChanger.addActionListener(new Changer());
-        boutonQuiter.addActionListener(new Quiter());
 
         // affichage de la fenetre
         fenetre.setVisible(true);
@@ -189,10 +181,9 @@ public class MastermindDeffenseur {
 
 
                 if(indice == 40){
-                    endGame.setText("L'IA a trouvé la solution : " + stringPropositionIA);
-                    fenetre.setContentPane(endGamePan);
-                    fenetre.setSize(580, 200);
-                    fenetre.setVisible(true);
+                    EndGame endGame = new EndGame();
+                    endGame.finDeJeu("mastermindDeffenseur","L'IA a trouvé la solution : " + stringPropositionIA);
+                    fenetre.setVisible(false);
                 }else {
 
                     tabCombinaisonPossible.remove(0);
@@ -247,39 +238,7 @@ public class MastermindDeffenseur {
             }
         }
     }
-    /**
-     * Traite l'interface de fin de jeu
-     *
-     * @see Accueil
-     */
-        class Rejouer implements ActionListener {
 
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                fenetre.setVisible(false);
-                logger.trace("Le joueur choisi de rejouer");
-                MastermindDeffenseur mastermind = new MastermindDeffenseur();
-            }
-        }
-
-        class Changer implements ActionListener {
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                fenetre.setVisible(false);
-                logger.trace("Le joueur choisi de changer de jeu");
-                Accueil accueil = new Accueil();
-            }
-        }
-
-        class Quiter implements ActionListener {
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                logger.trace("Le joueur quitte le jeu");
-                System.exit(0);
-            }
-        }
 
 
 }

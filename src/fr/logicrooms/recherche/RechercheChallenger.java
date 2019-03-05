@@ -33,6 +33,7 @@ public class RechercheChallenger {
     char indice[] = new char[nombreDeChiffre];
     boolean win = false;
     String solutionStr = "";
+    String strFinJeu;
 
 
 
@@ -48,20 +49,16 @@ public class RechercheChallenger {
     //panel composant le corp du jeu
     JPanel panCorpJeu = new JPanel();
 
-    // panel de fin de jeu
-    JPanel panFinJeu = new JPanel();
-    JPanel panBoutonFinJeu = new JPanel();
+
 
     // Création des Labels
     JLabel labCorpJeu = new JLabel();
     JLabel labCorpTitre = new JLabel("Touvez la combinaison à " + nombreDeChiffre + " chiffres !");
-    JLabel labFinJeu = new JLabel("Fin de jeu");
+
 
     // ajout du bouton pour valider la proposition
     JButton boutonValider = new JButton("Commencer");
-    JButton boutonRejouer = new JButton("Rejouer");
-    JButton boutonChanger = new JButton("Changer de jeu");
-    JButton boutonQuiter = new JButton("Quiter");
+
 
     // ajout champ de text
     JTextField champText = new JTextField();
@@ -108,7 +105,7 @@ public class RechercheChallenger {
         // mise en place des Layout
         panCorpJeu.setLayout(new BorderLayout());
         panPrincipal.setLayout(new GridLayout(2, 1));
-        panFinJeu.setLayout(new BorderLayout());
+
 
         // adds des panels et éléments
         panPrincipal.add(panCorpJeu, BorderLayout.NORTH);
@@ -116,11 +113,7 @@ public class RechercheChallenger {
 
         panCorpJeu.add(boutonValider, BorderLayout.SOUTH);
         panCorpJeu.add(labCorpTitre, BorderLayout.NORTH);
-        panFinJeu.add(labFinJeu, BorderLayout.CENTER);
-        panFinJeu.add(panBoutonFinJeu, BorderLayout.SOUTH);
-        panBoutonFinJeu.add(boutonRejouer);
-        panBoutonFinJeu.add(boutonChanger);
-        panBoutonFinJeu.add(boutonQuiter);
+
 
 
         // configuration des police d'écriture
@@ -130,15 +123,13 @@ public class RechercheChallenger {
         champText.setFont(fontChampText);
         labCorpJeu.setFont(font);
         fenetre.setContentPane(panPrincipal);
-        labFinJeu.setFont(font);
+
 
 
 
         // Ajout des listeners
         boutonValider.addActionListener(commencer);
-        boutonRejouer.addActionListener(new Rejouer());
-        boutonChanger.addActionListener(new Changer());
-        boutonQuiter.addActionListener(new Quiter());
+
 
 
         fenetre.setVisible(true);
@@ -215,26 +206,32 @@ public class RechercheChallenger {
                                 win = true;
                             }
                         }
+                        champText.setText(null);
+                        fenetre.setVisible(true);
                         if (win && vie>=1) {
+
                             String strSolution = "";
                             for (int i = 0; i < nombreDeChiffre; i++) {
                                 strSolution = strSolution + solution[i];
                             }
-                            labFinJeu.setText("Bravo vous avez GAGNEZ ! La solution était : " + strSolution);
+                            strFinJeu = "Bravo vous avez gagner la solution était : " + strSolution;
                             logger.info("Le joueur gagne il lui reste " + vie + " vie(s)");
-                            fenetre.setContentPane(panFinJeu);
+                            fenetre.setVisible(false);
+                            EndGame endGame = new EndGame();
+                            endGame.finDeJeu("rechercheChallenger",strFinJeu);
+
+
                         }else if (vie < 1){
                             String strSolution = "";
                             for (int i = 0; i < nombreDeChiffre; i++) {
                                 strSolution = strSolution + solution[i];
                             }
-                            labFinJeu.setText("Domage vous avez perdu la solution était : " + strSolution);
+                            strFinJeu = "Domage vous avez perdu la solution était : " + strSolution;
                             logger.info("Le joueur à perdu");
-                            fenetre.setContentPane(panFinJeu);
+                            fenetre.setVisible(false);
                         }
                     }
-                champText.setText(null);
-                fenetre.setVisible(true);
+
             }
             catch (Exception z){
                 logger.warn("Mauvaise saisie du joueur");
@@ -244,39 +241,7 @@ public class RechercheChallenger {
         }
     }
 
-    /**
-     * Traite l'interface de fin de jeu
-     *
-     * @see Accueil
-     */
-    class Rejouer implements ActionListener {
 
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur choisi de rejouer");
-            RechercheChallenger recherche = new RechercheChallenger();
-        }
-    }
-
-    class Changer implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            Accueil accueil = new Accueil();
-            logger.trace("le joueur veut changer de jeu");
-        }
-    }
-
-    class Quiter implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            logger.trace("Le joueur quitte le jeu");
-            System.exit(0);
-        }
-    }
 
 
 }

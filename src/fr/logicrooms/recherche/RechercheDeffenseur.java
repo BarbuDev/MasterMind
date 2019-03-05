@@ -35,6 +35,7 @@ public class RechercheDeffenseur {
     int choix = 0;
     String strHistorique = "";
     String solutionStr = "";
+    String strFinJeu;
 
     // boite message d'erreur
     JOptionPane jOP = new JOptionPane();
@@ -112,12 +113,6 @@ public class RechercheDeffenseur {
 
         // Ajout des listeners
         boutonValider.addActionListener(commencer);
-
-        boutonRejouer.addActionListener(new Rejouer());
-        boutonChanger.addActionListener(new Changer());
-        boutonQuiter.addActionListener(new Quiter());
-
-
         fenetre.setVisible(true);
 
 
@@ -210,59 +205,23 @@ public class RechercheDeffenseur {
                             strProposition = strProposition + proposition[i];
 
                         }
-                        labCorpJeu.setText("Mes propositions : " + strHistorique);
-                        labFinJeu.setText("Je sais j'ai trouvé en " + nombreEssai + " essais, la solution est :  " + strProposition);
+                        strFinJeu = "<html>Mes propositions : " + strHistorique + "\n" + "<br>Je sais j'ai trouvé en " + nombreEssai + " essais, la solution est :  " + strProposition + "</html>";
 
-                        fenetre.setContentPane(panFinJeu);
-                        fenetre.setVisible(true);
+
 
                     }
                     logger.debug("Résolution par l'ordinateur : " + strHistorique + " en " + nombreEssai + " boucle(s)");
+                    fenetre.setVisible(false);
+                    EndGame endGame = new EndGame();
+                    endGame.finDeJeu("rechercheDeffenseur",strFinJeu);
 
 
-                fenetre.setVisible(true);
+
             }catch (Exception z){
                 logger.warn("Mauvaise saisie du joueur");
                 jOP.showMessageDialog(null, "Saisissez un entier entre à " + nombreDeChiffre + " chiffres.", "Attention", JOptionPane.WARNING_MESSAGE);
             }
 
-        }
-    }
-
-
-
-
-    /**
-     * Traite l'interface de fin de jeu
-     *
-     * @see Accueil
-     */
-    class Rejouer implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur choisi de rejouer");
-            RechercheDeffenseur recherche = new RechercheDeffenseur();
-        }
-    }
-
-    class Changer implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fenetre.setVisible(false);
-            logger.trace("Le joueur choisi de changer de jeu");
-            Accueil accueil = new Accueil();
-        }
-    }
-
-    class Quiter implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            logger.trace("Le joueur choisi de quitter le jeu");
-            System.exit(0);
         }
     }
 }
