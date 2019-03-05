@@ -226,7 +226,8 @@ public class RechercheChallenger {
                             for (int i = 0; i < nombreDeChiffre; i++) {
                                 strSolution = strSolution + solution[i];
                             }
-                            strFinJeu = "Domage vous avez perdu la solution était : " + strSolution;
+                            EndGame endGame = new EndGame();
+                            endGame.finDeJeu("rechercheChallenger","Domage vous avez perdu la solution était : " + strSolution);
                             logger.info("Le joueur à perdu");
                             fenetre.setVisible(false);
                         }

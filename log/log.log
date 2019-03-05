@@ -230,3 +230,27 @@
 2019-03-05 22:38:48 TRACE EndGame:88 - Le joueur choisi de rejouer
 2019-03-05 22:38:55 TRACE MastermindChallenger:140 - Le joueur choisi la combinaison secrète : 0
 2019-03-05 22:39:15 TRACE EndGame:109 - Le joueur quitte le jeu
+2019-03-05 23:12:17 TRACE Main:15 - Entré dans le programme
+2019-03-05 23:12:19 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 23:12:19 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 23:12:19 DEBUG RechercheChallenger:89 - La solution aléatoire est : 43
+2019-03-05 23:12:27 DEBUG RechercheChallenger:163 - Saisie du joueur : 0
+2019-03-05 23:12:28 WARN  RechercheChallenger:238 - Mauvaise saisie du joueur
+2019-03-05 23:12:28 WARN  RechercheChallenger:239 - java.lang.NumberFormatException: For input string: ""
+2019-03-05 23:12:36 DEBUG RechercheChallenger:163 - Saisie du joueur : 0
+2019-03-05 23:12:49 TRACE Main:15 - Entré dans le programme
+2019-03-05 23:12:51 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 23:12:51 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 23:12:51 DEBUG RechercheChallenger:89 - La solution aléatoire est : 06
+2019-03-05 23:12:56 DEBUG RechercheChallenger:163 - Saisie du joueur : 55
+2019-03-05 23:13:00 DEBUG RechercheChallenger:163 - Saisie du joueur : 0
+2019-03-05 23:13:00 INFO  RechercheChallenger:231 - Le joueur à perdu
+2019-03-05 23:14:17 TRACE Main:15 - Entré dans le programme
+2019-03-05 23:14:18 TRACE Accueil:120 - Lancement du jeu recherche
+2019-03-05 23:14:18 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-05 23:14:18 DEBUG RechercheChallenger:89 - La solution aléatoire est : 64
+2019-03-05 23:14:22 DEBUG RechercheChallenger:163 - Saisie du joueur : 0
+2019-03-05 23:14:25 DEBUG RechercheChallenger:163 - Saisie du joueur : 0
+2019-03-05 23:14:25 INFO  RechercheChallenger:231 - Le joueur à perdu
+2019-03-05 23:14:30 DEBUG RechercheChallenger:89 - La solution aléatoire est : 95
+2019-03-05 23:14:30 TRACE EndGame:88 - Le joueur choisi de rejouer
