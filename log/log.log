@@ -254,3 +254,8 @@
 2019-03-05 23:14:25 INFO  RechercheChallenger:231 - Le joueur à perdu
 2019-03-05 23:14:30 DEBUG RechercheChallenger:89 - La solution aléatoire est : 95
 2019-03-05 23:14:30 TRACE EndGame:88 - Le joueur choisi de rejouer
+2019-03-05 23:17:26 TRACE Main:15 - Entré dans le programme
+2019-03-05 23:17:29 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-05 23:17:29 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-05 23:17:35 INFO  MastermindChallenger:141 - Le joueur perd
+2019-03-05 23:17:38 TRACE EndGame:109 - Le joueur quitte le jeu

@@ -13,6 +13,21 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Gère la fin de jeu
+ * @see RechercheChallenger
+ * @see RechercheDeffenseur
+ * @see RechercheDuel
+ * @see MastermindChallenger
+ * @see MastermindDeffenseur
+ * @see MastermindDuel
+ * @see Accueil
+ *
+ *
+ * @author BarbuDev
+ * @version 1.0
+ */
+
 public class EndGame {
 
     public static final Logger logger = Logger.getLogger(EndGame.class);
@@ -29,9 +44,13 @@ public class EndGame {
     JButton boutonChanger = new JButton("Changer de jeu");
     JButton boutonQuiter = new JButton("Quiter");
 
-    String strFinJeu;
     String classeRejouer;
 
+    /**
+     *
+     * @param classeRejouer
+     * @param strFinJeu
+     */
     public void finDeJeu (String classeRejouer,String strFinJeu){
 
         this.classeRejouer = classeRejouer;
@@ -53,11 +72,7 @@ public class EndGame {
         fenetre.setSize(580, 200);
         fenetre.setVisible(true);
     }
-    /**
-     * Traite l'interface de fin de jeu
-     *
-     * @see Accueil
-     */
+
     class Rejouer implements ActionListener {
 
         @Override
