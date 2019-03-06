@@ -23,7 +23,6 @@ public class RechercheDeffenseur {
     // variable à récupérer dans config.properties
     private CallConfig config = new CallConfig();
     private int nombreDeChiffre = config.CallConfig("nombreChiffreCombinaison");
-    boolean modeDev = config.CallConfigBoolean("modDev");
 
     // autre variables
     int solution[] = new int[nombreDeChiffre];

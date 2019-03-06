@@ -180,7 +180,7 @@ public class RechercheDuel {
                     }
                     logger.debug("La solution aléatoire du joueur est : " + strSolutionJoueur);
                     if (modeDev) {
-                        System.out.println("Mode développeur activé !\nLa solution de l'ordinateur est : " + strSolutionOrdi + "\nLa solution du joueur est : " + strSolutionJoueur);
+                        fenetre.setTitle(fenetre.getTitle()+" => Mode Dev activé solution joueur : " + strSolutionJoueur);
                     }
 
                     labCorpJeu.setText("Essayez de trouver la combinaison à " + nombreDeChiffre + " chiffres");

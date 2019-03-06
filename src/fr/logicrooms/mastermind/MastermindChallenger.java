@@ -100,8 +100,9 @@ public class MastermindChallenger{
 
         if(modeDev){
             // affichage de la combinaison
+            fenetre.setTitle(fenetre.getTitle()+" => Mode Développeur activé solution du joueur : ");
             for (int i = 0; i < 4; i++) {
-                System.out.print(combinaisonAleatoire[i]);
+                fenetre.setTitle(fenetre.getTitle()+combinaisonAleatoire[i]);
             }
         }
     }

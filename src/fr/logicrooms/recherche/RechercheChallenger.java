@@ -89,10 +89,8 @@ public class RechercheChallenger {
         logger.debug("La solution aléatoire est : " + solutionStr);
 
         if (modeDev) {
-            System.out.println("Jeu de recherche version challenger");
-            System.out.println("Mode Développeur activé !");
-            System.out.print("La solution est : " + solutionStr);
-
+            // affichage de la combinaison
+            fenetre.setTitle(fenetre.getTitle()+" => Mode Développeur activé solution du joueur : "+solutionStr);
         }
 
         // parametrage de la fenetre

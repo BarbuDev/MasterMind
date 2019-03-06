@@ -23,7 +23,6 @@ public class MastermindDeffenseur {
     // Variables a récupérées dans config.properties
 
     CallConfig config = new CallConfig();
-    Boolean modeDev = config.CallConfigBoolean("modeDev");
     int colorNumber = config.CallConfig("couleurMastermind");
 
     // autres variables
