@@ -1,4 +1,4 @@
-﻿# README.md
+﻿# Projet 3 : Mettez votre logique à l'épreuve (JAVA)
 
 
 Nom du projet : MasterMind
