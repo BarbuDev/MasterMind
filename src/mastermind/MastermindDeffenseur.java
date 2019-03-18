@@ -24,20 +24,21 @@ public class MastermindDeffenseur {
 
     CallConfig config = new CallConfig();
     int colorNumber = config.CallConfig("couleurMastermind");
+    int longueurCombinaison = config.CallConfig("nombreChiffreCombinaison");
 
     // autres variables
     int combinaisonSecrete = 0;
     String history = "";
 
     int propositionIA = 0;
-    String stringPropositionIA;
+    String stringPropositionIA="";
     int indice = 0;
     CalculScore calcul = new CalculScore();
     int score = 0;
-    int combinaisonPossible[] = new int[4];
+    int combinaisonPossible[] = new int[longueurCombinaison];
     ArrayList tabCombinaisonPossible = new ArrayList();
     int tabCombinaisonPossibleInt = 0;
-    String messageErreur = "Saisissez une combinaison à 4 chiffres compris entre 0 et " + (colorNumber-1);
+    String messageErreur = "Saisissez une combinaison à " + longueurCombinaison + " chiffres compris entre 0 et " + (colorNumber-1);
 
     // création de la fenetre
     Fenetre fenetre = new Fenetre();
@@ -51,7 +52,7 @@ public class MastermindDeffenseur {
 
     // création des labels
     JLabel mainLab = new JLabel("Mastermind");
-    JLabel solutionLab = new JLabel("Choisissez une combinaison secrète de 4 chiffres compris entre 0 et " + (colorNumber-1));
+    JLabel solutionLab = new JLabel("Choisissez une combinaison secrète de " + longueurCombinaison + " chiffres compris entre 0 et " + (colorNumber-1));
     JLabel entriesLab = new JLabel("Faites votre proposition :");
     JLabel endGame = new JLabel("Fin de jeu par ici");
 
@@ -101,17 +102,107 @@ public class MastermindDeffenseur {
         // affichage de la fenetre
         fenetre.setVisible(true);
 
-        // construction Arraylist de toutes les combinaisons possibles
-        // construction ArrayList de toutes les combinaisons possibles
-        for (int i = 0; i < colorNumber;i++){
+
+        if(longueurCombinaison==1){
+            for (int l = 0; l < colorNumber; l++){
+                tabCombinaisonPossible.add(""+l);
+            }
+        }
+        if(longueurCombinaison==2){
+            for (int k = 0; k < colorNumber; k++){
+                for (int l = 0; l < colorNumber; l++){
+                    tabCombinaisonPossible.add(""+k+l);
+                }
+            }
+        }
+        if(longueurCombinaison==3){
             for(int j = 0;j<colorNumber;j++){
                 for (int k = 0; k < colorNumber; k++){
                     for (int l = 0; l < colorNumber; l++){
-                        tabCombinaisonPossible.add(""+i+j+k+l);
+                        tabCombinaisonPossible.add(""+j+k+l);
                     }
                 }
             }
         }
+
+        // construction ArrayList de toutes les combinaisons possibles
+        if(longueurCombinaison==4) {
+            for (int i = 0; i < colorNumber; i++) {
+                for (int j = 0; j < colorNumber; j++) {
+                    for (int k = 0; k < colorNumber; k++) {
+                        for (int l = 0; l < colorNumber; l++) {
+                            tabCombinaisonPossible.add("" + i + j + k + l);
+                        }
+                    }
+                }
+            }
+        }
+        if(longueurCombinaison==5) {
+            for (int i = 0; i < colorNumber; i++) {
+                for (int j = 0; j < colorNumber; j++) {
+                    for (int k = 0; k < colorNumber; k++) {
+                        for (int l = 0; l < colorNumber; l++) {
+                            for (int m = 0; m < colorNumber; m++) {
+                                tabCombinaisonPossible.add("" + i + j + k + l + m);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if(longueurCombinaison==6) {
+            for (int i = 0; i < colorNumber; i++) {
+                for (int j = 0; j < colorNumber; j++) {
+                    for (int k = 0; k < colorNumber; k++) {
+                        for (int l = 0; l < colorNumber; l++) {
+                            for (int m = 0; m < colorNumber; m++) {
+                                for (int n = 0; n < colorNumber; n++) {
+                                    tabCombinaisonPossible.add("" + i + j + k + l + m + n);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if(longueurCombinaison==7) {
+            for (int i = 0; i < colorNumber; i++) {
+                for (int j = 0; j < colorNumber; j++) {
+                    for (int k = 0; k < colorNumber; k++) {
+                        for (int l = 0; l < colorNumber; l++) {
+                            for (int m = 0; m < colorNumber; m++) {
+                                for (int n = 0; n < colorNumber; n++) {
+                                    for (int o = 0; o < colorNumber; o++) {
+                                        tabCombinaisonPossible.add("" + i + j + k + l + m + n + o);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if(longueurCombinaison==8) {
+            for (int i = 0; i < colorNumber; i++) {
+                for (int j = 0; j < colorNumber; j++) {
+                    for (int k = 0; k < colorNumber; k++) {
+                        for (int l = 0; l < colorNumber; l++) {
+                            for (int m = 0; m < colorNumber; m++) {
+                                for (int n = 0; n < colorNumber; n++) {
+                                    for (int o = 0; o < colorNumber; o++) {
+                                        for (int p = 0; p < colorNumber; p++) {
+                                            tabCombinaisonPossible.add("" + i + j + k + l + m + n + o + p);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
 
 
     }
@@ -123,10 +214,14 @@ public class MastermindDeffenseur {
         public void actionPerformed(ActionEvent e) {
             try {
 
+                String z="";
+                for(int i = 0; i < longueurCombinaison;i++){
+                    z = z +"1";
+                }
                 if (Integer.parseInt(champText.getText())<0){
                     champText.setText("a");
 
-                }else if (Integer.parseInt(champText.getText())>5555){
+                }else if (Integer.parseInt(champText.getText())>((colorNumber-1)*Integer.parseInt(z))){
                     champText.setText("a");
                 }
 
@@ -140,16 +235,27 @@ public class MastermindDeffenseur {
 
                 String stringCombinaisonSecrete = "";
 
-                if(combinaisonSecrete < 10){
-                    stringCombinaisonSecrete = "000" + combinaisonSecrete;
-                }else if(combinaisonSecrete <100){
-                    stringCombinaisonSecrete = "00" + combinaisonSecrete;
-                }else if (combinaisonSecrete < 1000){
-                    stringCombinaisonSecrete = "0" + combinaisonSecrete;
-                }else{
-                    stringCombinaisonSecrete = ""+combinaisonSecrete;
+
+                int traitementZero = combinaisonSecrete;
+
+
+                for(int i = 0; i < longueurCombinaison;i++){
+                    if(traitementZero==0){
+                        stringCombinaisonSecrete = stringCombinaisonSecrete + "0";
+                    }
+                    traitementZero = traitementZero/10;
                 }
-                history = history + "Vous avez choisi la combinaison secrète suivante : " + stringCombinaisonSecrete + "<br> L'IA propose la solution suivante : 0000";
+                if(combinaisonSecrete != 0){
+                    stringCombinaisonSecrete = stringCombinaisonSecrete + combinaisonSecrete;
+                }
+                String premierChoix = "";
+
+                for(int i=0;i<longueurCombinaison;i++){
+                    premierChoix = premierChoix + "0";
+                }
+
+
+                history = history + "Vous avez choisi la combinaison secrète suivante : " + stringCombinaisonSecrete + "<br> L'IA propose la solution suivante : "+premierChoix;
 
                 solutionLab.setText("<html>" + history + "</html>");
 
@@ -161,7 +267,7 @@ public class MastermindDeffenseur {
                 logger.warn(z);
                 jOP.showMessageDialog(null, "Saisissez une combinaison à 4 chiffres compris entre 0 et " + (colorNumber-1), "Attention", JOptionPane.WARNING_MESSAGE);
             }
-            messageErreur = "Saisissez un indice compris entre 00 et 40";
+            messageErreur = "Saisissez un indice compris entre 00 et "+(longueurCombinaison-1)+"0";
         }
     }
 
@@ -179,7 +285,8 @@ public class MastermindDeffenseur {
                 indice = Integer.parseInt(champText.getText());
 
 
-                if(indice == 40){
+
+                if(indice == (longueurCombinaison*10)){
                     EndGame endGame = new EndGame();
                     endGame.finDeJeu("mastermindDeffenseur","L'IA a trouvé la solution : " + stringPropositionIA);
                     fenetre.setVisible(false);
@@ -192,11 +299,11 @@ public class MastermindDeffenseur {
                     // traitement de l'information
                     for (int i = 0; i < tabCombinaisonPossible.size(); i++) {
                         tabCombinaisonPossibleInt = Integer.parseInt((String) tabCombinaisonPossible.get(i));
-                        for (int j = 3; j >= 0; j--) {
+                        for (int j = (longueurCombinaison-1); j >= 0; j--) {
                             combinaisonPossible[j] = tabCombinaisonPossibleInt % 10;
                             tabCombinaisonPossibleInt /= 10;
                         }
-                        score = calcul.calculer(propositionIA, combinaisonPossible, colorNumber);
+                        score = calcul.calculer(propositionIA, combinaisonPossible, colorNumber,longueurCombinaison);
 
 
                         if (score != indice) {
@@ -208,15 +315,17 @@ public class MastermindDeffenseur {
                     // Ajout des zéros pour affichage
 
                     propositionIA = Integer.parseInt((String) tabCombinaisonPossible.get(0));
-                    if (propositionIA <10){
-                        stringPropositionIA = "000" + propositionIA;
-                    }else if(propositionIA <100){
-                        stringPropositionIA = "00" + propositionIA;
-                    }else if(propositionIA <1000){
-                        stringPropositionIA = "0" + propositionIA;
-                    }else{
-                        stringPropositionIA = "" + propositionIA;
+                    int traitementZero = propositionIA;
+                    for(int i = 0; i < longueurCombinaison;i++){
+                        if(traitementZero==0){
+                            stringPropositionIA = stringPropositionIA + "0";
+                        }
+                        traitementZero = traitementZero/10;
                     }
+                    if(propositionIA != 0){
+                        stringPropositionIA = stringPropositionIA + propositionIA;
+                    }
+
 
                     // fin de boucle
 
@@ -225,6 +334,7 @@ public class MastermindDeffenseur {
 
                     solutionLab.setText("<html>" + history + "</html>");
                     champText.setText("");
+                    stringPropositionIA = "";
 
                     fenetre.setVisible(true);
                 }

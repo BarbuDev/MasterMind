@@ -21,3 +21,260 @@
 2019-03-13 20:17:42 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
 2019-03-13 20:17:42 TRACE Recherche:25 - Lancement du mode challenger
 2019-03-13 20:17:42 DEBUG RechercheChallenger:87 - La solution aléatoire est : 2132
+2019-03-13 20:24:46 TRACE Main:20 - Entré dans le programme
+2019-03-13 20:31:24 TRACE Main:20 - Entré dans le programme
+2019-03-13 20:31:27 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-13 20:31:27 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-13 20:31:27 DEBUG RechercheChallenger:87 - La solution aléatoire est : 6184
+2019-03-13 20:31:34 DEBUG RechercheChallenger:159 - Saisie du joueur : 5555
+2019-03-13 20:31:44 DEBUG RechercheChallenger:159 - Saisie du joueur : 7373
+2019-03-13 20:32:04 DEBUG RechercheChallenger:159 - Saisie du joueur : 6184
+2019-03-13 20:32:04 INFO  RechercheChallenger:214 - Le joueur gagne il lui reste 7 vie(s)
+2019-03-13 20:32:07 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-13 20:38:37 TRACE Main:20 - Entré dans le programme
+2019-03-13 20:38:39 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-13 20:38:39 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-13 20:38:39 DEBUG RechercheChallenger:87 - La solution aléatoire est : 5590
+2019-03-13 20:38:51 DEBUG RechercheChallenger:159 - Saisie du joueur : 5555
+2019-03-13 20:38:57 DEBUG RechercheChallenger:159 - Saisie du joueur : 5573
+2019-03-13 20:39:04 DEBUG RechercheChallenger:159 - Saisie du joueur : 5581
+2019-03-13 20:39:12 DEBUG RechercheChallenger:159 - Saisie du joueur : 5590
+2019-03-13 20:39:12 INFO  RechercheChallenger:214 - Le joueur gagne il lui reste 6 vie(s)
+2019-03-13 20:39:14 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-16 15:02:17 TRACE Main:20 - Entré dans le programme
+2019-03-16 15:02:59 TRACE Main:20 - Entré dans le programme
+2019-03-16 15:03:00 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:03:00 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:03:00 DEBUG RechercheChallenger:87 - La solution aléatoire est : 9792
+2019-03-16 15:08:47 TRACE Main:20 - Entré dans le programme
+2019-03-16 15:08:50 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:08:50 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:08:50 DEBUG RechercheChallenger:87 - La solution aléatoire est : 
+2019-03-16 15:10:30 TRACE Main:20 - Entré dans le programme
+2019-03-16 15:10:32 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:10:32 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:10:32 DEBUG RechercheChallenger:87 - La solution aléatoire est : 
+2019-03-16 15:11:39 TRACE Main:20 - Entré dans le programme
+2019-03-16 15:11:41 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:11:41 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:11:41 DEBUG RechercheChallenger:87 - La solution aléatoire est : 3617
+2019-03-16 15:16:01 TRACE Main:20 - Entré dans le programme
+2019-03-16 15:19:41 TRACE Main:20 - Entré dans le programme
+2019-03-16 15:19:50 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:19:50 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:19:50 DEBUG RechercheChallenger:87 - La solution aléatoire est : 8724
+2019-03-16 15:20:02 DEBUG RechercheChallenger:159 - Saisie du joueur : 8724
+2019-03-16 15:20:02 INFO  RechercheChallenger:214 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-16 15:20:03 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-16 15:39:55 TRACE Main:20 - Entré dans le programme
+2019-03-16 15:39:57 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:39:57 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:39:57 DEBUG RechercheChallenger:87 - La solution aléatoire est : 7678
+2019-03-16 15:40:08 DEBUG RechercheChallenger:159 - Saisie du joueur : 4567
+2019-03-16 15:40:39 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:40:41 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:40:41 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:40:41 DEBUG RechercheChallenger:87 - La solution aléatoire est : 4113
+2019-03-16 15:41:48 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:43:00 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:43:32 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:53:09 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:53:10 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:53:10 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:53:10 DEBUG RechercheChallenger:87 - La solution aléatoire est : 
+2019-03-16 15:53:30 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:53:31 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:53:31 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:53:31 DEBUG RechercheChallenger:87 - La solution aléatoire est : 
+2019-03-16 15:54:01 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:54:03 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:54:03 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:54:03 DEBUG RechercheChallenger:87 - La solution aléatoire est : 
+2019-03-16 15:54:48 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:54:50 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:54:50 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:54:50 DEBUG RechercheChallenger:87 - La solution aléatoire est : 
+2019-03-16 15:55:40 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:55:42 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:55:42 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:55:42 DEBUG RechercheChallenger:87 - La solution aléatoire est : 9911
+2019-03-16 15:55:53 DEBUG RechercheChallenger:159 - Saisie du joueur : 9911
+2019-03-16 15:55:53 INFO  RechercheChallenger:214 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-16 15:55:54 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-17 12:33:09 TRACE Main:28 - Entré dans le programme
+2019-03-17 12:33:12 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 12:33:12 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 12:34:09 TRACE Main:28 - Entré dans le programme
+2019-03-17 12:34:10 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 12:34:10 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 12:35:16 TRACE Main:28 - Entré dans le programme
+2019-03-17 12:35:18 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 12:35:18 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 12:35:36 TRACE Main:28 - Entré dans le programme
+2019-03-17 12:35:38 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 12:35:38 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 12:36:23 TRACE Main:28 - Entré dans le programme
+2019-03-17 12:36:24 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 12:36:24 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 12:36:56 WARN  MastermindChallenger:167 - Mauvaise saisie du joueur
+2019-03-17 12:36:56 WARN  MastermindChallenger:168 - java.lang.NumberFormatException: For input string: "a"
+2019-03-17 12:45:55 TRACE Main:26 - Entré dans le programme
+2019-03-17 12:45:57 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 12:45:57 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 12:46:06 WARN  MastermindChallenger:171 - Mauvaise saisie du joueur
+2019-03-17 12:46:06 WARN  MastermindChallenger:172 - java.lang.NumberFormatException: For input string: "a"
+2019-03-17 12:47:29 WARN  MastermindChallenger:171 - Mauvaise saisie du joueur
+2019-03-17 12:47:29 WARN  MastermindChallenger:172 - java.lang.NumberFormatException: For input string: ""
+2019-03-17 13:09:52 TRACE Main:26 - Entré dans le programme
+2019-03-17 13:09:54 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 13:09:54 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 13:09:58 WARN  MastermindChallenger:171 - Mauvaise saisie du joueur
+2019-03-17 13:09:58 WARN  MastermindChallenger:172 - java.lang.ArrayIndexOutOfBoundsException: 4
+2019-03-17 13:13:19 INFO  MastermindChallenger:137 - Le joueur gagne il lui reste 9 vie(s)
+2019-03-17 13:13:23 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-17 13:14:35 TRACE Main:26 - Entré dans le programme
+2019-03-17 13:14:39 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 13:14:39 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 13:15:06 INFO  MastermindChallenger:147 - Le joueur perd
+2019-03-17 13:15:10 TRACE EndGame:103 - Le joueur choisi de rejouer
+2019-03-17 13:15:13 WARN  MastermindChallenger:171 - Mauvaise saisie du joueur
+2019-03-17 13:15:13 WARN  MastermindChallenger:172 - java.lang.NumberFormatException: For input string: "k"
+2019-03-17 13:18:20 TRACE Main:26 - Entré dans le programme
+2019-03-17 13:18:22 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 13:18:22 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 14:59:06 TRACE Main:26 - Entré dans le programme
+2019-03-17 14:59:08 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 14:59:08 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:05:02 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:05:04 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:05:04 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:07:17 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:07:20 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:07:20 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:10:39 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:10:40 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:10:40 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:12:08 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:12:10 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:12:10 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:12:37 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:12:38 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:12:38 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:13:32 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:13:39 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:13:39 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:14:27 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:14:29 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:14:29 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:15:04 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:15:06 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:15:06 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:16:47 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:16:49 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:16:49 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:19:11 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:19:12 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-17 15:19:12 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-17 15:19:52 INFO  MastermindChallenger:137 - Le joueur gagne il lui reste 7 vie(s)
+2019-03-17 15:20:18 TRACE EndGame:103 - Le joueur choisi de rejouer
+2019-03-17 15:20:24 WARN  MastermindChallenger:177 - Mauvaise saisie du joueur
+2019-03-17 15:20:24 WARN  MastermindChallenger:178 - java.lang.NumberFormatException: For input string: "a"
+2019-03-17 15:21:02 INFO  MastermindChallenger:137 - Le joueur gagne il lui reste 6 vie(s)
+2019-03-17 15:21:04 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-17 15:37:24 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:37:26 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-17 15:37:26 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-17 15:37:41 TRACE MastermindChallenger:144 - Le joueur choisi la combinaison secrète : 11
+2019-03-17 15:38:39 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:38:46 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-17 15:38:46 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-17 15:38:49 TRACE MastermindChallenger:144 - Le joueur choisi la combinaison secrète : 0
+2019-03-17 15:39:26 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:39:28 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-17 15:39:28 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-17 15:39:30 WARN  MastermindChallenger:166 - Mauvaise saisie du joueur
+2019-03-17 15:39:30 WARN  MastermindChallenger:167 - java.lang.NumberFormatException: For input string: ""
+2019-03-17 15:39:36 TRACE MastermindChallenger:145 - Le joueur choisi la combinaison secrète : 0
+2019-03-17 15:39:39 WARN  MastermindChallenger:240 - Mauvaise saisie du joueur
+2019-03-17 15:39:39 WARN  MastermindChallenger:241 - java.lang.ArrayIndexOutOfBoundsException: 3
+2019-03-17 15:39:45 WARN  MastermindChallenger:240 - Mauvaise saisie du joueur
+2019-03-17 15:39:45 WARN  MastermindChallenger:241 - java.lang.ArrayIndexOutOfBoundsException: 3
+2019-03-17 15:39:59 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-17 15:41:48 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:41:49 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-17 15:41:49 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-17 15:41:53 TRACE MastermindChallenger:145 - Le joueur choisi la combinaison secrète : 0
+2019-03-17 15:43:10 TRACE Main:26 - Entré dans le programme
+2019-03-17 15:43:11 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-17 15:43:11 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 12:39:55 TRACE Main:26 - Entré dans le programme
+2019-03-18 12:39:58 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 12:39:58 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 12:40:06 TRACE MastermindChallenger:230 - Le joueur choisi la combinaison secrète : 10
+2019-03-18 12:40:19 WARN  MastermindChallenger:325 - Mauvaise saisie du joueur
+2019-03-18 12:40:19 WARN  MastermindChallenger:326 - java.lang.ArrayIndexOutOfBoundsException: 3
+2019-03-18 12:40:37 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-18 12:41:30 TRACE Main:26 - Entré dans le programme
+2019-03-18 12:41:33 TRACE Accueil:145 - Lancement du Mastermind
+2019-03-18 12:41:33 TRACE Mastermind:22 - Lancement du mode challenger
+2019-03-18 12:41:56 INFO  MastermindChallenger:137 - Le joueur gagne il lui reste 2 vie(s)
+2019-03-18 12:41:57 TRACE EndGame:116 - le joueur veut changer de jeu
+2019-03-18 12:47:26 TRACE Main:26 - Entré dans le programme
+2019-03-18 12:47:29 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 12:47:29 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 12:47:47 TRACE Main:26 - Entré dans le programme
+2019-03-18 12:47:49 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 12:47:49 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 12:47:57 WARN  MastermindChallenger:253 - Mauvaise saisie du joueur
+2019-03-18 12:47:57 WARN  MastermindChallenger:254 - java.lang.NumberFormatException: For input string: "a"
+2019-03-18 12:49:53 TRACE Main:26 - Entré dans le programme
+2019-03-18 12:49:56 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 12:49:56 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 12:50:00 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 10000
+2019-03-18 12:54:25 TRACE Main:26 - Entré dans le programme
+2019-03-18 12:54:28 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 12:54:28 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 12:54:36 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 100
+2019-03-18 12:56:38 TRACE Main:26 - Entré dans le programme
+2019-03-18 12:56:40 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 12:56:40 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 12:56:48 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 1100
+2019-03-18 12:57:30 TRACE Main:26 - Entré dans le programme
+2019-03-18 12:57:32 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 12:57:32 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 12:57:37 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 1010
+2019-03-18 12:59:22 TRACE Main:26 - Entré dans le programme
+2019-03-18 12:59:23 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 12:59:23 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 12:59:31 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 1100
+2019-03-18 13:02:28 TRACE Main:26 - Entré dans le programme
+2019-03-18 13:02:31 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 13:02:31 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 13:02:36 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 1100
+2019-03-18 13:03:31 TRACE Main:26 - Entré dans le programme
+2019-03-18 13:03:34 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 13:03:34 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 13:03:40 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 100
+2019-03-18 13:04:21 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-18 13:05:04 TRACE Main:26 - Entré dans le programme
+2019-03-18 13:05:06 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 13:05:06 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 13:05:12 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 10100
+2019-03-18 13:06:03 TRACE Main:26 - Entré dans le programme
+2019-03-18 13:06:05 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 13:06:05 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 13:06:14 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 1110
+2019-03-18 13:07:28 WARN  MastermindChallenger:344 - Mauvaise saisie du joueur
+2019-03-18 13:07:28 WARN  MastermindChallenger:345 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-03-18 13:07:36 WARN  MastermindChallenger:344 - Mauvaise saisie du joueur
+2019-03-18 13:07:36 WARN  MastermindChallenger:345 - java.lang.IndexOutOfBoundsException: Index 0 out-of-bounds for length 0
+2019-03-18 13:07:46 TRACE EndGame:124 - Le joueur quitte le jeu
+2019-03-18 13:08:49 TRACE Main:26 - Entré dans le programme
+2019-03-18 13:08:51 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 13:08:51 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 13:08:56 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 10100
+2019-03-18 13:11:50 TRACE Main:26 - Entré dans le programme
+2019-03-18 13:11:53 TRACE Accueil:153 - Lancement du Mastermind
+2019-03-18 13:11:53 TRACE Mastermind:26 - Lancement du mode deffenseur
+2019-03-18 13:12:00 TRACE MastermindChallenger:234 - Le joueur choisi la combinaison secrète : 1101
+2019-03-18 13:12:59 TRACE EndGame:124 - Le joueur quitte le jeu

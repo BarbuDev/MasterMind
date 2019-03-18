@@ -1,10 +1,9 @@
 <component name="ArtifactManager">
-  <artifact name="MasterMind:jar">
+  <artifact type="jar" name="MasterMind:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/MasterMind_jar</output-path>
-    <root id="root">
-      <element id="archive" name="MasterMind.jar">
-        <element id="module-output" name="MasterMind" />
-      </element>
+    <root id="archive" name="MasterMind.jar">
+      <element id="module-output" name="MasterMind" />
+      <element id="extracted-dir" path="D:/libraries/apache-log4j-1.2.17/log4j-1.2.17.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

@@ -26,6 +26,7 @@ public class MastermindDuel {
     CallConfig config = new CallConfig();
     int colorNumbers = config.CallConfig("couleurMastermind");
     int life = config.CallConfig("vie");
+    int longueurCombinaison = config.CallConfig("nombreChiffreCombinaison");
 
     // autres variables
     int choix = 0;
@@ -196,7 +197,7 @@ public class MastermindDuel {
 
                 tabPropositionJoueur = Integer.parseInt(champText.getText());
                 CalculScore calcul = new CalculScore();
-                score = calcul.calculer(tabPropositionJoueur,combinaisonAleatoire,colorNumbers);
+                score = calcul.calculer(tabPropositionJoueur,combinaisonAleatoire,colorNumbers,longueurCombinaison);
 
                 // sortie de la boucle de jeu lorsque la combinaison est trouvée
                 if(score == 40){
@@ -282,7 +283,7 @@ public class MastermindDuel {
                             combinaisonPossible[j] = tabCombinaisonPossibleInt % 10;
                             tabCombinaisonPossibleInt /= 10;
                         }
-                        score = calcul.calculer(propositionIA, combinaisonPossible, colorNumbers);
+                        score = calcul.calculer(propositionIA, combinaisonPossible, colorNumbers,longueurCombinaison);
 
 
                         if (score != indice) {

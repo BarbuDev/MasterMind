@@ -1,0 +1,16 @@
+2019-03-16 15:59:10 TRACE Main:28 - Entré dans le programme
+2019-03-16 15:59:13 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 15:59:13 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 15:59:13 DEBUG RechercheChallenger:87 - La solution aléatoire est : 
+2019-03-16 16:01:03 TRACE Main:28 - Entré dans le programme
+2019-03-16 16:01:04 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 16:01:04 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 16:01:04 DEBUG RechercheChallenger:87 - La solution aléatoire est : 
+2019-03-16 16:02:00 TRACE Main:28 - Entré dans le programme
+2019-03-16 16:02:01 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 16:02:01 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 16:02:01 DEBUG RechercheChallenger:87 - La solution aléatoire est : 4317
+2019-03-16 16:02:19 TRACE Main:28 - Entré dans le programme
+2019-03-16 16:02:21 TRACE Accueil:120 - Lancement du jeu Jeu.recherche
+2019-03-16 16:02:21 TRACE Recherche:25 - Lancement du mode challenger
+2019-03-16 16:02:21 DEBUG RechercheChallenger:87 - La solution aléatoire est : 2917
