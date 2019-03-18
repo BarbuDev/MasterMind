@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"main"},{"l":"mastermind"},{"l":"fr.logicrooms.Jeu.recherche"}]
+packageSearchIndex = [{"l":"main"},{"l":"mastermind"},{"l":"recherch"}]

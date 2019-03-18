@@ -29,6 +29,7 @@ public class MastermindDeffenseur {
     // autres variables
     int combinaisonSecrete = 0;
     String history = "";
+    String stringCombinaisonSecrete = "";
 
     int propositionIA = 0;
     String stringPropositionIA="";
@@ -233,7 +234,7 @@ public class MastermindDeffenseur {
 
                 logger.trace("Le joueur choisi la combinaison secrète : " + combinaisonSecrete);
 
-                String stringCombinaisonSecrete = "";
+
 
 
                 int traitementZero = combinaisonSecrete;
@@ -288,7 +289,7 @@ public class MastermindDeffenseur {
 
                 if(indice == (longueurCombinaison*10)){
                     EndGame endGame = new EndGame();
-                    endGame.finDeJeu("mastermindDeffenseur","L'IA a trouvé la solution : " + stringPropositionIA);
+                    endGame.finDeJeu("mastermindDeffenseur","L'IA a trouvé la solution : " + stringCombinaisonSecrete);
                     fenetre.setVisible(false);
                 }else {
 

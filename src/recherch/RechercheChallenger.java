@@ -24,6 +24,7 @@ public class RechercheChallenger {
     CallConfig config = new CallConfig();
     int vie = config.CallConfig("vie");
     int nombreDeChiffre = config.CallConfig("nombreChiffreCombinaison");
+    boolean modeDev = config.CallConfigBoolean("modeDev");
 
     // autre variables
     int solution[] = new int[nombreDeChiffre];
@@ -88,6 +89,8 @@ public class RechercheChallenger {
 
         if (Main.modeDev) {
             // affichage de la combinaison
+            fenetre.setTitle(fenetre.getTitle()+" => Mode Développeur activé solution du joueur : "+solutionStr);
+        }else if(modeDev){
             fenetre.setTitle(fenetre.getTitle()+" => Mode Développeur activé solution du joueur : "+solutionStr);
         }
 

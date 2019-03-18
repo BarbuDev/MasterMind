@@ -10,16 +10,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9172ca82-1024-41d6-8665-a96ee533b390" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MasterMind_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/MasterMind_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autre/JavaDoc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/autre/JavaDoc/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MasterMind_jar/MasterMind.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MasterMind_jar/MasterMind.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/main/CallConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/main/CallConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetOCS - Raccourci.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CallConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CallConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/mastermind/MastermindDeffenseur$Commencer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/mastermind/MastermindDeffenseur$Commencer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/mastermind/MastermindDeffenseur$Jouer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/mastermind/MastermindDeffenseur$Jouer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MasterMind/mastermind/MastermindDeffenseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MasterMind/mastermind/MastermindDeffenseur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mastermind/CalculScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mastermind/CalculScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mastermind/MastermindChallenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mastermind/MastermindChallenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mastermind/MastermindDeffenseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mastermind/MastermindDeffenseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mastermind/MastermindDuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mastermind/MastermindDuel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recherch/RechercheChallenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recherch/RechercheChallenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recherch/RechercheDuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recherch/RechercheDuel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +72,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,50 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.properties">
+      <file leaf-file-name="RechercheChallenger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/recherch/RechercheChallenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MastermindChallenger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mastermind/MastermindChallenger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="150" column="58" lean-forward="true" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculScore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mastermind/CalculScore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MastermindDeffenseur.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mastermind/MastermindDeffenseur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="302" column="41" lean-forward="true" selection-start-line="302" selection-start-column="41" selection-end-line="302" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MastermindDuel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mastermind/MastermindDuel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="126" column="42" lean-forward="true" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+            <state relative-caret-position="425">
+              <caret line="94" column="9" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="94" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/fr/ligicrooms/main/Fenetre.java" />
         <option value="$PROJECT_DIR$/src/fr/ligicrooms/main/Accueil.java" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/main/test.xml" />
         <option value="$PROJECT_DIR$/src/fr/logicrooms/main/log4j.dtd" />
@@ -159,16 +157,17 @@
         <option value="$PROJECT_DIR$/src/recherche/RechercheChallenger.java" />
         <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/Accueil.java" />
-        <option value="$PROJECT_DIR$/src/recherch/RechercheChallenger.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/recherch/RechercheDuel.java" />
-        <option value="$PROJECT_DIR$/src/mastermind/CalculScore.java" />
-        <option value="$PROJECT_DIR$/src/mastermind/MastermindDuel.java" />
         <option value="$PROJECT_DIR$/src/main/CallConfig.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
-        <option value="$PROJECT_DIR$/src/mastermind/MastermindChallenger.java" />
         <option value="$PROJECT_DIR$/src/mastermind/MastermindDeffenseur.java" />
+        <option value="$PROJECT_DIR$/src/mastermind/CalculScore.java" />
+        <option value="$PROJECT_DIR$/src/main/EndGame.java" />
+        <option value="$PROJECT_DIR$/src/recherch/RechercheChallenger.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/recherch/RechercheDuel.java" />
+        <option value="$PROJECT_DIR$/src/mastermind/MastermindChallenger.java" />
+        <option value="$PROJECT_DIR$/src/mastermind/MastermindDuel.java" />
       </list>
     </option>
   </component>
@@ -195,7 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -203,6 +202,11 @@
             <path>
               <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
               <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
@@ -231,7 +235,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,6 +304,17 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="MasterMind" />
+      <option name="PROGRAM_PARAMETERS" value="dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="MasterMind" />
       <option name="PROGRAM_PARAMETERS" value="-gf" />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -352,6 +367,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
@@ -441,12 +457,13 @@
       <workItem from="1552420731688" duration="1559000" />
       <workItem from="1552499270038" duration="4089000" />
       <workItem from="1552503694187" duration="2240000" />
-      <workItem from="1552744553357" duration="14164000" />
+      <workItem from="1552744553357" duration="15254000" />
+      <workItem from="1552929690742" duration="2642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319588000" />
+    <option name="totallyTimeSpent" value="323320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,11 +488,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3039106" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3039106" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32849163" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25426438" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25692964" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -494,15 +511,15 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.26815644" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11567164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32960895" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -512,13 +529,13 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.26815644" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3273743" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -809,13 +826,6 @@
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/main/IA.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/main/Human.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/logicrooms/main/Player.java" />
-    <entry file="file://$PROJECT_DIR$/src/mastermind/Mastermind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-700">
@@ -824,9 +834,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MasterMind - Copie/MasterMind.iml" />
-    <entry file="file://$PROJECT_DIR$/autre/JavaDoc/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Fenetre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -841,13 +848,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/EndGame.java">
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="114" column="44" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="44" />
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources.properties" />
+    <entry file="file://$PROJECT_DIR$/autre/JavaDoc/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Accueil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1513">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mastermind/Mastermind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-3706">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/EndGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mastermind/CalculScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/CallConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -858,70 +927,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Accueil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/log.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/recherch/RechercheDuel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="191">
+          <caret line="186" column="129" selection-start-line="186" selection-start-column="129" selection-end-line="186" selection-end-column="129" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/mastermind/MastermindDeffenseur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/recherch/RechercheChallenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="41" column="132" lean-forward="true" selection-start-line="41" selection-start-column="132" selection-end-line="41" selection-end-column="132" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mastermind/MastermindDuel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="126" column="42" lean-forward="true" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+        <state relative-caret-position="496">
+          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/CallConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/mastermind/MastermindChallenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        <state relative-caret-position="306">
+          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -930,42 +966,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/recherch/RechercheChallenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mastermind/MastermindChallenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="150" column="58" lean-forward="true" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
+        <state relative-caret-position="425">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="94" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mastermind/CalculScore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mastermind/MastermindDeffenseur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="302" column="41" lean-forward="true" selection-start-line="302" selection-start-column="41" selection-end-line="302" selection-end-column="41" />
         </state>
       </provider>
     </entry>

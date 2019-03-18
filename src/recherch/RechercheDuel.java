@@ -23,6 +23,7 @@ public class RechercheDuel {
     // variable à récupérer dans config.properties
     CallConfig config = new CallConfig();
     int nombreDeChiffre = config.CallConfig("nombreChiffreCombinaison");
+    boolean modeDev = config.CallConfigBoolean("modeDev");
 
     // autre variables
     int solutionJoueur[] = new int[nombreDeChiffre];
@@ -179,8 +180,11 @@ public class RechercheDuel {
                         strSolutionJoueur = strSolutionJoueur + solutionJoueur[i];
                     }
                     logger.debug("La solution aléatoire du joueur est : " + strSolutionJoueur);
+
                     if (Main.modeDev) {
                         fenetre.setTitle(fenetre.getTitle()+" => Mode Dev activé solution joueur : " + strSolutionJoueur);
+                    }else if(modeDev){
+                        fenetre.setTitle(fenetre.getTitle()+" => Mode Développeur activé solution du joueur : "+strSolutionJoueur);
                     }
 
                     labCorpJeu.setText("Essayez de trouver la combinaison à " + nombreDeChiffre + " chiffres");

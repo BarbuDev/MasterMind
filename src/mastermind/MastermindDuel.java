@@ -27,6 +27,7 @@ public class MastermindDuel {
     int colorNumbers = config.CallConfig("couleurMastermind");
     int life = config.CallConfig("vie");
     int longueurCombinaison = config.CallConfig("nombreChiffreCombinaison");
+    boolean modeDev = config.CallConfigBoolean("modeDev");
 
     // autres variables
     int choix = 0;
@@ -124,6 +125,12 @@ public class MastermindDuel {
 
         if(Main.modeDev){
 
+            // affichage de la combinaison
+            fenetre.setTitle(fenetre.getTitle()+" => Mode Développeur activé solution du joueur : ");
+            for (int i = 0; i < 4; i++) {
+                fenetre.setTitle(fenetre.getTitle()+combinaisonAleatoire[i]);
+            }
+        }else if(modeDev){
             // affichage de la combinaison
             fenetre.setTitle(fenetre.getTitle()+" => Mode Développeur activé solution du joueur : ");
             for (int i = 0; i < 4; i++) {

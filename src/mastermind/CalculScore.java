@@ -18,7 +18,7 @@ public class CalculScore {
      * @param propositionJoueur Renvoi la proposition du joueur à traiter
      * @param combinaisonAleatoire Renvoi la solution pour comparaison
      * @param colorNumbers Renvoi le paramètre donnant le nombre de couleur du mastermind
-     * @param
+     * @param longueurCombinaison Renvoi la longueur de la combinaison
      * @return renvoi le score dans une variable de type integer
      */
     public int calculer(int propositionJoueur, int[] combinaisonAleatoire, int colorNumbers, int longueurCombinaison){
